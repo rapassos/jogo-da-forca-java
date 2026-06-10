@@ -12,8 +12,9 @@ import com.rapassos.forca.model.Word;
 
 public class DicionarioAbertoApiClient implements DictionaryService {
 
-    private static final String API_RANDOM_URL = "https://dicionario-aberto.net/api/v2/random";
-    private static final String API_WORD_URL = "https://dicionario-aberto.net/api/v2/word/";
+
+    private static final String API_RANDOM_URL = "https://api.dicionario-aberto.net/random";
+    private static final String API_WORD_URL = "https://api.dicionario-aberto.net/word/";
     private static final int MAX_ATTEMPTS = 3;
 
     private final HttpClient httpClient;
@@ -79,8 +80,9 @@ public class DicionarioAbertoApiClient implements DictionaryService {
     private String fetchDefinitionFromApi(String word) throws Exception {
         String encodedWord = java.net.URLEncoder.encode(word.toLowerCase(),
                 java.nio.charset.StandardCharsets.UTF_8);
-        HttpRequest request =
-                HttpRequest.newBuilder().uri(URI.create(API_WORD_URL + encodedWord)).GET().build();
+        HttpRequest request = HttpRequest.newBuilder().uri(URI.create(API_WORD_URL + encodedWord))
+                .header("User-Agent", "Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36")
+                .header("Accept", "application/json").GET().build();
 
         HttpResponse<String> response =
                 httpClient.send(request, HttpResponse.BodyHandlers.ofString());
@@ -90,11 +92,21 @@ public class DicionarioAbertoApiClient implements DictionaryService {
         }
 
         JsonNode root = objectMapper.readTree(response.body());
-        // A API costuma retornar uma lista de entradas ou um nó direto de definição
+
+        // A API retorna um array de resultados. O significado real está envelopado em tags XML no
+        // campo "xml".
         if (root.isArray() && !root.isEmpty()) {
-            return root.get(0).get("definition").asText();
-        } else if (root.has("definition")) {
-            return root.get("definition").asText();
+            JsonNode firstEntry = root.get(0);
+            if (firstEntry.has("xml")) {
+                String rawXml = firstEntry.get("xml").asText();
+
+                // 🌟 Mágica do Regex: Remove todas as tags HTML/XML (tudo entre < e >) e limpa os
+                // espaços sobressalentes
+                String cleanDefinition =
+                        rawXml.replaceAll("<[^>]*>", " ").replaceAll("\\s+", " ").trim();
+
+                return cleanDefinition.isEmpty() ? "Significado indisponível." : cleanDefinition;
+            }
         }
 
         return "Significado indisponível para esta palavra.";
