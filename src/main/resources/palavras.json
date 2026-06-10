@@ -1,0 +1,58 @@
+{
+    "facil": [
+        {
+            "word": "casa",
+            "definition": "Construção destinada à habitação urbana ou rural."
+        },
+        {
+            "word": "café",
+            "definition": "Bebida preparada por infusão a partir de sementes torradas."
+        },
+        {
+            "word": "bola",
+            "definition": "Objeto esférico usado em diversos jogos e esportes."
+        }
+    ],
+    "medio": [
+        {
+            "word": "código",
+            "definition": "Conjunto de regras ou sinais usados para transmitir informação."
+        },
+        {
+            "word": "música",
+            "definition": "Combinação harmoniosa e expressiva de sons."
+        },
+        {
+            "word": "janela",
+            "definition": "Abertura na parede de uma construção para entrada de luz e ar."
+        }
+    ],
+    "dificil": [
+        {
+            "word": "algoritmo",
+            "definition": "Sequência finita de regras lógicas para resolver um problema."
+        },
+        {
+            "word": "expressão",
+            "definition": "Manifestação de pensamentos ou sentimentos por meio de palavras."
+        },
+        {
+            "word": "protocolo",
+            "definition": "Conjunto de regras que controlam a comunicação em rede."
+        }
+    ],
+    "extremo": [
+        {
+            "word": "desenvolvimento",
+            "definition": "Ação ou efeito de progredir, crescer ou evoluir."
+        },
+        {
+            "word": "infraestrutura",
+            "definition": "Conjunto de elementos necessários para o funcionamento de um sistema."
+        },
+        {
+            "word": "criptografia",
+            "definition": "Arte ou ciência de escrever em cifra ou em código secreto."
+        }
+    ]
+}

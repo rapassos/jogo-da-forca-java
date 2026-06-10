@@ -1,43 +1,80 @@
 package com.rapassos.forca.controller;
 
+import java.text.Normalizer;
 import com.rapassos.forca.model.Difficulty;
 import com.rapassos.forca.model.GameState;
-import com.rapassos.forca.model.Word;
+import com.rapassos.forca.model.TargetWord;
 import com.rapassos.forca.service.DicionarioAbertoApiClient;
-import com.rapassos.forca.service.DictionaryService;
+import com.rapassos.forca.service.LocalFallbackService;
 
 public class GameController {
-    private final DictionaryService dictionaryService;
+    private final DicionarioAbertoApiClient apiClient;
+    private final LocalFallbackService fallbackService;
     private GameState currentState;
 
     public GameController() {
-        // Injeta a API cliente que já possui o fallback local embutido
-        this.dictionaryService = new DicionarioAbertoApiClient();
+        this.apiClient = new DicionarioAbertoApiClient();
+        this.fallbackService = new LocalFallbackService();
     }
 
-    /**
-     * Inicializa uma nova rodada do jogo obtendo uma palavra adequada à dificuldade.
-     */
     public void startNewGame(Difficulty difficulty) {
-        Word selectedWord = dictionaryService.getRandomWord(difficulty);
+        TargetWord selectedWord = null;
+        int attempts = 0;
+
+        // Tenta buscar da API uma palavra que atenda ao tamanho da dificuldade
+        while (attempts < 3) {
+            try {
+                selectedWord = apiClient.getRandomWord(difficulty);
+                if (selectedWord != null) {
+                    break;
+                }
+            } catch (Exception e) {
+                // Avança na tentativa silenciosamente em caso de timeout/tamanho inválido
+            }
+            attempts++;
+        }
+
+        // Se a API falhar ou não encontrar o tamanho correto, usa o banco local filtrado
+        if (selectedWord == null) {
+            selectedWord = fallbackService.getRandomWord(difficulty);
+        }
+
         this.currentState = new GameState(selectedWord, difficulty);
     }
 
-    /**
-     * Repassa o palpite da letra para a validação no motor lógico.
-     * 
-     * @return true se acertou a letra, false se errou.
-     */
     public boolean makeGuess(char letter) {
-        if (currentState == null) {
-            throw new IllegalStateException("Nenhuma partida foi inicializada.");
+        if (currentState == null || currentState.isGameOver())
+            return false;
+
+        String target = currentState.getTargetWord().getText().toLowerCase();
+        StringBuilder hidden = new StringBuilder(currentState.getHiddenWord());
+        boolean hit = false;
+
+        char normalizedGuess = normalizeChar(letter);
+
+        for (int i = 0; i < target.length(); i++) {
+            if (normalizeChar(target.charAt(i)) == normalizedGuess) {
+                hidden.setCharAt(i, target.charAt(i)); // Revela o caractere original (com acento!)
+                hit = true;
+            }
         }
-        return currentState.guessLetter(letter);
+
+        currentState.setHiddenWord(hidden.toString());
+
+        if (!hit) {
+            currentState.incrementErrors();
+        }
+
+        return hit;
     }
 
-    /**
-     * Expõe o estado atual da partida para que a View (Interface) possa se desenhar.
-     */
+    private char normalizeChar(char c) {
+        String normalized = Normalizer.normalize(String.valueOf(c), Normalizer.Form.NFD);
+        normalized = normalized.replaceAll("\\p{M}", ""); // Remove marcas de acentuação
+        return normalized.isEmpty() ? Character.toLowerCase(c)
+                : Character.toLowerCase(normalized.charAt(0));
+    }
+
     public GameState getCurrentState() {
         return currentState;
     }

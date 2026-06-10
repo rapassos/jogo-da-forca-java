@@ -24,7 +24,7 @@ public class MenuView extends JFrame {
     }
 
     private void setupLayout() {
-        setTitle("Forca Sênior - Menu");
+        setTitle("Jogo da forca (Swing)");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(450, 350);
         setLocationRelativeTo(null);

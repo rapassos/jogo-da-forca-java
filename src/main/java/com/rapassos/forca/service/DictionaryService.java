@@ -1,11 +1,8 @@
 package com.rapassos.forca.service;
 
 import com.rapassos.forca.model.Difficulty;
-import com.rapassos.forca.model.Word;
+import com.rapassos.forca.model.TargetWord;
 
 public interface DictionaryService {
-    /**
-     * Obtém uma palavra aleatória com base na dificuldade escolhida.
-     */
-    Word getRandomWord(Difficulty difficulty);
+    TargetWord getRandomWord(Difficulty difficulty);
 }

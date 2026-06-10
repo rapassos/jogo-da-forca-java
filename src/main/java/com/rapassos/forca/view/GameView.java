@@ -40,7 +40,7 @@ public class GameView extends JFrame {
     }
 
     private void setupLayout() {
-        setTitle("Jogo da Forca Sênior");
+        setTitle("Jogo da forca (Swing)");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(750, 550);
         setLocationRelativeTo(null);

@@ -1,60 +1,53 @@
 package com.rapassos.forca.service;
 
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.rapassos.forca.model.Difficulty;
-import com.rapassos.forca.model.Word;
+import com.rapassos.forca.model.TargetWord;
 
-public class LocalFallbackService implements DictionaryService {
-    private final ObjectMapper objectMapper = new ObjectMapper();
+public class LocalFallbackService implements DictionaryService { // 🛠️ Assinando o contrato da
+                                                                 // interface
+    private final ObjectMapper mapper = new ObjectMapper();
     private final Random random = new Random();
+    private JsonNode rootNode;
 
-    @Override
-    public Word getRandomWord(Difficulty difficulty) {
-        try (InputStream is =
-                getClass().getClassLoader().getResourceAsStream("words_fallback.json")) {
+    public LocalFallbackService() {
+        try (InputStream is = getClass().getClassLoader().getResourceAsStream("palavras.json")) {
             if (is == null) {
-                throw new IllegalStateException(
-                        "Arquivo words_fallback.json não encontrado nos recursos.");
+                throw new RuntimeException("Arquivo palavras.json não encontrado nos recursos.");
             }
-
-            JsonNode rootNode = objectMapper.readTree(is);
-            JsonNode wordsNode = rootNode.get(difficulty.name());
-
-            if (wordsNode == null || !wordsNode.isArray() || wordsNode.isEmpty()) {
-                return getHardcodedEmergencyWord(difficulty);
-            }
-
-            // Sorteia um dos elementos do array JSON correspondente à dificuldade
-            int randomIndex = random.nextInt(wordsNode.size());
-            JsonNode selectedWordNode = wordsNode.get(randomIndex);
-
-            String text = selectedWordNode.get("text").asText();
-            String definition = selectedWordNode.get("definition").asText();
-
-            return new Word(text, definition);
-
+            this.rootNode = mapper.readTree(is);
         } catch (Exception e) {
-            // Se até a leitura do arquivo local falhar, aciona a última linha de defesa
-            System.err.println("Erro ao ler fallback local: " + e.getMessage());
-            return getHardcodedEmergencyWord(difficulty);
+            System.err.println("[FALLBACK] Erro ao carregar dicionário local: " + e.getMessage());
         }
     }
 
-    /**
-     * Última linha de defesa (Hardcoded) caso ocorra falha catastrófica de I/O.
-     */
-    private Word getHardcodedEmergencyWord(Difficulty difficulty) {
-        return switch (difficulty) {
-            case FACIL -> new Word("TESTE", "Ação de testar algo para verificar sua eficácia.");
-            case MEDIO -> new Word("CODIGO",
-                    "Conjunto de regras ou instruções escritas em uma linguagem específica.");
-            case DIFICIL -> new Word("COMPILADOR",
-                    "Programa que traduz código-fonte em linguagem de máquina.");
-            case EXTREMO -> new Word("RECURSAO",
-                    "Método de programação no qual uma função chama a si mesma.");
-        };
+    @Override // 🛠️ Alinhado com o nome exato que o GameController está chamando
+    public TargetWord getRandomWord(Difficulty difficulty) {
+        String key = difficulty.name().toLowerCase();
+        List<TargetWord> validWords = new ArrayList<>();
+
+        if (rootNode != null && rootNode.has(key)) {
+            for (JsonNode node : rootNode.get(key)) {
+                String word = node.get("word").asText();
+                String def = node.get("definition").asText();
+
+                // Validação de tamanho de caracteres por nível
+                if (difficulty.isValidLength(word.length())) {
+                    validWords.add(new TargetWord(word, def));
+                }
+            }
+        }
+
+        // Contingência se a lista filtrada falhar
+        if (validWords.isEmpty()) {
+            return new TargetWord("java", "Linguagem de programação orientada a objetos.");
+        }
+
+        return validWords.get(random.nextInt(validWords.size()));
     }
 }
