@@ -38,9 +38,9 @@ public class DicionarioAbertoApiClient implements DictionaryService {
             JsonNode root = objectMapper.readTree(response.body());
             String word = root.get("word").asText();
 
-            // Valida o tamanho com base nas regras do enum da dificuldade atual
-            if (!difficulty.isValidLength(word.length())) {
-                throw new RuntimeException("Tamanho inadequado para o nível selecionado");
+            // 🛠️ Valida o tamanho E rejeita palavras que contenham hífen
+            if (!difficulty.isValidLength(word.length()) || word.contains("-")) {
+                throw new RuntimeException("Palavra inadequada (tamanho inválido ou possui hífen)");
             }
 
             String definition = fetchDefinitionFromApi(word);

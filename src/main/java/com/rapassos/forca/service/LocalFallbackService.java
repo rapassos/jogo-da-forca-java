@@ -36,8 +36,8 @@ public class LocalFallbackService implements DictionaryService { // 🛠️ Assi
                 String word = node.get("word").asText();
                 String def = node.get("definition").asText();
 
-                // Validação de tamanho de caracteres por nível
-                if (difficulty.isValidLength(word.length())) {
+                // 🛠️ Validação dupla: tamanho correto E sem hífens
+                if (difficulty.isValidLength(word.length()) && !word.contains("-")) {
                     validWords.add(new TargetWord(word, def));
                 }
             }
