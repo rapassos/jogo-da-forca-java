@@ -1,0 +1,42 @@
+{
+    "FACIL": [
+        {
+            "text": "JAVA",
+            "definition": "Uma linguagem de programação popular, orientada a objetos e fortemente tipada."
+        },
+        {
+            "text": "CASA",
+            "definition": "Edifício de formato variável, geralmente de um ou poucos andares, destinado à habitação humana."
+        }
+    ],
+    "MEDIO": [
+        {
+            "text": "ARQUITETO",
+            "definition": "Profissional responsável pelo projeto, supervisão e execução de obras de arquitetura."
+        },
+        {
+            "text": "SUCESSO",
+            "definition": "Resultado feliz de um negócio, de uma empreitada ou de uma ação."
+        }
+    ],
+    "DIFICIL": [
+        {
+            "text": "RESILIENCIA",
+            "definition": "Capacidade de se recuperar de situações de crise e aprender com elas."
+        },
+        {
+            "text": "CONCORRENCIA",
+            "definition": "Em computação, a capacidade de executar várias partes de um programa simultaneamente."
+        }
+    ],
+    "EXTREMO": [
+        {
+            "text": "PRAGMATISMO",
+            "definition": "Doutrina que adota o valor prático como critério de verdade e utilidade."
+        },
+        {
+            "text": "EFEMERO",
+            "definition": "Algo passageiro, de curta duração, que logo desaparece."
+        }
+    ]
+}
