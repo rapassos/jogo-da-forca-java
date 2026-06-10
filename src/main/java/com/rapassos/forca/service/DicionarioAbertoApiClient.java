@@ -52,17 +52,27 @@ public class DicionarioAbertoApiClient implements DictionaryService {
     }
 
     private String fetchRandomWordFromApi() throws Exception {
-        HttpRequest request =
-                HttpRequest.newBuilder().uri(URI.create(API_RANDOM_URL)).GET().build();
+        HttpRequest request = HttpRequest.newBuilder().uri(URI.create(API_RANDOM_URL))
+                .header("User-Agent", "Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36")
+                .header("Accept", "application/json").GET().build();
 
         HttpResponse<String> response =
                 httpClient.send(request, HttpResponse.BodyHandlers.ofString());
 
         if (response.statusCode() != 200) {
-            throw new RuntimeException("Erro HTTP: " + response.statusCode());
+            throw new RuntimeException(
+                    "Erro HTTP na busca aleatória: Status " + response.statusCode());
         }
 
-        JsonNode root = objectMapper.readTree(response.body());
+        String body = response.body().trim();
+
+        // 🌟 Proteção defensiva: se começar com tag HTML, o servidor falhou na resposta
+        if (body.startsWith("<")) {
+            throw new RuntimeException(
+                    "O servidor externo retornou uma página HTML/Erro em vez de dados JSON.");
+        }
+
+        JsonNode root = objectMapper.readTree(body);
         return root.get("word").asText();
     }
 
