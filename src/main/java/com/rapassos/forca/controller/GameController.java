@@ -1,78 +1,63 @@
 package com.rapassos.forca.controller;
 
 import java.text.Normalizer;
+import java.util.HashSet;
+import java.util.Set;
 import com.rapassos.forca.model.Difficulty;
 import com.rapassos.forca.model.GameState;
 import com.rapassos.forca.model.TargetWord;
-import com.rapassos.forca.service.DicionarioAbertoApiClient;
-import com.rapassos.forca.service.LocalFallbackService;
+import com.rapassos.forca.service.DictionaryService;
 
 public class GameController {
-    private final DicionarioAbertoApiClient apiClient;
-    private final LocalFallbackService fallbackService;
+    private final DictionaryService dictionaryService;
     private GameState currentState;
+    private Set<Character> guessedLetters;
 
-    public GameController() {
-        this.apiClient = new DicionarioAbertoApiClient();
-        this.fallbackService = new LocalFallbackService();
+    public GameController(DictionaryService dictionaryService) {
+        this.dictionaryService = dictionaryService;
+        this.guessedLetters = new HashSet<>();
     }
 
     public void startNewGame(Difficulty difficulty) {
-        TargetWord selectedWord = null;
-        int attempts = 0;
-
-        // Tenta buscar da API uma palavra que atenda ao tamanho da dificuldade
-        while (attempts < 3) {
-            try {
-                selectedWord = apiClient.getRandomWord(difficulty);
-                if (selectedWord != null) {
-                    break;
-                }
-            } catch (Exception e) {
-                // Avança na tentativa silenciosamente em caso de timeout/tamanho inválido
-            }
-            attempts++;
-        }
-
-        // Se a API falhar ou não encontrar o tamanho correto, usa o banco local filtrado
-        if (selectedWord == null) {
-            selectedWord = fallbackService.getRandomWord(difficulty);
-        }
-
-        this.currentState = new GameState(selectedWord, difficulty);
+        TargetWord word = dictionaryService.getRandomWord(difficulty);
+        this.currentState = new GameState(word, difficulty);
+        this.guessedLetters.clear();
     }
 
     public boolean makeGuess(char letter) {
-        if (currentState == null || currentState.isGameOver())
+        letter = Character.toUpperCase(letter);
+        if (guessedLetters.contains(letter) || currentState.isGameOver()) {
             return false;
-
-        String target = currentState.getTargetWord().getText().toLowerCase();
-        StringBuilder hidden = new StringBuilder(currentState.getHiddenWord());
-        boolean hit = false;
-
-        char normalizedGuess = normalizeChar(letter);
-
-        for (int i = 0; i < target.length(); i++) {
-            if (normalizeChar(target.charAt(i)) == normalizedGuess) {
-                hidden.setCharAt(i, target.charAt(i)); // Revela o caractere original (com acento!)
-                hit = true;
-            }
         }
 
-        currentState.setHiddenWord(hidden.toString());
+        guessedLetters.add(letter);
+        String normalizedTarget = normalize(currentState.getTargetWord().getText());
+        boolean hit = normalizedTarget.contains(String.valueOf(letter));
 
-        if (!hit) {
+        if (hit) {
+            updateHiddenWord(letter, normalizedTarget);
+        } else {
             currentState.incrementErrors();
         }
 
         return hit;
     }
 
-    private char normalizeChar(char c) {
-        String normalized = Normalizer.normalize(String.valueOf(c), Normalizer.Form.NFD);
-        normalized = normalized.replaceAll("\\p{M}", ""); // Remove marcas de acentuação
-        return normalized.isEmpty() ? Character.toLowerCase(c)
-                : Character.toLowerCase(normalized.charAt(0));
+    private void updateHiddenWord(char letter, String normalizedTarget) {
+        StringBuilder sb = new StringBuilder(currentState.getHiddenWord());
+        String originalWord = currentState.getTargetWord().getText().toUpperCase();
+
+        for (int i = 0; i < normalizedTarget.length(); i++) {
+            if (normalizedTarget.charAt(i) == letter) {
+                sb.setCharAt(i, originalWord.charAt(i));
+            }
+        }
+        currentState.setHiddenWord(sb.toString());
+    }
+
+    private String normalize(String input) {
+        return Normalizer.normalize(input, Normalizer.Form.NFD).replaceAll("\\p{M}", "")
+                .toUpperCase();
     }
 
     public GameState getCurrentState() {
