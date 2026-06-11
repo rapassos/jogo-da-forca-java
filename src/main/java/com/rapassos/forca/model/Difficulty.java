@@ -1,20 +1,26 @@
 package com.rapassos.forca.model;
 
 public enum Difficulty {
-    FACIL("Fácil (Palavras Curtas)", 6, 3, 5), MEDIO("Médio (Palavras Médias)", 5, 6, 8), DIFICIL(
-            "Difícil (Palavras Longas)", 4, 9,
-            11), EXTREMO("Extremo (Palavras Complexas)", 3, 12, 30);
+    FACIL("facil", "Fácil (3-5 letras)", 6, 3, 5), MEDIO("medio", "Médio (6-8 letras)", 5, 6,
+            8), DIFICIL("dificil", "Difícil (9-11 letras)", 4, 9,
+                    11), EXTREMO("extremo", "Extremo (12+ letras)", 3, 12, 30);
 
+    private final String key;
     private final String description;
     private final int maxErrors;
     private final int minLength;
     private final int maxLength;
 
-    Difficulty(String description, int maxErrors, int minLength, int maxLength) {
+    Difficulty(String key, String description, int maxErrors, int minLength, int maxLength) {
+        this.key = key;
         this.description = description;
         this.maxErrors = maxErrors;
         this.minLength = minLength;
         this.maxLength = maxLength;
+    }
+
+    public String getKey() {
+        return key;
     }
 
     public String getDescription() {
