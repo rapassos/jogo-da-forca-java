@@ -20,6 +20,7 @@ import javax.swing.border.LineBorder;
 import com.rapassos.forca.controller.GameController;
 import com.rapassos.forca.model.Difficulty;
 import com.rapassos.forca.model.GameState;
+import com.rapassos.forca.service.LocalFallbackService;
 
 public class GameView extends JFrame {
     private final GameController controller;
@@ -33,7 +34,7 @@ public class GameView extends JFrame {
 
     // 🌟 Construtor agora exige a dificuldade escolhida no menu
     public GameView(Difficulty difficulty) {
-        this.controller = new GameController();
+        this.controller = new GameController(new LocalFallbackService());
         this.initialDifficulty = difficulty;
         setupLayout();
         initGame();
