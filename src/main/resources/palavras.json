@@ -1,58 +1,4810 @@
 {
-    "facil": [
-        {
-            "word": "casa",
-            "definition": "Construção destinada à habitação urbana ou rural."
-        },
-        {
-            "word": "café",
-            "definition": "Bebida preparada por infusão a partir de sementes torradas."
-        },
-        {
-            "word": "bola",
-            "definition": "Objeto esférico usado em diversos jogos e esportes."
-        }
-    ],
-    "medio": [
-        {
-            "word": "código",
-            "definition": "Conjunto de regras ou sinais usados para transmitir informação."
-        },
-        {
-            "word": "música",
-            "definition": "Combinação harmoniosa e expressiva de sons."
-        },
-        {
-            "word": "janela",
-            "definition": "Abertura na parede de uma construção para entrada de luz e ar."
-        }
-    ],
-    "dificil": [
-        {
-            "word": "algoritmo",
-            "definition": "Sequência finita de regras lógicas para resolver um problema."
-        },
-        {
-            "word": "expressão",
-            "definition": "Manifestação de pensamentos ou sentimentos por meio de palavras."
-        },
-        {
-            "word": "protocolo",
-            "definition": "Conjunto de regras que controlam a comunicação em rede."
-        }
-    ],
-    "extremo": [
-        {
-            "word": "desenvolvimento",
-            "definition": "Ação ou efeito de progredir, crescer ou evoluir."
-        },
-        {
-            "word": "infraestrutura",
-            "definition": "Conjunto de elementos necessários para o funcionamento de um sistema."
-        },
-        {
-            "word": "criptografia",
-            "definition": "Arte ou ciência de escrever em cifra ou em código secreto."
-        }
-    ]
+  "facil": [
+    {
+      "word": "casa",
+      "definition": "Construção destinada à habitação urbana ou rural."
+    },
+    {
+      "word": "café",
+      "definition": "Bebida preparada por infusão a partir de sementes torradas."
+    },
+    {
+      "word": "bola",
+      "definition": "Objeto esférico usado em diversos jogos e esportes."
+    },
+    {
+      "word": "remir",
+      "definition": "Remir v. t. Adquirir de novo. Resgatar: _remir cativos_. Tirar do poder alheio. Salvar. Livrar do mal. Indemnizar. Tornar esquecido. Exonerar. Desempenhar: _remir um relógio, dado em penhor de dívida_. (Do lat. _redimire_)"
+    },
+    {
+      "word": "ânus",
+      "definition": "Ânus m. Abertura, por onde o intestino recto expele os excrementos. (Lat. _anus_)"
+    },
+    {
+      "word": "mudez",
+      "definition": "Mudez f. Qualidade ou estado de quem é mudo. Impossibilidade de falar. Serenidade, silêncio: _na mudez da noite_."
+    },
+    {
+      "word": "fusta",
+      "definition": "Fusta f. Ant. Espécie de chaile. Cf. _Foral de Cintra_. (Do ár. _futah_, tecido com listras?)"
+    },
+    {
+      "word": "asar",
+      "definition": "Asar m. (v. [[azar:1]])"
+    },
+    {
+      "word": "supi",
+      "definition": "Supi m. Bras Ave das regiões do Amazonas."
+    },
+    {
+      "word": "dúbio",
+      "definition": "Dúbio adj. Duvidoso. Hesitante. Que é difícil de se definir; indefinível; vago. (Lat. _dubius_)"
+    },
+    {
+      "word": "tiro",
+      "definition": "Tiro m. Acto ou efeito de atirar ou arremessar. O disparar de uma arma de fogo. Carga, disparada por arma de fogo. Explosão. Distância, que a carga de uma arma de fogo pode vencer: _o inimigo ficava-nos a dois tiros de mosquete_. Lugar, onde se fazem exercícios com arma de fogo. Fig. Referência picante. Remoque. Expansão; ímpeto. Tirante, corda com que se atrela um animal a um veículo. Acto de puxar carros, (falando-se de cavalgaduras). Animais, que puxam um carro. _Tiro de coxia_, tiro de peça, que, tendo por alvo um navio, o atravessa de proa à popa ou vice versa. (De _tirar_)"
+    },
+    {
+      "word": "visar",
+      "definition": "Visar v. t. Dirigir o olhar para. Apontar uma arma de fogo contra. Pôr o sinal de visto em: _visar um diploma_. V. i. Ter em mira um fim. Tender; dispor-se. (Cp. lat. _visere_ )"
+    },
+    {
+      "word": "scena",
+      "definition": "Scena f. Parte do teatro, em que os actores representam os seus papéis. Palco. Decoração teatral. Parte de um acto de uma peça teatral, durante a qual as vistas do palco são as mesmas e os mesmos os actores que representam. Fig. Lugar, onde se realiza algum facto. Acontecimento dramático ou susceptível de representação teatral. Acto mais ou menos censurável. Perspectiva; coisa ou coisas, que se abrangem com a vista; panorama. Arte dramatica: _dedicar-se à cena_. (Lat. _cena_)"
+    },
+    {
+      "word": "modal",
+      "definition": "Modal adj. Relativo à modalidade. Relativo ao modo particular de fazer alguma coisa. Gram. Diz-se das proposições, que encerram condição ou restrição. (De _modo_)"
+    },
+    {
+      "word": "suór",
+      "definition": "Suór m. Humor aquoso, que vem à superfície da pele e que se condensa em gotas. A saída desse humor. Acto de suar. Estado de quem sua. Fig. Grande trabalho. Resultado de grandes fadigas; sacrifício. (Lat. _sudor_)"
+    },
+    {
+      "word": "amora",
+      "definition": "Amora f. Fruto da amoreira e de algumas espécies de silvas. (Lat. _mora_, _pl._ de _morum_)"
+    },
+    {
+      "word": "pilau",
+      "definition": "Pilau m. O mesmo ou melhor que _polau_. (Do pers. _pilar_)"
+    },
+    {
+      "word": "moéda",
+      "definition": "Moéda f. Peça de metal ou de outra substância, cunhada por autoridade soberana, e representativa do valor dos objectos que por ela se trocam. Nome privativo de uma antiga moeda portuguesa, do valor de 4.800 reis. Estabelecimento, onde se fabrica moeda por conta do Estado: _aquele rapaz é empregado na Moeda_. _Papel moeda_, papel que, por determinação oficial, serve de moeda. Fig. Tudo que tem valor moral ou intelectual. _Pagar na mesma moeda_, corresponder, retorquir no mesmo tom; proceder em conformidade da acção recebida. (Do lat. _moneta_)"
+    },
+    {
+      "word": "muito",
+      "definition": "Muito adj. Que é em grande número ou abundância: _muito dinheiro_. O mesmo que _grande_: «_...muito número de gente cega..._» Sousa, _Vida do Arceb._ I, 105. M. Grande quantidade; grande valor. (Do lat. _multus_)"
+    },
+    {
+      "word": "sosso",
+      "definition": "Sosso sô adj. Diz-se da pedra, que entra na construção do uma parede, sem argamassa."
+    },
+    {
+      "word": "pelar",
+      "definition": "Pelar v. t. Tirar o pêlo a."
+    },
+    {
+      "word": "tonca",
+      "definition": "Tonca f. Árvore leguminosa da América, que produz uma espécie de fava, com que se aromatiza o tabaco."
+    },
+    {
+      "word": "cárus",
+      "definition": "Cárus m. Med. Sonolência, no último grau do estado comatoso. (Gr. _karos_)"
+    },
+    {
+      "word": "saúga",
+      "definition": "Saúga f. (Por. _saúba_, no _Vocab. Bras._ de B. C. Rubim)"
+    },
+    {
+      "word": "pília",
+      "definition": "Pília f. Planta ornamental."
+    },
+    {
+      "word": "islim",
+      "definition": "Islim m. Ant. O mesmo que _islão_: «_Livros dislim, eu m'leeo_» . _Cancioneiro da Vaticana_."
+    },
+    {
+      "word": "geso",
+      "definition": "Geso gê m. Lança pesada e comprida dos Gálios.--Filinto, VI, 189, chama-lhe erradamente lança africana. (Lat. _gaesum_)"
+    },
+    {
+      "word": "acaju",
+      "definition": "Acaju m. (V. caju )"
+    },
+    {
+      "word": "êmulo",
+      "definition": "Êmulo m. e adj. Aquele que tem emulação de alguém. Competidor. Concorrente. Adversário; rival. (Lat. _aemulus_)"
+    },
+    {
+      "word": "japão",
+      "definition": "Japão adj. Relativo ao Japão ou aos Japoneses: «_...a nação japoa_» . _Peregrinação_, CCXII. M. Habitante do Japão. Nome de uma espécie de papel."
+    },
+    {
+      "word": "priva",
+      "definition": "Priva f. Designação científica da verbena cheirosa."
+    },
+    {
+      "word": "cerdo",
+      "definition": "Cerdo m. Porco. (Cast. _cerdo_)"
+    },
+    {
+      "word": "soar",
+      "definition": "Soar v. i. Produzir som. Retumbar. Ecoar. Constar, divulgar-se, propalar-se. Ter semelhança. Aprazer, convir: _é proposta que me não soa_. V. t. Tanger, tocar. Fig. Divulgar; celebrar. Indicar. (Lat. _sonare_)"
+    },
+    {
+      "word": "saêta",
+      "definition": "Saêta f. Tecido antigo."
+    },
+    {
+      "word": "tufar",
+      "definition": "Tufar v. t. Dar forma de tufo^1 a. Aumentar o volume a. V. i. Tomar a forma de tufo^1. Aumentar de volume. Enfunar. Bras. do N O mesmo que _amuar_. (De [[tufo:1]])"
+    },
+    {
+      "word": "tipu",
+      "definition": "Tipu m. Planta leguminosa."
+    },
+    {
+      "word": "clara",
+      "definition": "Clara f. Albumina, que envolve a gema do ovo. Esclerótica: _a clara do olho_. Clareira. Abertura em algumas peças do navio. (De _claro_)"
+    },
+    {
+      "word": "daí",
+      "definition": "Daí (contr. da prep. _de_, e do adv. _aí_)"
+    },
+    {
+      "word": "cina",
+      "definition": "Cina f. Árvore de Arábia, semelhante à palmeira, ou espécie de algodoeiro. (Lat. _cyna_)"
+    },
+    {
+      "word": "nhôra",
+      "definition": "Nhôra f. Bras Abrev. de _senhora_."
+    },
+    {
+      "word": "lardo",
+      "definition": "Lardo m. Toicinho, especialmente toicinho em tiras ou talhadinhas, para entremear peças de carne. Fig. Condimento; ornato: «_sem lardo de história nem de mythos._» Camilo, _Corja_, 183. (Lat. _lardum_)"
+    },
+    {
+      "word": "ambom",
+      "definition": "Ambom m. Ant. Espécie de tribuna ou púlpito e pedra, com duas escadas em sentido oposto, à entrada da capela-mor, nalgumas igrejas do século XII. (B. lat. _ambo_, do lat. _ambire_)"
+    },
+    {
+      "word": "vimba",
+      "definition": "Vimba f. Árvore de Cabinda, cuja madeira se emprega em cabos de ferramentas e trabalhos de torno."
+    },
+    {
+      "word": "taiá",
+      "definition": "Taiá f. (V. taioba )"
+    },
+    {
+      "word": "cacho",
+      "definition": "Cacho m. Conjunto de flores ou frutos, sustentados por pecíolos e disposto em escádeas num eixo comum. Reunião de objectos, dispostos à maneira de cacho. Prov. trasm. Pequena porção, bocado. Prov. Cacho de uvas: _foi à vinha e comeu dois cachos_. Pl. Prov. alent. Espigas ou réstias de espigas, que resistem à primeira debulha, e que se juntam para formar _eiras de cachos_. Loc. fam. _Bêbedo como um cacho_, muito bêbedo. (Do lat. _capulus_?)"
+    },
+    {
+      "word": "malha",
+      "definition": "Malha f. Cada um dos nós ou voltas de um fio ou de qualquer fibra têxtil, entrançados ou tecidos por certos processos. Abertura entre esses nós. Trança de fio de metal, com que se faziam armaduras. Mancha na pele dos animais. Mancha natural. Descoloração ou mancha, no conjunto da vegetação de um terreno. (Do lat. _macula_)"
+    },
+    {
+      "word": "jocó",
+      "definition": "Jocó m. Género de mamíferos antropomorfos, o mesmo que _chimpanzé_."
+    },
+    {
+      "word": "monge",
+      "definition": "Monge m. Religioso ou frade de mosteiro. Anachoreta. Pop. Misantropo, homem pouco sociável. (Do lat. _monachus_, por intermédio de uma forma francesa. Cf. G. Viana, _Apostilas_, vb. _mogo_)"
+    },
+    {
+      "word": "cirus",
+      "definition": "Cirus m. pl. Indígenas brasileiros, das regiões do Amazonas."
+    },
+    {
+      "word": "gôsto",
+      "definition": "Gôsto m. Sentido, que nos deixa conhecer o sabor de alguma coisa. Sabor. Paladar. Fig. Prazer. Simpatia. Critério. Elegância: _trajar com gosto_. Carácter; maneira. (Lat. _gustus_)"
+    },
+    {
+      "word": "nom",
+      "definition": "Nom adv. Ant. O mesmo que [[não:1]]."
+    },
+    {
+      "word": "dora",
+      "definition": "Dora f. Espécie de sorgo ou de milho da Índia. (Do ár. _doura_)"
+    },
+    {
+      "word": "bouça",
+      "definition": "Bouça f. Terreno inculto; terreno, que só cria mato. Prov. minh. Terreno murado, ou delimitado por pedras ou montes de terra, em que se cria mato para várias aplicações e pinheiros ou carvalhos. (Alter. de _balça_)"
+    },
+    {
+      "word": "soído",
+      "definition": "Soído m. O mesmo que _sonido_. (Contr. de _sonido_)"
+    },
+    {
+      "word": "veto",
+      "definition": "Veto m. Proibição. Suspensão. Oposição. Direito, que o chefe de Estado tem, de recusar a sua sancção a uma lei votada pelas câmaras legislativas. (Lat. _veto_, indic. de _vetare_)"
+    },
+    {
+      "word": "nanja",
+      "definition": "Nanja adv. Pop. Não; mais não. Nunca. (De _não_ + _já_)"
+    },
+    {
+      "word": "findo",
+      "definition": "Findo adj. Que findou. Concluido: _está findo aquele trabalho_. (Do lat. _finitus_)"
+    },
+    {
+      "word": "lena",
+      "definition": "Lena f. Alcoviteira. Prov. alg. Conversa, cavaco. (Lat. _lena_)"
+    },
+    {
+      "word": "xocar",
+      "definition": "Xocar v. i. Prov. trasm. Enxotar galinhas ou outras aves. (De _xô_)"
+    },
+    {
+      "word": "móbil",
+      "definition": "Móbil adj. O mesmo que _móvel_. M. Causa; motor. (Lat. _mobilis_)"
+    },
+    {
+      "word": "sura",
+      "definition": "Sura f. Suco do cacho da palmeira."
+    },
+    {
+      "word": "fiar",
+      "definition": "Fiar v. t. Reduzir a fio (matérias filamentosas). Puxar à fieira. Serrar, (tábua, caibro, etc.) pelo meio, longitudinalmente. Fig. Tramar. V. i. Torcer, reduzir a fio, qualquer matéria filamentosa. (Lat. raro _filare_, de _filum_)"
+    },
+    {
+      "word": "ruão",
+      "definition": "Ruão Cidade da França. (Fr. _Rouen_)"
+    },
+    {
+      "word": "ramno",
+      "definition": "Ramno m. Nome científico do _sanguinheiro_. (Lat. _rhamnus_)"
+    },
+    {
+      "word": "conto",
+      "definition": "Conto m. Número. Dez vezes cem mil (reis). Vinte dúzias de (ovos). Narrativa. Historieta. Fábula. Ant. Mil vezes mil coisas ou pessoas: «_concorre a ella tanta gente, que se affirma que passa de tres contos de pessôas_» . _Peregrinação_, CVIII. Pl. Intrigas, embustes. Antigos bens, doados por graça real, mas em que não entravam os mordomos reais. (Lat. _computus_, de _computare_. Com a significação de narrativa, vem do lat. _comentum_, segundo Castilho)"
+    },
+    {
+      "word": "acuse",
+      "definition": "Acuse m. (V. acuso )"
+    },
+    {
+      "word": "enga",
+      "definition": "Enga f. Pop. Pasto. Parasitismo. Costume; uso. (De _engar_)"
+    },
+    {
+      "word": "ano",
+      "definition": "Ano m. Tempo, que a Terra gasta numa translação completa à volta do Sol. Espaço de doze meses, que começa em 1 de Janeiro e termina em 31 de Dezembro. Espaço de doze meses, a começar em qualquer dia. M. pl. Idades da vida. (Lat. _anus_)"
+    },
+    {
+      "word": "oja",
+      "definition": "Oja f. Ant. Nome de uma ave, talvez o mesmo que _ujo_. Cf. G. Vicente."
+    },
+    {
+      "word": "uma",
+      "definition": "Uma adj. (Fem. de _um_) Loc. adv. _À uma_, juntamente; ao mesmo tempo. Por um lado. (Do lat. _una_)"
+    },
+    {
+      "word": "preço",
+      "definition": "Preço prê m. Aquilo que se pede por uma coisa vendível. Valor pecuniário de um objecto. O que se dá em troca de uma coisa que se comprou. Custo. Compensação. Premio. Castigo. Valia. Importância moral. Merecimento. Quilate. Estimação, apreço. Ant. _Juízes dos preços_, júri dos prémios em corridas, concursos ou jogos. Ant. _Mau preço_, o mesmo que _adultério_. Cf. _Port. Mon. Hist._, _Script._, 297. (Do lat. _pretium_)"
+    },
+    {
+      "word": "bico",
+      "definition": "Bico m. Saliência córnea, que constitue as membranas que cobrem os ossos maxilares das aves. Boca de alguns peixes. Renda estreita, que termina lateralmente em bicos. Prov. Variedade de bolo, semelhante às tortas de Coimbra. Fam. Princípio de bebedeira, embriaguez incompleta. Prov. Bebedor de vinho. Açor pop. O mesmo que [[tostão:1]]. Ext. Ave doméstica: _sustentar trinta bicos_. A boca humana: _cale o bico_! Prov. minh. O mesmo que _beijo_: «_dás-me um bico_?--_Não, que me pico_» . (De uma canção popular) Fam. Pessoa: «_para o banquete, o preço é de 2$500 cada bico_» . _Luta_, de 24-VIII-907. Ponta, extremidade. O mesmo que _aparo_ (de escrever). Fam. Embaraço, dificuldade: _esse negócio tem bico_. _Bico de obra_, (a mesma sign.). _Bico do peito_, o mamilo. Fig. _Pau de dois bicos_, argumento, acto ou coisa, com que se podem satisfazer duas opiniões diferentes. _Melro de bico amarelo_, sujeito finório, astucioso. _Bico de grou_, espécie de erva. _Água no bico_, intenção reservada. Pl. Bras Restos de alguma coisa. Dinheiro miúdo, quantia insignificante."
+    },
+    {
+      "word": "biza",
+      "definition": "Biza f. O mesmo que [[beja:1]]."
+    },
+    {
+      "word": "dendê",
+      "definition": "Dendê m. Bras Espécie de palmeira. Fruto dessa árvore."
+    },
+    {
+      "word": "ostro",
+      "definition": "Ostro m. O mesmo que _púrpura_. (Lat. _ostrum_)"
+    },
+    {
+      "word": "ouça",
+      "definition": "Ouça f. Fam. Ouvido; o sentido da audição: «_esgaravata as orelhas, para aguçar as ouças_» . Filinto, IX, 94. (De _oiço_, pres. do indic. de _ouvir_)"
+    },
+    {
+      "word": "muge",
+      "definition": "Muge f. O mesmo que _mugem_."
+    },
+    {
+      "word": "xelro",
+      "definition": "Xelro m. Gír. Prisão."
+    },
+    {
+      "word": "nodo",
+      "definition": "Nodo m. Ponto de intersecção da eclíptica com a órbita de um planeta. Tumor duro, que se forma em volta das articulações dos ossos. Ext. Parte proeminente de certos ossos. (Lat. _nodus_)"
+    },
+    {
+      "word": "saúde",
+      "definition": "Saúde f. Estado do que é são, ou de quem tem as funções orgânicas no seu estado normal. Vigor. Boa ou má disposição no organismo de um indivíduo. Saudação, brinde, acto de se beber à mesa em homenagem ou lembrança afetuosa de alguém: _ao jantar, houve muitas saúdes_. (Do lat. _salus_, _salutis_)"
+    },
+    {
+      "word": "guto",
+      "definition": "Guto m. Vaso, de gargalo estreito, donde o líquido sai, gota a gota. Vaso dos sacrifícios, entre os Romanos. (Lat. _guttus_)"
+    },
+    {
+      "word": "sapam",
+      "definition": "Sapam m. Ant. O mesmo que [[brasil:1]], pau. (Do mal. _sápan_)"
+    },
+    {
+      "word": "lacra",
+      "definition": "Lacra f. (V. laca )"
+    },
+    {
+      "word": "grané",
+      "definition": "Grané m. Gír. Cavalo. (Cp. _grani_)"
+    },
+    {
+      "word": "tunga",
+      "definition": "Tunga f. Espécie de pulga do Brasil, que ataca a pele dos pés; o mesmo que _nígua_."
+    },
+    {
+      "word": "condé",
+      "definition": "Condé m. Planta cucurbitácea do Brasil, também chamada _guardião_."
+    },
+    {
+      "word": "ágaro",
+      "definition": "Ágaro m. Género de algas dos mares boreais."
+    },
+    {
+      "word": "pela",
+      "definition": "Pela f. Cada camada de cortiça nos sobreiros. Acto de pelar."
+    },
+    {
+      "word": "ondim",
+      "definition": "Ondim adj. m. Génio do amor, que vive nas águas, segundo a imaginação dos poetas. Cf. Castilho, _Primavera_, 233. (De _onda_)"
+    },
+    {
+      "word": "archa",
+      "definition": "Archa f. Arma antiga, de que usavam os guardas do paço. (Do lat. _ascia_)"
+    },
+    {
+      "word": "saxe",
+      "definition": "Saxe (v. _Saxónia_)"
+    },
+    {
+      "word": "cisne",
+      "definition": "Cisne m. Ave palmípede e aquática do género do pato. Fig. Poeta, orador ou músico célebre. Constelação setentrional. (Do gr. _kuknos_)"
+    },
+    {
+      "word": "caúno",
+      "definition": "Caúno m. Ave pernalta da América do Sul."
+    },
+    {
+      "word": "fim",
+      "definition": "Fim m. Remate. Termo: _no fim da cidade_. Intenção. Escopo, alvo: _com o fim de o enganar_. Motivo. Morte.--Era t. fem. entre os clássicos, e ainda o é entre o povo do Doiro: _pensar na fim do mundo_. (Do lat. _finis_)"
+    },
+    {
+      "word": "líber",
+      "definition": "Líber m. Bot. A camada cortical, mais próxima do alburno; entrecasca. (Lat. _liber_)"
+    },
+    {
+      "word": "ójea",
+      "definition": "Ójea f. O mesmo que _oja_."
+    },
+    {
+      "word": "lima",
+      "definition": "Lima f. Instrumento de metal, com asperezas ou picados, para desbastar ou raspar metais ou pedra. Instrumento de escultor: «_a lima de Fídias..._» Vieira. _Lima direita_, a que tem faces planas, adelgaçando para a ponta. _Lima paralela_, a que tem igual largura em todo o comprimento. _Lima de meia cana_, a que tem uma das faces convexa. _Lima redonda_, a que tem forma cónica. _Lima triangular_, a que tem três quinas e serve especialmente para afiar serras. Fig. Aquilo que serve para polir ou aperfeiçoar. Aperfeiçoamento: _está dando a última lima aos seus versos_. Retoque. Aquilo que corrói ou gasta: _a lima do tempo_. Zool. Mollúsco lamelibrânquio, que se encontra em todos os mares. (Lat. _lima_)"
+    },
+    {
+      "word": "pipi",
+      "definition": "Pipi m. Árvore medicinal das regiões do Amazonas."
+    },
+    {
+      "word": "renge",
+      "definition": "Renge m. Ant. Diadema; pente. (Do b. lat. _rinca_)"
+    },
+    {
+      "word": "toto",
+      "definition": "Toto m. Ave da América setentrional."
+    },
+    {
+      "word": "pátio",
+      "definition": "Pátio m. O mesmo ou melhor que _páteo_. Terreno murado, anexo a um edifício. Recinto descoberto, no interior de um edifício ou rodeado por edifícios. Vestíbulo. Átrio. Grande saguão. Ant. Edifício ou aulas, em que se professavam humanidades. (Cp. cast. _pátio_)"
+    },
+    {
+      "word": "menĩo",
+      "definition": "Menĩo m. Forma obsoleta de _menino_. Cf. Frei Fortun., _Inéditos_, 310."
+    },
+    {
+      "word": "malga",
+      "definition": "Malga f. Tigela vidrada, branca ou de cor. (Do lat. _madiga_)"
+    },
+    {
+      "word": "tomba",
+      "definition": "Tomba f. Remendo no calçado."
+    },
+    {
+      "word": "natio",
+      "definition": "Natio m. Terreno, em que crescem plantas sem cultura prévia. (Do lat. _nativus_)"
+    },
+    {
+      "word": "nam",
+      "definition": "Nam adv. O mesmo que [[não:1]]."
+    },
+    {
+      "word": "ifol",
+      "definition": "Ifol m. Arvoreta da Índia portuguesa."
+    },
+    {
+      "word": "raphe",
+      "definition": "Raphe f. Bot. Espaço, percorrido pelo trophosperma, desde o hilo do óvulo vegetal até à chalaza. (Gr. _rafe_)"
+    },
+    {
+      "word": "piçó",
+      "definition": "Piçó adj. Gír. O mesmo que _bêbedo_: «_aquella alma de mestre, mal que me apanhou piçó_...» . (Canção marítima) (Cp. conc. _piçô_, doido)"
+    },
+    {
+      "word": "rêde",
+      "definition": "Rêde f. Tecido de malha, para apanhar peixes, aves, feras. Ligeiro tecido de malha, com que algumas mulheres seguram o cabelo. Qualquer tecido de malha. Tecido de arame. Conjunto de caminhos, estradas ou canos, que entroncam uns nos outros, ramificando-se. Entrelaçamento de nervos, fibras, etc. Cilada. ant. Gír. Roupa. (Do lat. _rete_)"
+    },
+    {
+      "word": "sula",
+      "definition": "Sula f. Bras. do N Acto em que duas pessoas manejam outras tantas mãos do mesmo gral para activar a trituração de qualquer género."
+    },
+    {
+      "word": "lesim",
+      "definition": "Lesim m. Veio da madeira. Pequeno fio ou sulco natural de algumas pedras e mármores. (Do rad. do lat. _laesio_)"
+    },
+    {
+      "word": "jejum",
+      "definition": "Jejum m. Redução ou abstinência de alimento, como penitência ou em virtude de preceito eclesiástico. Abstenção ou redução da quantidade ordinária dos alimentos. Estado de quem não come desde o dia anterior: _ainda não almocei; estou em jejum_. Fig. Privação de alguma coisa. Fam. Ignorância de determinado assunto: _a este respeito, estás em jejum_. (Do lat. _jejunium_)"
+    },
+    {
+      "word": "reína",
+      "definition": "Reína f. Substância amarela, que se acha na raiz do rhuibarbo. (Do lat. bot. _rheum_, rhuibarbo)"
+    },
+    {
+      "word": "edema",
+      "definition": "Edema m. Inchação, formada por serosidade infiltrada no tecido celular, sem vermelhidão nem dor, e que desaparece com uma demorada pressão de dedos. (Gr. _oidema_)"
+    },
+    {
+      "word": "cói",
+      "definition": "Cói m. Pop. O mesmo que [[coio:2]]. Marit. Des. Pequeno lugar de agasalho, que nos navios se dá a cada marinheiro. Cf. Filinto, X, 138. (Cp. holl. _kooi_, cama de bordo)"
+    },
+    {
+      "word": "ússar",
+      "definition": "Ússar m. O mesmo ou melhor que _hússar_. Cf. Rui Barb., _Réplica_, 158."
+    },
+    {
+      "word": "sião",
+      "definition": "Sião Um dos Estados da Indo-China."
+    },
+    {
+      "word": "bói",
+      "definition": "Bói m. T. da Índia Port Criado, serviçal. (Conc. _bhuy_)"
+    },
+    {
+      "word": "coado",
+      "definition": "Coado adj. Que passou por filtro; filtrado: _água coada_. Lívido, de susto, sem pinga de sangue: «_aqui vy com o ferro vossa figura coada_» . Usque, _Tribulações_, 50, v.^o Diz-se do toiro, que sofreu castração. Prov. Diz-se do pão, fabricado de farinhas, muito apuradas, de trigo, milho, centeio e cevada. (Colhido em Arganil) (De _coar_)"
+    },
+    {
+      "word": "etusa",
+      "definition": "Etusa f. Género de plantas umbelíferas: «_a etusa peçonhenta..._» Bocage, _As Plantas_. (Lat. _aethusa_)"
+    },
+    {
+      "word": "bojar",
+      "definition": "Bojar v. t. Tornar bojudo. Enfunar. Fazer sobresair. V. i. Apresentar saliência arredondada. (De _bojo_)"
+    },
+    {
+      "word": "cnute",
+      "definition": "Cnute m. Azorrague, formado de ramais de coiro. (Russo _knut_)"
+    },
+    {
+      "word": "gambo",
+      "definition": "Gambo m. Árvore angolense, no Duque-de-Bragança."
+    },
+    {
+      "word": "corrá",
+      "definition": "Corrá m. Bras Fruta encarnada, odorífera e medicinal."
+    },
+    {
+      "word": "rifão",
+      "definition": "Rifão m. Ditado popular; proverbio; anexim. _Pl._ _rifões_; entretanto, lê-se _rifães_ em R. Lobo, _Corte na Aldeia_, II, 44. (Corr. de _refrão_)"
+    },
+    {
+      "word": "meia",
+      "definition": "Meia f. Tecido de malha, para cobrir o pé e parte da perna. Qualquer peça de vestuário, feita com ponto de malha. Antiga medida português para líquidos, ainda hoje conhecida na Bairrada, e que corresponde a 6 quartilhos. (De _meio_)"
+    },
+    {
+      "word": "rega",
+      "definition": "Rega f. Acto ou efeito de regar. Pop. Chuva."
+    },
+    {
+      "word": "capim",
+      "definition": "Capim m. Bras Nome de várias plantas gramíneas e cyperáceas, na maior parte forraginosas. (Do tupi _caapiim_)"
+    },
+    {
+      "word": "círia",
+      "definition": "Círia f. Prov. Força muscular."
+    },
+    {
+      "word": "trajo",
+      "definition": "Trajo m. (V. traje )"
+    },
+    {
+      "word": "sito",
+      "definition": "Sito adj. O mesmo que _situado_. (Lat. _situs_, de _sino_)"
+    },
+    {
+      "word": "come",
+      "definition": "Come conj. Ant. O mesmo que [[como:1]]. Cf. _Port. Mon. Hist. Script._, 260."
+    },
+    {
+      "word": "bembe",
+      "definition": "Bembe m. T. de Angola O mesmo que _beldroéga_."
+    },
+    {
+      "word": "oiti",
+      "definition": "Oiti m. Nome de várias plantas do Brasil."
+    },
+    {
+      "word": "côto",
+      "definition": "Côto m. Parte, que fica, de um braço, depois de amputada outra parte. Resto de uma vela, archote, etc. Parte das asas, em que se embebem as penas. Espécie de lima, com que os serradores afiam as serras, e cuja base ou vista lateral tem a figura de um losango. Ant. Rabicho curto e grosso, usado por janotas. Cf. Filinto, V, 132. Pl. Nós dos dedos das mãos. Adj. Prov. beir. Que não tem cauda, ou de cuja cauda resta uma pequena parte: _morreu-me uma ovelha cota_. (Colhido em Arganil) (Do lat. _cubitus_)"
+    },
+    {
+      "word": "dali",
+      "definition": "Dali (contr. da prep. _de_ e do adv. _ali_)"
+    },
+    {
+      "word": "trapa",
+      "definition": "Trapa f. Cova, preparada para nela caírem feras. Espécie de cabo, com que se arreiam pesos para dentro de uma embarcação. (B. lat. _trapa_)"
+    },
+    {
+      "word": "mádia",
+      "definition": "Mádia f. Planta chilena, o mesmo que _mádi_."
+    },
+    {
+      "word": "laço",
+      "definition": "Laço m. Nó, que se desata facilmente. Laçada. Armadilha, para caçar. Fig. Vínculo, prisão: _os laços do parentesco_. Aliança. Estratagema; cilada; traição. Marca de dança mirandesa."
+    },
+    {
+      "word": "opimo",
+      "definition": "Opimo adj. Fecundo; excelente; abundante. Pl. Diz-se dos despojos, colhidos pelo general romano que, por sua própria mão, matava o general do exército inimigo. Fig. Diz-se de grandes e belas vantagens, de excelentes acquisições, etc.: _frutos opimos de uma empresa_. (Lat. _opimus_)"
+    },
+    {
+      "word": "bolar",
+      "definition": "Bolar adj. Diz-se da terra argilosa, também chamada bolo-arménio. (De [[bolo:3]])"
+    },
+    {
+      "word": "êxito",
+      "definition": "Êxito m. Saída. Resultado: _a empresa teve bom êxito_. Solução; fins. (Lat. _exitus_)"
+    },
+    {
+      "word": "fêto",
+      "definition": "Fêto m. Família de plantas cryptogâmicas, ramosas e de haste avermelhada. (Do lat. _filictum_)"
+    },
+    {
+      "word": "gage",
+      "definition": "Gage m. Ant. Objecto, que se deu em penhor. F. Ant. Lucro. Percalço. (Fr. _gaje_)"
+    },
+    {
+      "word": "lóto",
+      "definition": "Lóto m. O mesmo que _lódão_."
+    },
+    {
+      "word": "java",
+      "definition": "Java Uma das ilhas da Sunda."
+    },
+    {
+      "word": "outo",
+      "definition": "Outo _m._ e _adj._ (e der.) (V. _oito_, etc.) adj. Diz-se do número cardinal, formado de sete e mais um. Outavo. M. O algarismo representativo do número outo. Carta de jogar, que tem outo pontos. Aquilo que numa série de outo ocupa o último lugar. Prolóq. _Ou outo ou outenta_, ou tudo ou nada. Loc. bras. do N _Tomar um outo_, embriagar-se. (Lat. _octo_)"
+    },
+    {
+      "word": "lôba",
+      "definition": "Lôba f. Fêmea do lobo. Des. O mesmo que _prostituta_. Cf. Camões, _Odes_. (Lat. _lupa_)"
+    },
+    {
+      "word": "módio",
+      "definition": "Módio m. Antiga medida de capacidade, entre os Romanos, que equivalia proximamente ao alqueire. Antiga medida agrária, também conhecida por _mina_. (Lat. _modius_)"
+    },
+    {
+      "word": "córte",
+      "definition": "Córte m. Acto ou efeito de cortar. Incisão. Gume. Plano de uma construção. Cada uma das faces da aduela de um arco de edifício. Modo de talhar fato. Peça de pano, suficiente para um objecto de vestuário: _um corte de calças_. Diminuição. Supressão: _naquela Repartição, houve corte de gratificações_. Gír. Roubo. (De _cortar_)"
+    },
+    {
+      "word": "hábil",
+      "definition": "Hábil adj. Que tem aptidão para alguma coisa. Que executa ou pode executar uma coisa com perfeição. Que tem capacidade legal para certos hábitos. Inteligente. Que revela engenho ou destreza. (Lat. _habilis_)"
+    },
+    {
+      "word": "amiga",
+      "definition": "Amiga f. Mulher, que estima ou ama outra pessoa. Concubina. (Lat. _amica_)"
+    },
+    {
+      "word": "orçaz",
+      "definition": "Orçaz m. Parte inferior de uma rede de pesca."
+    },
+    {
+      "word": "polvo",
+      "definition": "Polvo pôl m. Molusco cephalópode. (Do lat. _polypus_)"
+    },
+    {
+      "word": "proíz",
+      "definition": "Proíz m. ou f. Náut. Cabo, para amarrar embarcações à terra. Cf. _Peregrinação_, LIV. (De _proa_)"
+    },
+    {
+      "word": "trela",
+      "definition": "Trela f. Tira de coiro, com que se prende o cão de caça. Pop. Tagarelice; conversa, cavaco. Fig. Licença, liberdade. (Talvez contr. de _tarela_)"
+    },
+    {
+      "word": "fogão",
+      "definition": "Fogão m. Lareira. Lugar, em que se acende lume para cozinhar. Espécie de caixa de ferro, com fornalha e chaminé, para cozinhar. Aparelho de ferro, embebido em parede e em que se acende lume para aquecer salas ou aposentos. Parte da peça de artilharia, em que está o ouvido. (Do b. lat. _foco_, _foconis_)"
+    },
+    {
+      "word": "lilla",
+      "definition": "Lilla f. Espécie de tecido antigo, fabricado em Lille."
+    },
+    {
+      "word": "araçá",
+      "definition": "Araçá m. Árvore mirtácea da América. O fruto dessa árvore."
+    },
+    {
+      "word": "tinca",
+      "definition": "Tinca f. (V. tenca )"
+    },
+    {
+      "word": "decan",
+      "definition": "Decan (e não Dekan) A parte meridional da Índia, aquém do Ganges. Cf. _Hist. dos Port. no Malabar_, 95 e 98."
+    },
+    {
+      "word": "trema",
+      "definition": "Trema m. Sinal ortográfico que, colocado sobre uma vogal, indica que ela não forma ditongo com a que lhe está próxima: _saüdade_, _baïano_, _saïmento_. (Gr. _trema_)"
+    },
+    {
+      "word": "pêsga",
+      "definition": "Pêsga f. Acto de barrar interiormente com pez as vasilhas de barro, em que há de fermentar a uva.--A rigorosa orthogr. seria _pêzga_."
+    },
+    {
+      "word": "breno",
+      "definition": "Breno m. Designação do chefe da grei, entre os Gálios."
+    },
+    {
+      "word": "bomba",
+      "definition": "Bomba f. Projéctil, que, contendo matéria explosiva, rebenta com estrépito quando uma espoleta ou mecha comunica fogo àquela matéria. Fig. Acontecimento inesperado. Desastre imprevisto. Gír. Nádegas. (Do lat. _bombus_, t. onom)"
+    },
+    {
+      "word": "later",
+      "definition": "Later v. i. Ant. Estar oculto. Cf. F. Manuel, _Carta de Guia_, XXIX. (Lat. _latere_)"
+    },
+    {
+      "word": "melar",
+      "definition": "Melar v. t. Adoçar com mel. Untar ou cobrir de mel. Dar cor de mel a. V. i. Bras. de Piauí Procurar o mel das abelhas do mato."
+    },
+    {
+      "word": "taúba",
+      "definition": "Taúba f. O mesmo que _tatajuba_."
+    },
+    {
+      "word": "roble",
+      "definition": "Roble m. O mesmo que _carvalho_. Poét. Árvore gigante e antiga. (Do lat. _robur_)"
+    },
+    {
+      "word": "afano",
+      "definition": "Afano m. O mesmo que _afã_. Cf. Filinto, VII, 202. (De _afanar_)"
+    },
+    {
+      "word": "divo",
+      "definition": "Divo adj. Divino. M. Homem divinizado. Deus. (Lat. _divus_)"
+    },
+    {
+      "word": "medra",
+      "definition": "Medra f. Acto ou efeito de medrar."
+    },
+    {
+      "word": "simum",
+      "definition": "Simum m. Vento muito quente, que sopra do centro da África para o Norte. (Ar. _semom_)"
+    },
+    {
+      "word": "cota",
+      "definition": "Cota f. Vestimenta, que usavam sobre a armadura os cavaleiros antigos. Espécie de gibão. Ant. Corpete de dama. (Do ingl. _coat_)"
+    },
+    {
+      "word": "lueta",
+      "definition": "Lueta ê f. Ant. Lua nova."
+    },
+    {
+      "word": "perua",
+      "definition": "Perua f. A fêmea do peru. Pop. Embriaguez. (Fem. de _peru_)"
+    },
+    {
+      "word": "fonte",
+      "definition": "Fonte f. Lugar, onde nasce água perenemente. Água nascente, água que irrompe perenemente do solo. Chafariz. Bica artificial, por onde corre e donde se recebe a água destinada ao consumo doméstico. Fontanela, sedenho. Fig. Origem; princípio. Causa. Texto originário de uma obra. Pl. Lados da cabeça, que formam a região temporal de cada lado. (Lat. _fons_, _fontis_)"
+    },
+    {
+      "word": "chaça",
+      "definition": "Chaça f. Lugar, onde pára a bola, no jogo deste nome; sinal que marca esse lugar. Fig. Abalo moral. Acto de empinar-se o cavalo. Pequena discussão. Contenda, briga: «_andar em chaças_» . Heit. Pinto. Prov. O mesmo que [[caço:2]] e [[caço:3]]. (T. biscainho)"
+    },
+    {
+      "word": "chau",
+      "definition": "Chau interj. Prov. Serve para recomendar segredo ou silêncio: _a respeito do que eu te disse, chau!_ (Colhido em Turquel)"
+    },
+    {
+      "word": "zarza",
+      "definition": "Zarza f. Bras O mesmo que _salsa-parrilha_. (T. cast.)"
+    },
+    {
+      "word": "passe",
+      "definition": "Passe m. Licença; consentimento. Permissão, para ir de um lugar para outro. Bilhete de trânsito gratuito. Bilhete de trânsito. Acto de passar um toiro à capa. Pl. Acto de passar as mãos, repetidas vezes, por diante dos olhos de quem se quer magnetizar. (De _passar_)"
+    },
+    {
+      "word": "rêr",
+      "definition": "Rêr v. t. Rapar (o sal) na peça da salina e juntá-lo com o rodo. (Contr. de _raêr_)"
+    },
+    {
+      "word": "rezar",
+      "definition": "Rezar v. t. Dizer (orações ou súplicas religiosas). Conter, memetállicos, que numa pilha conduzem as duas correntes eléctricas. (Do gr. _reos_ + _phoros_)ncionar, referir. Pop. Resmungar; murmurar. V. i. Orar; dirigir súplicas à divindade ou aos santos. Fig. Tratar; referir-se: _a nosso respeito, assim rezava aquele documento_. Pop. Resmungar. (Lat. _recitare_)"
+    },
+    {
+      "word": "pobra",
+      "definition": "Pobra f. Ant. O mesmo que _póvoa_. Cf. Herculano, _Hist. de Port._, IV, 57 e 63. (Cp. _pobla_)"
+    },
+    {
+      "word": "aro",
+      "definition": "Aro m. Pequeno arco. Anel, círculo. Abertura circular. Subúrbios de cidade ou terra importante. O mesmo que [[cinco:1]]. Carp. Peça quadrangular de madeira, em forma de moldura ou caixilho, com que se guarnecem os vãos das janelas. _Aro de pedraria_, aro em que se movem ou trabalham as portas das janelas. _Aro de gola_, aro em que se movem ou trabalham os caixilhos ou vidraças das janelas."
+    },
+    {
+      "word": "russo",
+      "definition": "Russo _m._ e _adj._ (e der.) (V._ruço_, etc)"
+    },
+    {
+      "word": "san",
+      "definition": "San Abrev. de _santo_. O mesmo ou melhor que [[são:2]]."
+    },
+    {
+      "word": "draga",
+      "definition": "Draga f. Aparelho, com que se tira areia, lodo, entulho, etc., do fundo dos rios, dos portos de mar, etc. Prov. dur. Cada um dos dois madeiros de castanho, que revestem, em todo comprimento a extremidade superior do costado do barco. Pl. Peças madeira, com que se escora uma embarcação quando está em seco. (Do ingl. _drag_)"
+    },
+    {
+      "word": "fubá",
+      "definition": "Fubá m. Bras Farinha para papas. Adj. Bras. do N Diz-se do boi e da vaca alvacentos. (Cp. _fuba_)"
+    },
+    {
+      "word": "cuca",
+      "definition": "Cuca f. Bras Expressão, com que se põe medo às crianças; coca."
+    },
+    {
+      "word": "jucu",
+      "definition": "Jucu m. Bras Espécie de canela. Ave do Brasil."
+    },
+    {
+      "word": "cola",
+      "definition": "Cola f. Peugada; rasto. Des. Cauda. (Cast. _cola_)"
+    },
+    {
+      "word": "ultor",
+      "definition": "Ultor m. Aquele que vinga; vingador. Cf. Rui Barb., _Réplica_, 158."
+    },
+    {
+      "word": "feila",
+      "definition": "Feila m. Pó subtil de farinha, faúlha. (Do lat. _faecula_ &lt; _fecla_ &lt; _fegla_ &lt; _feila_)"
+    },
+    {
+      "word": "ésypo",
+      "definition": "Ésypo m. Suarda ou substância gordurosa da lã das ovelhas. Cosmético, feito com aquela substância. (Do gr. _oisupe_)"
+    },
+    {
+      "word": "mimo",
+      "definition": "Mimo m. Coisa pequena e delicada, que se oferece ou se dá. Oferenda; presente. Meiguices, afago, carinho. Suavidade. Primor. Delicadeza. Beleza. (Cp. cast. _mimo_)"
+    },
+    {
+      "word": "salé",
+      "definition": "Salé f. Pop. Carne salgada. (Fr. _salé_)"
+    },
+    {
+      "word": "acolá",
+      "definition": "Acolá adv. Além, naquele lugar. (Do lat. _eccu'illac_)"
+    },
+    {
+      "word": "lama",
+      "definition": "Lama f. Mistura de terra com água. Lodo. Fig. Labéu; miséria. M. Pop. Homem imbecil, fraco, inhenho. Pl. Lodo ou sedimentos de nascentes minerais, utilizados therapeuticamente. (Lat. _lama_)"
+    },
+    {
+      "word": "sauiá",
+      "definition": "Sauiá m. Bras. do N Pequena cotia, com cauda."
+    },
+    {
+      "word": "amado",
+      "definition": "Amado adj. Que se ama. Querido. M. Individuo amado."
+    },
+    {
+      "word": "paí",
+      "definition": "Paí m. O mesmo que _cacique_."
+    },
+    {
+      "word": "iva",
+      "definition": "Iva f. Planta labiada, espécie de genipi, (_ptarmica moschata_, De-Candolle, ou _ajuga iva_, Schreb.)."
+    },
+    {
+      "word": "lâmel",
+      "definition": "Lâmel m. Ant. O mesmo que _lâmbel_."
+    },
+    {
+      "word": "gesso",
+      "definition": "Gesso gê m. Sulfato de cal hidratado. Ext. Objecto de arte, moldado em gesso. Gír. Vinho. (Do lat. hyp. _gipsum_)"
+    },
+    {
+      "word": "apreá",
+      "definition": "Apreá m. Bras Zool. Espécie de roedor."
+    },
+    {
+      "word": "proar",
+      "definition": "Proar v. i. O mesmo que _aproar_."
+    },
+    {
+      "word": "ruela",
+      "definition": "Ruela f. Pequena rua; viela."
+    },
+    {
+      "word": "majór",
+      "definition": "Majór m. Posto militar superior a capitão e inferior a tenente-coronel. Indivíduo, que tem esse posto. Gír. Pai. Adj. T. de Ceilão O mesmo que _maior_."
+    },
+    {
+      "word": "ítaca",
+      "definition": "Ítaca Ilha grega, que em mapas se representa hoje por _Theáki_. (Lat. _Íthaca_)"
+    },
+    {
+      "word": "aviso",
+      "definition": "Aviso m. Acto de _avisar_. Embarcação, para troca de comunicações ou para descobrimento dos inimigos."
+    },
+    {
+      "word": "unido",
+      "definition": "Unido adj. Que se uniu. Que está em contacto. Junto. Ligado. (De _unir_)"
+    },
+    {
+      "word": "segar",
+      "definition": "Segar v. t. O mesmo que _ceifar_. Fig. Cortar, pôr fim a: _segar os dias da vida_. (Do lat. _secare_)"
+    },
+    {
+      "word": "broto",
+      "definition": "Broto m. Bras Acto de _brotar_. Gomo, rebento."
+    },
+    {
+      "word": "meru",
+      "definition": "Meru m. Animal, semelhante a um burro, mas com cornos e patas fendidas, do qual fala a _Etiópia Oriental_."
+    },
+    {
+      "word": "tolan",
+      "definition": "Tolan f. Pop. Logro; burla. (De _tolo_)"
+    },
+    {
+      "word": "ópera",
+      "definition": "Ópera f. Poema dramático, posto em música. Restrict. Grande poema lýrico, composto de versos recitativos, canto e dança, sem diálogo falado. Teatro, em que se representam esses poemas. _Ópera cómica_, espécie de ópera em que se alterna a música e o diálogo falado de feição cómica. (It. _opera_)"
+    },
+    {
+      "word": "ourar",
+      "definition": "Ourar v. i. Ter tonturas de cabeça. (De _oura_)"
+    },
+    {
+      "word": "fúsil",
+      "definition": "Fúsil adj. Que se pode fundir. Fundido. (Lat. _fusilis_)"
+    },
+    {
+      "word": "nome",
+      "definition": "Nome m. Palavra, que designa pessoa, animal ou coisa, e que é geralmente um substântivo ou um adjectivo qualificativo. Qualificação. Reputação; nomeada: _escritor de bom nome_. Título. Raça. Apelido; alcunha. Deprec. Palavra ou qualificação injuriosa: _chamou-lhe nomes_. Loc. adv. _Em nome_, nominalmente, sem realidade. Loc. prep. _Em nome de_, com autorização de, em lugar de, em atenção a, por motivo de, a pretexto de. _Dar nome_, nomear, apelidar. Fig. Tornar ilustre ou afamado: _as «Pupilas» deram nome ao autor_. _Nome próprio_, nome de baptismo. Nome, que se aplica privativamente a nações, povoações, montes, rios, mares, etc. (Lat. _nomen_)"
+    },
+    {
+      "word": "rir",
+      "definition": "Rir v. i. Contrair os músculos faciais, geralmente em consequência de uma impressão alegre. Pop. Mostrar fenda ou rasgão (uma peça de vestuário): _traz as calças a rir, do lado de trás_. Fig. Gracejar: _não foi por mal, foi a rir_. Tratar levianamente de algum assunto. Escarnecer: _rir dos parvos_. Gír. Tinir ou tlintar. V. t. P. us. Zombar de. V. p. (A mesma sign. do _v. i._) M. Acto de rir; riso. (Do lat. _ridere_)"
+    },
+    {
+      "word": "caá",
+      "definition": "Caá m. e f. Bras Designação genérica dos vegetais. (Do tupi)"
+    },
+    {
+      "word": "tuim",
+      "definition": "Tuim m. Bras Pequeno papagaio."
+    },
+    {
+      "word": "anal",
+      "definition": "Anal adj. Relativo ao ânus."
+    },
+    {
+      "word": "frisa",
+      "definition": "Frisa f. Tecido grosseiro de lã. Pêlo de pano escrespado. Porção de lã, com que se calafetam portinholas de navios, para impedir a entrada da água. (De _Frísia_, n. p.)"
+    },
+    {
+      "word": "pessá",
+      "definition": "Pessá m. Bras. do N O mesmo que [[pussá:1]]."
+    },
+    {
+      "word": "ajuso",
+      "definition": "Ajuso adv. Ant. Abaixo. (De _juso_)"
+    },
+    {
+      "word": "sozal",
+      "definition": "Sozal m. Pharm. Medicamento adstringente e antiséptico."
+    },
+    {
+      "word": "maçuá",
+      "definition": "Maçuá Vila e porto da Abissínia, a que os francesistas chamam _Massuhá_. Cf. Filinto, _Vida de D. Man._, III, 270; _Not. para a Hist. e Geogr._, II, 244; Barros, _Déc._ III. liv. X, cap. 1; _Lusíadas_, X, 22."
+    },
+    {
+      "word": "fame",
+      "definition": "Fame f. Ant. Fome. (Lat. _fames_)"
+    },
+    {
+      "word": "oliva",
+      "definition": "Oliva f. Poét. O mesmo que [[azeitona:1]]. Oliveira. Pl. Ornatos architectónicos em forma de azeitonas. Parótidas do cavalo. (Lat. _oliva_)"
+    },
+    {
+      "word": "ruma",
+      "definition": "Ruma f. O mesmo que [[rima:2]]."
+    },
+    {
+      "word": "emodo",
+      "definition": "Emodo O mesmo que _Himalaia_. Cf. _Lusíadas_, XII, 17. (Lat. _Emodus_)"
+    },
+    {
+      "word": "macuá",
+      "definition": "Macuá m. Ant. Pescador, na Índia portuguesa."
+    },
+    {
+      "word": "revir",
+      "definition": "Revir v. i. Vir de novo; regressar. (Do lat. _revenire_)"
+    },
+    {
+      "word": "husa",
+      "definition": "Husa f. Planta malvácea angolense, (_hibiscus sabdariffa_, Lin.)."
+    },
+    {
+      "word": "bobo",
+      "definition": "Bobo bô m. Personagem, adjunta aos príncipes e nobres da Idade-Média, para os divertir com truanices e esgares. Aquele que diverte os outros ou procura diverti-los com frases ou gestos burlescos. Truão. (Do lat. _balbus_)"
+    },
+    {
+      "word": "gallo",
+      "definition": "Gallo m. Género de aves galináceas, de crista carnuda e asas curtas e largas. Pop. Elevação na testa ou na cabeça, produzida por pancada. Peixe de Portugal. Prov. alent. Variedade de ameixa. (Lat. _gallus_)"
+    },
+    {
+      "word": "bale",
+      "definition": "Bale m. Ant. O mesmo que _catual_. Cf. _Roteiro de Vasco da Gama_. (Do ár. _vali_)"
+    },
+    {
+      "word": "tabo",
+      "definition": "Tabo m. Embarcação asiática."
+    },
+    {
+      "word": "latim",
+      "definition": "Latim m. Língua do Lácio, língua latina, língua falada pelo antigo povo romano. Fam. Coisa difícil de compreender. Gír. A linguagem dos ladrões. (Lat. _latinus_)"
+    },
+    {
+      "word": "mioma",
+      "definition": "Mioma m. Med. Tumor, formado principalmente de tecido muscular. (Do gr. _mus_, _muos_)"
+    },
+    {
+      "word": "merma",
+      "definition": "Merma f. Prov. alg. Peixe, semelhante ao bonito, mas impróprio para a alimentação. Pl. Açor Coisas sem valor, pequenas coisas. (Talvez de _mermar_)"
+    },
+    {
+      "word": "sôro",
+      "definition": "Sôro m. Parte aquosa, que se separa do leite, quando este se coagula ou quando se forma o queijo. Líquido, que se separa dos grumos do sangue, depois que este se coagula. (Do lat. _serum_)"
+    },
+    {
+      "word": "eivar",
+      "definition": "Eivar v. t. Produzir manchas em. Viciar, contaminar. V. p. Começar a apodrecer. Rachar-se. Contaminar-se. (De _eiva_)"
+    },
+    {
+      "word": "remo",
+      "definition": "Remo m. Instrumento de madeira, com que se fazem navegar as pequenas embarcações, e que consta de uma haste de madeira, presa por um estropo ao bordo da embarcação, e cuja extremidade mais larga mergulha na água. (Lat. _remus_)"
+    },
+    {
+      "word": "fel",
+      "definition": "Fel m. Matéria animal, líquida, amarelada ou esverdeada, que se gera e se acumula numa vesícula aderente ao fígado. Bílis. Vesícula, que contém essa matéria. Fig. Mau humor. Azedume; ódio. _Fel da terra_, nome vulgar da centáurea menor. (Lat. _fel_)"
+    },
+    {
+      "word": "perca",
+      "definition": "Perca f. Peixe, da fam. dos pércidas. (Lat. _perca_)"
+    },
+    {
+      "word": "quíni",
+      "definition": "Quíni m. T. de Benguela O mesmo que [[pilão:1]]. Cf. Capelo e Ivens, I, 153."
+    },
+    {
+      "word": "ossa",
+      "definition": "Ossa f. O mesmo que _osa_."
+    },
+    {
+      "word": "féleo",
+      "definition": "Féleo adj. Relativo ao fel. (Lat. _felleus_)"
+    },
+    {
+      "word": "arder",
+      "definition": "Arder v. i. Estar em chama: _a lenha arde_. Inflamar-se. Exaltar-se. Ter grande calor. Sentir desejo veemente. Brilhar: _o Sol arde_. Ter sabor acre. Ser devastado. Grassar. Desbaratar-se: _toda a riqueza ardeu_. V. t. Queimar, abrasar: «_torva a feição lhe arde as entranhas._» Filinto, XI, 236 Prov. extrem. Gafar-se (a azeitona madura). (Lat. _ardere_)"
+    },
+    {
+      "word": "muçum",
+      "definition": "Muçum m. Bras Espécie de enguia. m. Peixe acantopterígio, da fam. dos escômbridas."
+    },
+    {
+      "word": "cacáo",
+      "definition": "Cacáo m. Fruto, em forma de amêndoa, em que se contém uma cápsula, que é a base do chocolate. Árvore, que dá esse fruto. (Or. mexicana)"
+    },
+    {
+      "word": "ticum",
+      "definition": "Ticum m. O mesmo que _tucum_. Prov. minh. Linho especial para redes."
+    },
+    {
+      "word": "arás",
+      "definition": "Arás m. pl. Género de aves, a que pertencem as araras."
+    },
+    {
+      "word": "auatá",
+      "definition": "Auatá adv. Bras Ao acaso."
+    },
+    {
+      "word": "meúl",
+      "definition": "Meúl m. O mesmo que _meão_ do carro. (Cp. _meolo_)"
+    },
+    {
+      "word": "julgo",
+      "definition": "Julgo m. Ant. O mesmo que _julgamento_. (De _julgar_)"
+    },
+    {
+      "word": "breza",
+      "definition": "Breza f. e adj. Prov. beir. Diz-se de uma cesta larga e baixa, de verga miúda e asa redonda."
+    },
+    {
+      "word": "cabro",
+      "definition": "Cabro m. Des. O mesmo que [[bode:1]]. (Lat. _caper_)"
+    },
+    {
+      "word": "gripe",
+      "definition": "Gripe f. Catarro epidémico; inflamação epidémica de membranas mucosas. (Fr. _gripe_)"
+    },
+    {
+      "word": "frio",
+      "definition": "Frio adj. Que não tem calor. Que perdeu o calor. Desengraçado. Inerte. Inexpressivo. Froixo. Insensível. Rude; cruel. M. Ausência de calor. Sensação produzida por essa ausência. Frieza. Abaixamento de temperatura. Fig. Desânimo. Indiferença; inércia. (Do b. lat. _fridus_, lat. _frigidus_)"
+    },
+    {
+      "word": "tatu",
+      "definition": "Tatu m. Nome comum a várias espécies de mamíferos desdentados do Brasil."
+    },
+    {
+      "word": "touço",
+      "definition": "Touço m. O mesmo que _temão_ (do carro). Parte do carro, donde sai o cabeçalho. Prov. minh. _Pôr-se ao touço_, resistir. (Cp. _touça_)"
+    },
+    {
+      "word": "grela",
+      "definition": "Grela f. Instrumento de penteeiro, para amaciar os pentes de alisar. (Fr. _grêle_)"
+    },
+    {
+      "word": "tecum",
+      "definition": "Tecum m. Fibra têxtil, que se extrai da tecuma."
+    },
+    {
+      "word": "chifu",
+      "definition": "Chifu m. Espécie de alcaide, entre os Chineses. Cf. _Peregrinação_, LXXXVII."
+    },
+    {
+      "word": "baio",
+      "definition": "Baio adj. Que tem cor de oiro desmaiado. Amarelo torrado. Amulatado. M. Cavalo baio. Cf. _Viriato Trág._, XI, 69. (Lat. _badius_)"
+    },
+    {
+      "word": "agra",
+      "definition": "Agra Prov. ant. Campo. Brejo, pântano. (V. [[agro:1]])"
+    },
+    {
+      "word": "habés",
+      "definition": "Habés m. pl. Tribo guerreira das vizinhanças do Níger, na região do Mossi."
+    },
+    {
+      "word": "passo",
+      "definition": "Passo m. Acto de colocar um pé adeante do outro, para andar. Marcha. Caminho. Modo de andar. Vestígio do pé, pègada. Passagem, geralmente estreita. Espaço, compreendido entre os dois pés, quando um deles se desloca na marcha. Conjuntura, situação. Negócio. Acção. Caso. Antiga medida itinerária. Cada um dos episódios da paixão de Cristo. Representação desses episódios. Episódio de uma obra literária. Fam. Caso divertido. Ant. Vau em um rio. Adv. Lentamente; sem ruido: «_...afastêmo-nos mui passo._» Júl. Castilho, _Manuelinas_, 261. _Filhar passos de segurança_, tomar hábito religioso, fazer-se frade. Cf. _Port. Mon. Hist._, _Script._, 309. Loc. adv. _A cada passo_, vulgarmente, frequentemente. Loc. conj. _Ao passo que_, ao mesmo tempo que; em-quanto. Loc. adv. _Ao mesmo passo_, ou _do mesmo passo_, ao mesmo tempo, simultaneamente. (Lat. _passus_)"
+    },
+    {
+      "word": "corso",
+      "definition": "Corso côr m. Excursão de navios, para perseguir embarcações mercantes de uma nação inimiga. Pirataria. Vida nômada de povos, que vivem do que roubam. (Do lat. _cursus_)"
+    },
+    {
+      "word": "boba",
+      "definition": "Boba bô _f._ (e der.) O mesmo que _buba_, etc."
+    },
+    {
+      "word": "bixô",
+      "definition": "Bixô m. T. de San-Thomé Insecto, que ataca os pés da gente, (_pulex penetrans_), e que em Angola se diz _mahundo_."
+    },
+    {
+      "word": "bruar",
+      "definition": "Bruar v. i. Prov. minh. O mesmo que _acontecer_."
+    },
+    {
+      "word": "tanga",
+      "definition": "Tanga f. Espécie de avental, com que os selvagens velam o corpo, desde o ventre às coxas. Bras. do N Espécie de franja, que se põe na rede em que se descansa. (Quimb. _tanga_)"
+    },
+    {
+      "word": "mamão",
+      "definition": "Mamão adj. Que mama muito. Que depois de desmamado, ainda pede mama. M. Aquele que mama muito ou que ainda quer mama, findo o tempo que se destinou à amamentação. Burro de um ano. Rebento, que rouba à planta o suco alimentício. Fruto do mamoeiro. O mesmo que _mamoeiro_. Prov. Bezerro de um ano. Bras. do N Rês, que ainda mama. M. e adj. Prov. minh. Palerma. (De _mamar_)"
+    },
+    {
+      "word": "batim",
+      "definition": "Batim m. Ant. Espécie de barco. Cf. _Ethiopia Or._, II, 208."
+    },
+    {
+      "word": "faim",
+      "definition": "Faim m. Des. Espadim. Ferro agudo de lança e de outras armas."
+    },
+    {
+      "word": "tolda",
+      "definition": "Tolda f. O mesmo que _toldo_. Primeira coberta de uma embarcação. Armação de madeira, dentro da qual se empilham as maçarocas de milho, por forma que recebam o ar e se conservem sans; espigueiro. Prov. alg. O mesmo que _tremonha_. (Do ár. _dholla_)"
+    },
+    {
+      "word": "pinça",
+      "definition": "Pinça f. Pequena tenaz. Barra de ferro, em forma de S, destinada a serviço de bomba, a bordo. Parte infero-interior do casco do cavalo; parte da ferradura, que corresponde a essa parte do casco. (Cast. _pinza_)"
+    },
+    {
+      "word": "peal",
+      "definition": "Peal m. Prov. trasm. Presilha, que liga à palma do pé a meia, que só cobre a perna, desde o joelho ao tornozelo: _meias de peal_. Cf. Deusdado, _Escorços_, 151."
+    },
+    {
+      "word": "brumo",
+      "definition": "Brumo m. (Corr. pop. de _vurmo_)"
+    },
+    {
+      "word": "xeri",
+      "definition": "Xeri m. Ant. Moeda de prata, em Dio."
+    },
+    {
+      "word": "tajá",
+      "definition": "Tajá m. Bras. do N O mesmo que _taioba_."
+    },
+    {
+      "word": "padês",
+      "definition": "Padês m. O mesmo que _pavês_. Cf. _Peregrinação_, XXII."
+    },
+    {
+      "word": "diger",
+      "definition": "Diger v. t. pop. Ant. O mesmo que _dizer_. Cp. Lobo, _Auto do Nascimento_."
+    },
+    {
+      "word": "jubéa",
+      "definition": "Jubéa f. Palmeira do Chile. (De _Juba_, n. p.)"
+    },
+    {
+      "word": "trama",
+      "definition": "Trama f. Fio, que se conduz com a lançadeira através do urdume da teia. Fios de seda grossa. Fio grosso. Tecido. M. e f. Fig. Intriga; procedimento ardiloso. Bras. do N Ladroeira; logro. (Lat. _trama_)"
+    },
+    {
+      "word": "glosa",
+      "definition": "Glosa f. Nota explicativa, sobre as palavras ou sentido de um texto, e escrita de ordinário à margem. Interpretação; comentário. Censura. Composição poética, cada uma de cujas estrofes termina por um dos versos de um mote. Pop. Supressão. (Do gr. _glossa_)"
+    },
+    {
+      "word": "lísio",
+      "definition": "Lísio adj. Resultante de uma dissolução química. (Do gr. _lusis_)"
+    },
+    {
+      "word": "ducha",
+      "definition": "Ducha f. Termo que deveria substituir _duche_. (Fr. _douche_. Cp. cast. _ducha_)"
+    },
+    {
+      "word": "agora",
+      "definition": "Agora adv. Nesta hora. Presentemente. Conj. Todavia, mas: _poderás mentir-me; agora enganar-me, isso nunca_! (Do lat. _hac_ + _hora_)"
+    },
+    {
+      "word": "legra",
+      "definition": "Legra f. Instrumento, para observar as fracturas do crânio. Prov. alent. Lâmina curva e cortante, para escavar madeira, e com a qual os cabreiros fazem colheres de pau e outros objectos. (Cast. _legra_)"
+    },
+    {
+      "word": "tene",
+      "definition": "Tene m. Árvore do Congo."
+    },
+    {
+      "word": "zarão",
+      "definition": "Zarão m. Prov. trasm. Pião grande."
+    },
+    {
+      "word": "telga",
+      "definition": "Telga f. Antiga medida de capacidade, o mesmo que _teiga_."
+    },
+    {
+      "word": "norma",
+      "definition": "Norma f. Regra, preceito, lei. Modelo. (Lat. _norma_)"
+    }
+  ],
+  "medio": [
+    {
+      "word": "código",
+      "definition": "Conjunto de regras ou sinais usados para transmitir informação."
+    },
+    {
+      "word": "música",
+      "definition": "Combinação harmoniosa e expressiva de sons."
+    },
+    {
+      "word": "janela",
+      "definition": "Abertura na parede de uma construção para entrada de luz e ar."
+    },
+    {
+      "word": "apoutar",
+      "definition": "Apoutar v. t. (V. poutar )"
+    },
+    {
+      "word": "caulino",
+      "definition": "Caulino adj. Bot. Relativo ao caule. Que nasce no caule."
+    },
+    {
+      "word": "sedela",
+      "definition": "Sedela f. Cordel de sedas, que sustenta o anzol, na pesca à linha. (De _seda_)"
+    },
+    {
+      "word": "salvados",
+      "definition": "Salvados m. pl. Tudo aquilo que escapou de uma catástrofe, especialmente de um incêndio ou de um naufrágio: _um leilão de salvados_. (De _salvar_)"
+    },
+    {
+      "word": "xácoma",
+      "definition": "Xácoma f. Ant. O mesmo que _xáquema_."
+    },
+    {
+      "word": "resábio",
+      "definition": "Resábio sá m. (Metáth. de _resaibo_. Cf. Filinto, _D. Man._, I, 90)"
+    },
+    {
+      "word": "oxeóleo",
+      "definition": "Oxeóleo cse m. Pharm. O mesmo que _oxeol_."
+    },
+    {
+      "word": "monroíno",
+      "definition": "Monroíno adj. Relativo à doutrina de Monroe. Cf. Rui Barb., _Cartas de Ingl._, 41."
+    },
+    {
+      "word": "ligatura",
+      "definition": "Ligatura f. O mesmo que _ligadura_. Conjunto de coisas ligadas. Cf. Garrett, _Romanceiro_, II, 156."
+    },
+    {
+      "word": "decência",
+      "definition": "Decência f. Qualidade de quem ou daquilo que é decente. (Lat. _decentia_)"
+    },
+    {
+      "word": "alimpar",
+      "definition": "Alimpar v. t. Tornar limpo. O mesmo que _limpar_."
+    },
+    {
+      "word": "pernaça",
+      "definition": "Pernaça f. Pop. Perna gorda."
+    },
+    {
+      "word": "definir",
+      "definition": "Definir v. t. Determinar a extensão ou os limites de: _definir uma área_. Enunciar os atributos e qualidades de (uma coisa), por forma que esta se não confunda com outra. Explicar a significação de: _definir uma palavra_. Expor as diversas faces ou lados de. Decidir; expor com precisão; fixar: _definir uma questão_. Tornar conhecido. (Lat. _definire_)"
+    },
+    {
+      "word": "rangente",
+      "definition": "Rangente adj. O mesmo que _rangedor_."
+    },
+    {
+      "word": "ministre",
+      "definition": "Ministre m. Ant. O mesmo que _menestrel_."
+    },
+    {
+      "word": "vimeiro",
+      "definition": "Vimeiro m. Género de plantas salicíneas. (De _vime_)"
+    },
+    {
+      "word": "plúmbico",
+      "definition": "Plúmbico adj. Relativo ao chumbo. Quím. Diz-se de um dos óxidos do chumbo, e de diversos compostos em que entra o chumbo. (Do lat. _plumbum_)"
+    },
+    {
+      "word": "penitela",
+      "definition": "Penitela f. Ant. Espécie de iguaria. (Por _panitela_, do lat. _panis_?)"
+    },
+    {
+      "word": "lusismo",
+      "definition": "Lusismo m. P. us. O mesmo que _lusitanismo_. (De _luso_)"
+    },
+    {
+      "word": "segóvia",
+      "definition": "Segóvia f. Gír. O mesmo que _sarâmbia_. O mesmo que _salada_."
+    },
+    {
+      "word": "thomar",
+      "definition": "Thomar É assim que se escreve hoje geralmente o nome de uma cidade portuguesa, talvez com o único fundamento, ou, antes, pretexto pueril, de se não confundir com o verbo _tomar_, da mesma forma que muitos ingénuos assinam _Mota_, _Mattos_, _Matta_, _Themudo_, adulterando voluntariamente o seu nome com letras estranhas a ele, para que este deixe de ser o que realmente é. Os documentos antigos trazem _Tomar_; e, desconhecida como é a origem, não há razão séria para a inclusão de uma letra que nada importa à pronúncia."
+    },
+    {
+      "word": "berlinês",
+      "definition": "Berlinês adj. Relativo a Berlim. M. Habitante de Berlim."
+    },
+    {
+      "word": "poliopia",
+      "definition": "Poliopia f. Estado mórbido dos que vêem os objectos multiplicados. (Do gr. _polus_ + _ops_)"
+    },
+    {
+      "word": "recuidar",
+      "definition": "Recuidar v. i. Cuidar ou pensar muito. (De _re..._ + _cuidar_)"
+    },
+    {
+      "word": "cenópode",
+      "definition": "Cenópode m. Embrião das plantas monocotiledóneas. (Do gr. _koinos_, + _pous_, _podos_)"
+    },
+    {
+      "word": "levada",
+      "definition": "Levada f. Acto de levar. Corrente de água, de ordinário procedente de um rio, e que vai regando campos, ou dando movimento a moinhos, fábricas, etc. Cascata. Bras. do N Colina; elevação de terreno. Bras. do N Golpe ou corte, que se faz nas orelhas das reses, para as marcar. Ant. Golpe, bote. Cf. G. Vicente, I, 230. Loc. adv. _De levada_, sem persistência, de levante. Cf. Castilho, _D. Quixote_, 45."
+    },
+    {
+      "word": "acceso",
+      "definition": "Acceso adj. Que se acendeu. Inflamado. Fig. Excitado. (Lat. _accensus_)"
+    },
+    {
+      "word": "terror",
+      "definition": "Terror m. Grande susto. Pavor. Qualidade do que é terrível. Época da revolução francesa, durante a qual permaneceu o tribunal revolucionário e a guilhotina. (Lat. _terror_)"
+    },
+    {
+      "word": "ephesino",
+      "definition": "Ephesino adj. Relativo a Éfeso. (Lat. _ephesinus_)"
+    },
+    {
+      "word": "zunzum",
+      "definition": "Zunzum m. Rumor; boato. Zumbido. Mexerico. (T. onom.)"
+    },
+    {
+      "word": "combusto",
+      "definition": "Combusto adj. Des. Queimado. (Lat. _combustus_)"
+    },
+    {
+      "word": "itaíba",
+      "definition": "Itaíba f. Árvore leguminosa das regiões tropicais."
+    },
+    {
+      "word": "nêmesis",
+      "definition": "Nêmesis m. Género de crustáceos."
+    },
+    {
+      "word": "gradual",
+      "definition": "Gradual adj. Que tem ou revela gradação. M. Versículos da Missa, entre a _Epístola_ e o _Evangelho_. Livro, que tem o cantochão das rezas eclesiásticas. (Do lat. _gradus_)"
+    },
+    {
+      "word": "macaíra",
+      "definition": "Macaíra m. Género de peixes ósseos do Atlântico."
+    },
+    {
+      "word": "presteza",
+      "definition": "Presteza f. Qualidade do que é prestes. Prontidão, ligeireza, agilidade."
+    },
+    {
+      "word": "petizada",
+      "definition": "Petizada f. Fam. Os petizes; reunião de petizes. (De _petiz_)"
+    },
+    {
+      "word": "cariri",
+      "definition": "Cariri m. Bras. do N Força; esforço."
+    },
+    {
+      "word": "florão",
+      "definition": "Florão m. Inflorescência, composta de muitas flores sésseis, reunidas sobre um receptáculo comum. Ornato circular, no centro de um tecto, de uma abóbada, etc. Espécie de jogo popular. Espécie de pequena carruagem antiga. (De _flor_)"
+    },
+    {
+      "word": "lixoso",
+      "definition": "Lixoso adj. Que tem lixo."
+    },
+    {
+      "word": "gulandim",
+      "definition": "Gulandim f. Nome de várias árvores gutíferas do Brasil."
+    },
+    {
+      "word": "atavio",
+      "definition": "Atavio m. Enfeite, adorno. Aparelho. (De _ataviar_)"
+    },
+    {
+      "word": "perempto",
+      "definition": "Perempto adj. Jur. Extinto por prescrição. (Lat. _peremptus_)"
+    },
+    {
+      "word": "pẽadoiro",
+      "definition": "Pẽadoiro m. Ant. Digno de pena, de castigo. (De _pẽar_)"
+    },
+    {
+      "word": "hebreu",
+      "definition": "Hebreu m. Língua hebraica. Indivíduo de raça hebraica. Pl. Nome primitivo do povo judaico. Adj. Relativo ou pertencente aos Hebreus. (Lat. _hebraeus_)"
+    },
+    {
+      "word": "comado",
+      "definition": "Comado adj. Que tem coma ou cabeleira. (Lat. _comatus_)"
+    },
+    {
+      "word": "ribana",
+      "definition": "Ribana f. O mesmo que _arribana_. Cf. Camilo, _Narcóticos_, II, 124."
+    },
+    {
+      "word": "pavoroso",
+      "definition": "Pavoroso adj. Que infunde pavor; medonho; horroroso."
+    },
+    {
+      "word": "retina",
+      "definition": "Retina f. A mais interior membrana do olho, em que se formam as imagens, e que transmite a percepção ao cérebro por intermédio do nervo óptico. (Lat. _retina_)"
+    },
+    {
+      "word": "punhar",
+      "definition": "Punhar v. i. Ant. O mesmo que [[punir:2]]. (Por _pugnar_)"
+    },
+    {
+      "word": "levogyro",
+      "definition": "Levogyro adj. Phýs. Diz-se da substância, que desvia para a esquerda o plano da polarização. (Do lat. _laevus_ + _gyrare_)"
+    },
+    {
+      "word": "rugitar",
+      "definition": "Rugitar v. i. bras Neol. Fazer ruído; rugir. Cf. Alencar, Iracema. (Do lat. _rugitus_)"
+    },
+    {
+      "word": "suprível",
+      "definition": "Suprível adj. Que se pode suprir."
+    },
+    {
+      "word": "diabetes",
+      "definition": "Diabetes f. (V. diabete )"
+    },
+    {
+      "word": "opitimo",
+      "definition": "Opitimo m. Planta da serra de Sintra."
+    },
+    {
+      "word": "batalha",
+      "definition": "Batalha f. Combate entre exércitos. Discussão; matéria de discussão. Principal argumento. Grande esforço, luta: _as batalhas da vida_. Fileira de tropa, disposta para combate. Espécie de jogo de cartas. Árvore silvestre do Brasil. (B. lat. _batallia_)"
+    },
+    {
+      "word": "oiacás",
+      "definition": "Oiacás m. pl. Indígenas do norte do Brasil."
+    },
+    {
+      "word": "condroma",
+      "definition": "Condroma m. Tumor cartilaginoso. (Do gr. _khondros_)"
+    },
+    {
+      "word": "éctima",
+      "definition": "Éctima m. Flegmasia, que ataca os folículos sebáceos. (Gr. _ektuma_)"
+    },
+    {
+      "word": "dorífora",
+      "definition": "Dorífora f. Insecto microscópico, que ataca os batatais. Cf. _Gaz. das Aldeias_, de Julho de 1902."
+    },
+    {
+      "word": "bilina",
+      "definition": "Bilina f. Princípio, extraído da bílis."
+    },
+    {
+      "word": "tamarês",
+      "definition": "Tamarês m. e adj. Diz-se de uma espécie de uva branca. (De _tâmara_)"
+    },
+    {
+      "word": "eversor",
+      "definition": "Eversor adj. Des. Destruidor. (Lat. _eversor_)"
+    },
+    {
+      "word": "princês",
+      "definition": "Princês m. Designação depreciativa ou irónica de Príncipe. Cf. G. Braga, _Mal da Delf._, 217. (Cp. _princesa_)"
+    },
+    {
+      "word": "ahovai",
+      "definition": "Ahovai m. Planta solânea americana, de uma só folha."
+    },
+    {
+      "word": "muginha",
+      "definition": "Muginha f. Nome do algodão, entre indígenas da África."
+    },
+    {
+      "word": "marsílea",
+      "definition": "Marsílea f. Género de plantas vivazes, que crescem nas águas estagnadas. (De _Marsigli_, n. p.)"
+    },
+    {
+      "word": "anaconda",
+      "definition": "Anaconda f. Grande serpente da América do Sul, que chega a ter mais de dez metros de comprimento."
+    },
+    {
+      "word": "bestoiro",
+      "definition": "Bestoiro m. Prov. trasm. Homem gordo e forte. Cacete grosso."
+    },
+    {
+      "word": "azinhoso",
+      "definition": "Azinhoso adj. Que tem azinhos."
+    },
+    {
+      "word": "garrular",
+      "definition": "Garrular v. i. Palrar, tagarelar. Cf. Alencar, _Diva_. (De _gárrulo_)"
+    },
+    {
+      "word": "tercêto",
+      "definition": "Tercêto m. Estrofe de três versos. Concerto musical de três vozes ou três instrumentos. (It. _terzetto_)"
+    },
+    {
+      "word": "apenso",
+      "definition": "Apenso m. Aquilo que se apensa. Adj. Junto; anexo. Ant. Pendente. (Lat. _appensus_)"
+    },
+    {
+      "word": "cachiço",
+      "definition": "Cachiço m. Robalo pequeno. Prov. Beir. Bagaço de uva. T. do Fundão Palha miúda, cortada pelo mangual, na ocasião da malha. Prov. minh. O mesmo que _graveto_. Prov. dur. Espiga de milho, depois de debulhada."
+    },
+    {
+      "word": "trabul",
+      "definition": "Trabul m. Estrado rectangular, donde se ergue o eixo da roda em que trabalha o oleiro. (Cp. _trabulo_)"
+    },
+    {
+      "word": "capiango",
+      "definition": "Capiango m. Bras Ladrão astuto. Ladrão."
+    },
+    {
+      "word": "coatiara",
+      "definition": "Coatiara f. (V. cotiara )"
+    },
+    {
+      "word": "raluto",
+      "definition": "Raluto m. Prov. alg. Terreno, em que se perdeu a plantação. (De [[ralo:2]])"
+    },
+    {
+      "word": "catetê",
+      "definition": "Catetê m. Pássaro dentirostro africano."
+    },
+    {
+      "word": "coquilho",
+      "definition": "Coquilho m. Pequeno coco ou substância vegetal e dura, de que se fazem contas de rosários, etc. Árvore dos Açores, (_platanus orientalis_). (De _coco_)"
+    },
+    {
+      "word": "peteca",
+      "definition": "Peteca f. Bras Bola de coiro, achatada, com que brincam crianças. Pedaço de cortiça, para o mesmo fim. Fig. Joguete. Coisa ou pessoa, de que se faz pouco caso. (Do _tupi_)"
+    },
+    {
+      "word": "humanas",
+      "definition": "Humanas m. pl. Tribo extinta do Alto-Amazonas."
+    },
+    {
+      "word": "murtinho",
+      "definition": "Murtinho m. Baga de murta. Género de plantas myrtáceas do Brasil."
+    },
+    {
+      "word": "hifemia",
+      "definition": "Hifemia f. Med. Diminuição do sangue. (Do gr. _hupo..._ + _haima_)"
+    },
+    {
+      "word": "digýnia",
+      "definition": "Digýnia f. Nome de várias classes de plantas, no sistema de Lineu. (De _digyno_)"
+    },
+    {
+      "word": "porrina",
+      "definition": "Porrina f. Ant. Clava curta, de cabeça de ferro ou de madeira."
+    },
+    {
+      "word": "chacota",
+      "definition": "Chacota f. Antiga canção popular. Trovas satíricas. Zombaria, escárnio, troça. Antiga dança, acompanhada de canto. (Cast. _chacota_)"
+    },
+    {
+      "word": "alvalar",
+      "definition": "Alvalar v. t. Opor valado a, opor-se a? «_...assim quiseram alvallar a corrente da verdade_» . Filinto, II, 201. (Relaciona-se com _alvalade_?)"
+    },
+    {
+      "word": "colligir",
+      "definition": "Colligir v. t. Juntar; reunir em colecção: _coligir apontamentos_. Inferir: _eis o que colijo dessas teorias_. (Lat. _colligere_)"
+    },
+    {
+      "word": "esquipar",
+      "definition": "Esquipar v. t. O mesmo que _equipar_. V. i. Correr ligeiramente (o cavalo, a embarcação). Bras Executar o cavalo a marcha chamada esquipado. (Cast. _esquipar_)"
+    },
+    {
+      "word": "acanhoar",
+      "definition": "Acanhoar v. t. O mesmo que _acanhonear_."
+    },
+    {
+      "word": "tylantho",
+      "definition": "Tylantho m. Arbusto ramnáceo da África do Sul. (Do gr. _tulos_ + _anthos_)"
+    },
+    {
+      "word": "chinélo",
+      "definition": "Chinélo m. (V. chinela )"
+    },
+    {
+      "word": "orchata",
+      "definition": "Orchata f. Emulsão refrigerante, feita de pevides descascadas de cucurbitáceas, pisadas e preparadas com açúcar. Bebida, preparada por uma decocção de cevada com amêndoas doces, pisadas. (Cast. _orchata_)"
+    },
+    {
+      "word": "debanar",
+      "definition": "Debanar v. t. Prov. trasm. O mesmo que _dobar_. (Cf. cast. _devanar_)"
+    },
+    {
+      "word": "militar",
+      "definition": "Militar adj. Relativo à guerra, à milícia, às tropas. Pertencente ao exército; que segue a carreira das armas. M. Indivíduo, que segue a carreira das armas; soldado. (Lat. _militaris_)"
+    },
+    {
+      "word": "gotejar",
+      "definition": "Gotejar v. i. Cair em gotas. V. t. Entornar, verter ou deixar cair, gota a gota."
+    },
+    {
+      "word": "vispora",
+      "definition": "Vispora f. Bras O mesmo que _quino_ ou _loto_."
+    },
+    {
+      "word": "somnial",
+      "definition": "Somnial adj. Relativo aos sonhos. (Lat. _somnialis_)"
+    },
+    {
+      "word": "larecer",
+      "definition": "Larecer v. i. Prov. minh. Falar muito, tagarelar. (Por _lerecer_, relacionado com _léria_?)"
+    },
+    {
+      "word": "séptico",
+      "definition": "Séptico adj. Que causa putrefacção. (Gr. _septikos_)"
+    },
+    {
+      "word": "borlar",
+      "definition": "Borlar v. t. Ant. O mesmo que _bordar_."
+    },
+    {
+      "word": "somneira",
+      "definition": "Somneira f. O mesmo que _sonolência_."
+    },
+    {
+      "word": "luzernal",
+      "definition": "Luzernal m. O mesmo que _luzerneira_."
+    },
+    {
+      "word": "cheirete",
+      "definition": "Cheirete cheirê m. Fam. Mau cheiro, fedor."
+    },
+    {
+      "word": "colocar",
+      "definition": "Colocar v. t. Pôr num lugar: _colocar um livro numa estante_. Dispor. Empregar: _colocar os afilhados_. (Lat. _collocare_)"
+    },
+    {
+      "word": "afastar",
+      "definition": "Afastar v. t. Desviar. Apartar. Tirar para longe. (Do ant. cast. _fasta_)"
+    },
+    {
+      "word": "alcorão",
+      "definition": "Alcorão m. Livro sagrado dos Mahometanos. Religião mahometana. Ant. Torre, de onde se chamam os muçulmanos à oração. Cf. _Tombo do Estado da Índia_, 225, nos _Subsídios_ de Felner. (Do ár. _al-coran_)"
+    },
+    {
+      "word": "penates",
+      "definition": "Penates m. pl. Deuses domesticos, na antiga Roma. Fig. Lares; família. Casa paterna. (Lat. _penates_)"
+    },
+    {
+      "word": "afumegar",
+      "definition": "Afumegar v. i. O mesmo que _fumegar_. Cf. Herculano, _Hist. de Port._, III, 369."
+    },
+    {
+      "word": "ervoado",
+      "definition": "Ervoado adj. Ant. Ponto, perturbado. (Por _arvoado?_)"
+    },
+    {
+      "word": "ficária",
+      "definition": "Ficária f. Género de plantas ranunculáceas. (Lat. _ficaria_)"
+    },
+    {
+      "word": "trióbolo",
+      "definition": "Trióbolo m. Antiga moeda grega, equivalente a três óbolos. (Lat. _triobolus_)"
+    },
+    {
+      "word": "petiscar",
+      "definition": "Petiscar v. t. Comer com pouco apetite; provar. Saborear. Fam. Conhecer superficialmente. Prov. trasm. Tocar, tanger (animais): _petisca lá esse burro_. V. i. Comer petiscos. Ferir a pederneira com o fuzil, para fazer lume. Bater com a aldrava na porta, para que a abram."
+    },
+    {
+      "word": "desàsado",
+      "definition": "Desàsado adj. Ant. Que tem desaso; que não é jeitoso. Imprópio. (De _desaso_)"
+    },
+    {
+      "word": "epúlida",
+      "definition": "Epúlida f. Excrescência nas gengivas. (Do gr. _epulis_)"
+    },
+    {
+      "word": "pecuário",
+      "definition": "Pecuário adj. Relativo a gados. M. Criador ou tratador de gados. Cf. Castilho, _Geórgicas_, 169. (Lat. _pecuarius_)"
+    },
+    {
+      "word": "pavieira",
+      "definition": "Pavieira f. O mesmo que _padieira_."
+    },
+    {
+      "word": "bestiola",
+      "definition": "Bestiola f. Chul. O mesmo que _bestiaga_."
+    },
+    {
+      "word": "bolsar",
+      "definition": "Bolsar _v. t._ (e der.) (V. _bolçar_, etc.)"
+    },
+    {
+      "word": "badola",
+      "definition": "Badola m. e f. T. de Lanhoso Pessoa simplória e bondosa."
+    },
+    {
+      "word": "expender",
+      "definition": "Expender v. t. Expor minuciosamente: _expender uma opinião_. Ponderar. Des. Despender. (Lat. _expendere_)"
+    },
+    {
+      "word": "enleio",
+      "definition": "Enleio m. Coisa que enleia, liame. Acto ou efeito de enlear. Planta trepadeira, parasita."
+    },
+    {
+      "word": "melite",
+      "definition": "Melite adj. Espécie de mineral carbonado, pedra amarelada. (Do lat. _mel_, _mellis_)"
+    },
+    {
+      "word": "brasil",
+      "definition": "Brasil m. Planta leguminosa, de que se tira o pau-brasil. Ant. Cor encarnada, com que as senhoras se enfeitavam. Adj. Diz-se de um pau vermelho empregado em tinturaria. M. pl. As terras do Brasil; os Brasileiros: «_vy com fome da côr dos Brasis vossa pele_» . Usque, _Tribulações_, 50, V.^o"
+    },
+    {
+      "word": "evoluta",
+      "definition": "Evoluta f. Curva, em que há os centros da curvatura de outra, que se chama evolvente. (De _evoluto_)"
+    },
+    {
+      "word": "clompão",
+      "definition": "Clompão m. Arbusto sarmentoso da fam. das leguminosas."
+    },
+    {
+      "word": "aquesto",
+      "definition": "Aquesto quês pron. Ant. O mesmo que _isto_."
+    },
+    {
+      "word": "pisoador",
+      "definition": "Pisoador m. Aquele ou aquilo que pisôa."
+    },
+    {
+      "word": "gorjete",
+      "definition": "Gorjete jê m. Peça de vestuário, formada de colar e peitilho, para se sobrepor à camisa de dormir, dispensando outra camisa. Camisote. (De _gorja_)"
+    },
+    {
+      "word": "fofice",
+      "definition": "Fofice f. Qualidade daquele ou daquilo que é fofo. Prosápia infundada."
+    },
+    {
+      "word": "chissio",
+      "definition": "Chissio m. Arbusto de Moçambique, cujas vagens dão uma tinta preta, usada pelos indígenas."
+    },
+    {
+      "word": "namorar",
+      "definition": "Namorar v. t. Requestar, pretender o amor de. Galantear. Cativar; atrair: _namora-me aquele jardim_. Desejar muito. Empregar esforços para obter. Prov. dur. minh. Desflorar (uma donzela). V. i. Fazer galanteios amorosos. Procurar inspirar amor. V. p. Deixar-se dominar por uma afeição. Estar encantado; apaixonar-se. (Aphér. de _enamorar_)"
+    },
+    {
+      "word": "cáthedra",
+      "definition": "Cáthedra f. Cadeira de quem ensina. Cadeira pontifícia. (Lat. _cathedra_)"
+    },
+    {
+      "word": "rópala",
+      "definition": "Rópala f. Género de plantas proteáceas da América tropical. (Do gr. _rhopalon_)"
+    },
+    {
+      "word": "cevadal",
+      "definition": "Cevadal f. Campo de cevada."
+    },
+    {
+      "word": "étnico",
+      "definition": "Étnico adj. Que pertence ao paganismo. Característico de um país: _as condições étnicas de Portugal_. Que designa habitantes de um país ou de uma região. M. Idólatra. (Gr. _ethnikos_)"
+    },
+    {
+      "word": "olmeira",
+      "definition": "Olmeira f. O mesmo que _ulmária_."
+    },
+    {
+      "word": "garcenho",
+      "definition": "Garcenho m. Ave pernalta, espécie de garça pequena, (_ardeola minuta_, Lin.). (De _garça_)"
+    },
+    {
+      "word": "árcole",
+      "definition": "Árcole (não _Arcóle_) Cidade italiana."
+    },
+    {
+      "word": "abaçanar",
+      "definition": "Abaçanar v. t. (V. abacinar ) ."
+    },
+    {
+      "word": "inverso",
+      "definition": "Inverso m. O mesmo que _inversão_; invés. (Lat. _inversus_)"
+    },
+    {
+      "word": "litólogo",
+      "definition": "Litólogo m. Aquele que é perito em litologia. (Do gr. _lithos_ + _logos_)"
+    },
+    {
+      "word": "hibérnio",
+      "definition": "Hibérnio m. O mesmo que _hibérnico_, _m._"
+    },
+    {
+      "word": "segredar",
+      "definition": "Segredar v. t. Dizer em segredo. Dizer em voz baixa; cochichar. V. i. Dizer segredos."
+    },
+    {
+      "word": "perxina",
+      "definition": "Perxina f. Triângulo curvilíneo, que faz parte de uma abóbada, reforçando-a.--Vejo o t. nos outros diccion., mas não o vejo abonado nem conheço a sua razão morfológica. Os mais ponderados citam-lhe, como fonte, o cast. _pechina_, mas não conheço este voc. no cast.; e, se existisse e fosse a fonte do nosso, teríamos _perchina_ e não _perxina_."
+    },
+    {
+      "word": "rosnador",
+      "definition": "Rosnador m. e adj. O que rosna."
+    },
+    {
+      "word": "agedoíte",
+      "definition": "Agedoíte f. Substância cristalina, que se extrai do alcaçus."
+    },
+    {
+      "word": "subpor",
+      "definition": "Subpor v. t. Pôr debaixo; sotopor. (Do lat. _sub_ + _ponere_)"
+    },
+    {
+      "word": "mellita",
+      "definition": "Mellita adj. Espécie de mineral carbonado, pedra amarelada. (Do lat. _mel_, _mellis_)"
+    },
+    {
+      "word": "bodelho",
+      "definition": "Bodelho dê m. Alga vesiculosa, ou carvalho do mar."
+    },
+    {
+      "word": "canopi",
+      "definition": "Canopi m. Árvore sapindácea do Brasil."
+    },
+    {
+      "word": "epinício",
+      "definition": "Epinício m. Poema ou canto, em que se celebra uma vitória. (Lat. _epinicium_)"
+    },
+    {
+      "word": "andaime",
+      "definition": "Andaime f. Estrado provisório de madeira, sobre que trabalham os operários de construções altas; bailéu. Ant. Galeria alta e exterior de fortaleza ou de outro edificio. (Do cast. _andamio_)"
+    },
+    {
+      "word": "ausência",
+      "definition": "Ausência f. Afastamento. Carência. Falta de comparência. Pl. O que se diz da pessoa ausente: _fazem-lhe boas ausências_. (Lat. _absentia_)"
+    },
+    {
+      "word": "ocellote",
+      "definition": "Ocellote m. Mamífero carnívoro, de raça felina, em a América central. (De _ocello_)"
+    },
+    {
+      "word": "escarção",
+      "definition": "Escarção m. Constr. Arco, por cima da padieira, para que esta não suporte o peso da construção superior."
+    },
+    {
+      "word": "recábito",
+      "definition": "Recábito m. O mesmo que _recábdo_. (Cp. _recápito_)"
+    },
+    {
+      "word": "nutrido",
+      "definition": "Nutrido adj. Aleitado. Gordo; robusto. (De _nutrir_)"
+    },
+    {
+      "word": "benzola",
+      "definition": "Benzola f. Líquido oleoso, incolor, obtido pela destilação seca de uma parte de ácido benzoico, cristalizado, e de três partes de hidrato de cal."
+    },
+    {
+      "word": "cornija",
+      "definition": "Cornija f. Molduras sobrepostas, que formam saliência na parte superior de uma parede, de uma porta, de um móvel, etc. (Do it. _cornice_)"
+    },
+    {
+      "word": "fetiche",
+      "definition": "Fetiche f. Gal Tudo que é objecto de adoração, em alguns povos selvagens da África. Fig. Pessoa, que se venera e a quem se obedece cegamente. (Fr. _fetiche_, talvez do port. _feitiço_)"
+    },
+    {
+      "word": "berciano",
+      "definition": "Berciano m. Um dos dialectos da Galiza."
+    },
+    {
+      "word": "oxford",
+      "definition": "Oxford (v. _Oxónia_)"
+    },
+    {
+      "word": "mesode",
+      "definition": "Mesode f. Trecho de canto, entre a estrofe e a antístropho, na poesia antiga. (De _meso..._ + _ode_)"
+    },
+    {
+      "word": "maquira",
+      "definition": "Maquira f. Filamento de tucum, com que os Índios do Peru fazem redes para dormir."
+    },
+    {
+      "word": "açalpão",
+      "definition": "Açalpão m. Bras O mesmo que _alçapão_. (Metáth. de _alçapão_)"
+    },
+    {
+      "word": "latido",
+      "definition": "Latido m. Acto ou efeito de latir. Fig. Remorso. Chul. Palavras vans."
+    },
+    {
+      "word": "sextil",
+      "definition": "Sextil adj. Diz-se do aspecto de dois astros, para que distam entre si 60°. No calendário da primeira república francesa, dizia-se do ano que tinha um sexto dia complementar, e dizia-se desse mesmo dia. (Lat. _sextilis_)"
+    },
+    {
+      "word": "papalvro",
+      "definition": "Papalvro m. Prov. trasm. Fuinha pequena, de pele fina."
+    },
+    {
+      "word": "colírio",
+      "definition": "Colírio m. Medicamento, destinado especialmente à cura de inflamações na conjuntiva. (Gr. _kollurion_)"
+    },
+    {
+      "word": "ardina",
+      "definition": "Ardina f. Gír. O mesmo que _ardose_. M. Gír. de Lisbôa. Rapaz, especialmente o que pelas ruas vende bilhetes postais, papel, etc."
+    },
+    {
+      "word": "melhoria",
+      "definition": "Melhoria f. Transição para melhor estado. Melhor estado. Superioridade. Bem-feitoria: _fazer melhorias num prédio_. Casta de uva do Minho, de que há duas variedades, branca e preta. Adv. Ant. Um tanto mais, mais alguma coisa. (De _melhor_)"
+    },
+    {
+      "word": "piperino",
+      "definition": "Piperino m. Rocha porosa e vulcânica, vulgar cercanias de Roma e usada em construções. (Lat. _piperinus_)"
+    },
+    {
+      "word": "rapazice",
+      "definition": "Rapazice f. O mesmo que _rapaziada_. Cf. Camilo, _Cav. em Ruínas_, 246."
+    },
+    {
+      "word": "areeiro",
+      "definition": "Areeiro m. Areal. Lugar, donde se extrai areia. Pequeno vaso, com areia que se deita sobre a escrita para a secar. (Do lat. _arenarius_)"
+    },
+    {
+      "word": "auréola",
+      "definition": "Auréola f. Círculo luminoso, que orna a cabeça dos santos, nas suas imagens. Diadema. Glória: _a auréola dos sábios_. (Lat. _aureola_)"
+    },
+    {
+      "word": "enxalço",
+      "definition": "Enxalço m. Pequeno arco, sob a verga de porta ou janela."
+    },
+    {
+      "word": "aglaia",
+      "definition": "Aglaia f. Género de plantas meliáceas. (Gr. _aglaia_)"
+    },
+    {
+      "word": "nanquim",
+      "definition": "Nanquim Cidade da China.--_Nankin_ não é forma portuguesa. Cf. Barros, _Déc._ II, liv. X, cap. 1."
+    },
+    {
+      "word": "silícula",
+      "definition": "Silícula f. Pequena síliqua. Espécie de pericarpo. (Lat. _silicula_)"
+    },
+    {
+      "word": "coelhal",
+      "definition": "Coelhal adj. Relativo a coelho, próprio de coelho. Cf. Filinto, XIII, 210."
+    },
+    {
+      "word": "almança",
+      "definition": "Almança f. Escudo, dividido em pala, nos brasões."
+    },
+    {
+      "word": "çaguão",
+      "definition": "Çaguão m. Pátio estreito e descoberto, no interior de um edifício. Espécie de alpendre, à entrada dos conventos. (Cast. _zaguan_)"
+    },
+    {
+      "word": "acciano",
+      "definition": "Acciano adj. Diz-se dos jogos públicos, instituídos por César, em memória da batalha de Áccio. Cf. Castilho, _Fastos_, I, 606."
+    },
+    {
+      "word": "surrador",
+      "definition": "Surrador m. e adj. O que surra."
+    },
+    {
+      "word": "exceler",
+      "definition": "Exceler v. i. Ser excelente. (Lat. _excellere_)"
+    },
+    {
+      "word": "chelydro",
+      "definition": "Chelydro que m. Nome de uma serpente amphíbia e venenosa. Cf. Filinto, VI, 235. (Lat. _chelidrus_)"
+    },
+    {
+      "word": "miúdas",
+      "definition": "Miúdas f. pl. Lucros, que vêm pouco a pouco, como às pinguinhas. Pequenas mas numerosas dádivas. (De _miúdo_)"
+    },
+    {
+      "word": "faringe",
+      "definition": "Faringe f. Cavidade músculo-membranosa, entre a boca e a parte superior do esófago. (Do gr. _pharunge_)"
+    },
+    {
+      "word": "artecida",
+      "definition": "Artecida m. Fig. Aquele que maltrata a arte. Cf. Cortesão, _Subs._"
+    },
+    {
+      "word": "iátrion",
+      "definition": "Iátrion m. Lugar, onde, na antiguidade, o médico tinha os seus aparelhos, fazia operações ou dava consultas. (Gr. _iatrion_)"
+    },
+    {
+      "word": "pyrosoma",
+      "definition": "Pyrosoma só m. Um dos hematozoarios da frebre. (Do gr. _pur_ + _soma_)"
+    },
+    {
+      "word": "trachino",
+      "definition": "Trachino qui m. Nome científico do dragão-marinho. (Do gr. _trakhus_)"
+    },
+    {
+      "word": "physális",
+      "definition": "Physális f. O mesmo que _physálide_."
+    },
+    {
+      "word": "doudete",
+      "definition": "Doudete dê m. Aquele que tem pouco juízo: «_o lobo apanha pelo pescoço o doudete_» . Sá de Miranda."
+    },
+    {
+      "word": "perfeito",
+      "definition": "Perfeito adj. Que reúne todas as qualidades boas; que não tem defeito: _obra perfeita_. Gram. Diz-se dos tempos dos verbos, que exprimem uma acção ou estado já passado, em relação a certa época. Magistral; notável; destro: _perfeito cavaleiro_. (Do lat. _perfectus_)"
+    },
+    {
+      "word": "vedonho",
+      "definition": "Vedonho m. Prov. alg. O mesmo que _vidonho_."
+    },
+    {
+      "word": "acolytar",
+      "definition": "Acolytar v. t. Acompanhar como _acólito_. Ajudar. Acompanhar, seguir."
+    },
+    {
+      "word": "arauto",
+      "definition": "Arauto m. Funcionário, que, na Idade-Média, anunciava as funções públicas, ou era encarregado de declarar a guerra a povos estrangeiros. Pregoeiro. Postilhão. (B. lat. _haraldus_)"
+    },
+    {
+      "word": "tuidara",
+      "definition": "Tuidara tu-i f. Bras O mesmo que _coruja_."
+    },
+    {
+      "word": "chantre",
+      "definition": "Chantre m. Funcionário eclesiástico, que dirige o coro. Aquele que entoa os salmos nos templos protestantes. (Fr. _chantre_)"
+    },
+    {
+      "word": "lagareta",
+      "definition": "Lagareta garê f. Prov. minh. O mesmo que _lagariça_."
+    },
+    {
+      "word": "idumeu",
+      "definition": "Idumeu adj. Relativo à Idumeia. M. Habitante da Idumeia."
+    },
+    {
+      "word": "tacanho",
+      "definition": "Tacanho adj. Que tem pequena estatura. Apoucado, inhenho. Sovina, avarento. Velhaco. (Cast. _tacaño_)"
+    },
+    {
+      "word": "calcídeo",
+      "definition": "Calcídeo m. Designação genérica dos metais semelhantes ao cálcio. (De _cálcio_)"
+    },
+    {
+      "word": "mavuvi",
+      "definition": "Mavuvi m. Espécie de aranha africana."
+    },
+    {
+      "word": "tálamo",
+      "definition": "Tálamo m. Leito conjugal. Fig. Casamento. Bodas. Bot. Alargamento do pedúnculo de certas plantas. Cálice das plantas. Receptáculo das plantas. (Lat. _thálamus_)"
+    },
+    {
+      "word": "ronábea",
+      "definition": "Ronábea f. Género de plantas rubiáceas."
+    },
+    {
+      "word": "polinar",
+      "definition": "Polinar adj. O mesmo que _polinário_."
+    },
+    {
+      "word": "prândio",
+      "definition": "Prândio m. Poét. Jantar; banquete. (Lat. _prandium_)"
+    },
+    {
+      "word": "tolhiço",
+      "definition": "Tolhiço m. Coisa tolhida ou defeituosa; monstruosidade. Cf. Camilo, _Mem. do Cárcere_. (De _tolher_)"
+    },
+    {
+      "word": "bagdad",
+      "definition": "Bagdad Designação usual da cidade, que em português se chama _Bagodad_. (V. Bagodad )"
+    },
+    {
+      "word": "edredão",
+      "definition": "Edredão m. Cobertura acolchoada, que contém penugem fina de uma ave palmípede do norte; proximamente o mesmo que _goderim_, _cócedra_, _almadraque_ ou _almatricha_. (Do suec. _eider_, espécie de pato, que se encontra especialmente na Islândia, e _dun_, penugem)"
+    },
+    {
+      "word": "regalada",
+      "definition": "Regalada f. Loc. adv. _À regalada_, regaladamente; à tripa forra. (De _regalado_)"
+    },
+    {
+      "word": "guegue",
+      "definition": "Guegue m. Género de plantas medicinais da ilha de San-Tomé, (_spondeas lutea_, Lin.)."
+    },
+    {
+      "word": "cherub",
+      "definition": "Cherub que m. O mesmo que _querubim_. Cf. Filinto, XVI, 317. (Lat. _cherub_)"
+    },
+    {
+      "word": "quirites",
+      "definition": "Quirites m. pl. Título, que acresceu ao dos Romanos, quando estes se fundiram com os Sabinos. Cidadãos Romanos. (Lat. _quirites_)"
+    },
+    {
+      "word": "adregar",
+      "definition": "Adregar v. i. Acontecer por acaso. Chegar a propósito. Acertar casualmente. Prov. trasm. Enganar; iludir: _não me adregas, descansa_. Cf. _Rev. Lus._, XI, 288."
+    },
+    {
+      "word": "cremação",
+      "definition": "Cremação f. Acto de queimar cadáveres. (Lat. _crematio_)"
+    },
+    {
+      "word": "indúcias",
+      "definition": "Indúcias f. pl. Tréguas. Dilação. Jur. Esperas, que os credores de um negociante concedem por concordata ao seu devedor, além do vencimento dos respectivos créditos. Cf. F. Borges, _Diccion. Jur._ (Lat. _indutiae_)"
+    },
+    {
+      "word": "expurgar",
+      "definition": "Expurgar v. t. Purgar completamente. Limpar. Corrigir: _expurgar a reedição de uma obra_. Polir. Descascar, esbrugar. (Lat. _expurgare_)"
+    },
+    {
+      "word": "perrilha",
+      "definition": "Perrilha f. T. de Monção Vento frio do Nordeste. Cf. O. Pratt, _Ling. Minh._"
+    },
+    {
+      "word": "erigir",
+      "definition": "Erigir v. i. Erguer a prumo. Levantar. Construir, instituir. Transformar, ou dar novo carácter a. (Lat. _erigere_)"
+    },
+    {
+      "word": "consulta",
+      "definition": "Consulta f. Acto de consultar. Conselho. Parecer. Conferência para deliberação. Reflexão, prudência. (Lat. _consultus_)"
+    },
+    {
+      "word": "guanandi",
+      "definition": "Guanandi m. Género de árvores brasileiras."
+    },
+    {
+      "word": "espolpar",
+      "definition": "Espolpar v. t. Extrair a polpa de. Cf. _Techn. Rur._, 237."
+    },
+    {
+      "word": "aromato",
+      "definition": "Aromato m. Parte dos vegetais odoríferos, empregada no fabrico de perfumes. (De _aroma_)"
+    },
+    {
+      "word": "instinto",
+      "definition": "Instinto m. Instigação ou impulso natural, independente da reflexão. Tendência ingenita dos animais. Inspiração. (Lat. _instinctus_)"
+    },
+    {
+      "word": "mogóres",
+      "definition": "Mogóres m. pl. Ant. Povos do império Mogol."
+    },
+    {
+      "word": "pontaria",
+      "definition": "Pontaria f. Acto de apontar. Acto de assestar (uma arma de fogo), na direcção da linha de mira. Ext. Alvo. Ant. Ardil ou trapaça, usada em luta para fazer cair o adversário. (De _ponto_)"
+    },
+    {
+      "word": "enxergão",
+      "definition": "Enxergão m. Espécie de saco grande, cheio ordinariamente de palha, e sobre o qual se costuma estender o colchão. (Cast. _jergón_)"
+    },
+    {
+      "word": "prodígio",
+      "definition": "Prodígio m. Coisa sobrenatural. Coisa ou pessoa anormal. Maravilha; milagre. (Lat. _prodigium_)"
+    },
+    {
+      "word": "pinulado",
+      "definition": "Pinulado adj. Que tem pínulas."
+    },
+    {
+      "word": "inglesar",
+      "definition": "Inglesar v. t. Dar feição inglesa a. (De _inglês_)"
+    },
+    {
+      "word": "rabdito",
+      "definition": "Rabdito m. Miner. Fosforeto de ferro meteórico. (Do gr. _rhabdos_)"
+    },
+    {
+      "word": "filhento",
+      "definition": "Filhento adj. Que gera muitos filhos; fecundo."
+    },
+    {
+      "word": "dianho",
+      "definition": "Dianho m. Prov. O mesmo que _Diabo_."
+    },
+    {
+      "word": "pelugem",
+      "definition": "Pelugem f. Conjunto de pêlos."
+    },
+    {
+      "word": "aferição",
+      "definition": "Aferição f. Acto ou efeito de _aferir_."
+    },
+    {
+      "word": "lapónia",
+      "definition": "Lapónia Região setentrional da Escandinávia. (Cp. _Lápia_)"
+    },
+    {
+      "word": "gervão",
+      "definition": "Gervão m. (V. ogervão )"
+    },
+    {
+      "word": "arieta",
+      "definition": "Arieta ê f. Pequena ária."
+    },
+    {
+      "word": "insídia",
+      "definition": "Insídia f. Emboscada; cilada. Estratagema. Perfídia. (Lat. _insidia_)"
+    },
+    {
+      "word": "asnaria",
+      "definition": "Asnaria f. O mesmo que _asnamento_. (De _asna_)"
+    },
+    {
+      "word": "gingrar",
+      "definition": "Gingrar v. t. Ant. Mofar; folgar: «_gingrai lá com taes cachopas_» . G. Vicente, I, 139. (Do cast. _ginglar_?)"
+    },
+    {
+      "word": "aspersão",
+      "definition": "Aspersão f. Acção de aspergir. (Lat. _aspersio_)"
+    },
+    {
+      "word": "ferrujão",
+      "definition": "Ferrujão m. Doença dos bois, caracterizada pela incontinência de urinas. Cf. _Bibl. da G. do Campo_, 567."
+    },
+    {
+      "word": "trazer",
+      "definition": "Trazer v. t. Conduzir. Transportar para cá. Dirigir, comandar. Causar, importar: _trazer dano_. Vestir, usar: _trazer calças brancas_. Ter, exibir: _traz aspecto de doente_. Comunicar. Derivar. Herdar; receber de antepassados. Manusear. Fazer referência a. Ofertar: _trago-lhe aqui uma lembrança_. Tratar; conter: _este livro traz uma história_. Fazer menção de, (falando-se de escritores ou das suas obras): _o Vieira traz muitos termos, de origem brasílica. Os «Lusíadas» trazem referências à flora africana_. (Ant. _trager_, do lat. _trahere_)"
+    },
+    {
+      "word": "cauaris",
+      "definition": "Cauaris m. pl. Indígenas do Brasil, nas margens do Juruá."
+    },
+    {
+      "word": "convento",
+      "definition": "Convento m. Habitação de comunidade religiosa. Comunidade religiosa. Comunidade. Ant. Divisão judicial do Império Romano. Fig. Casa, em que se vive com recolhimento e sem diversões. (Lat. _conventus_)"
+    },
+    {
+      "word": "licoroso",
+      "definition": "Licoroso adj. Que tem propriedades de licor; que é espirituoso e aromático: _vinho licoroso_. Cf. _Techn. Rur._, 205 e 243."
+    },
+    {
+      "word": "balbucio",
+      "definition": "Balbucio m. Acto de _balbuciar_. Fig. Ensaio."
+    },
+    {
+      "word": "cabalim",
+      "definition": "Cabalim m. Espécie de tecido antigo."
+    },
+    {
+      "word": "granizar",
+      "definition": "Granizar v. t. Granitar. Dar forma granular a. (Do lat. _granum_)"
+    },
+    {
+      "word": "pericial",
+      "definition": "Pericial adj. Jur. Relativo a peritos: _o laudo pericial_. (De _perícia_)"
+    },
+    {
+      "word": "ostiaria",
+      "definition": "Ostiaria f. Ant. O mesmo que _hospedaria_. (De _oste_)"
+    },
+    {
+      "word": "saururo",
+      "definition": "Saururo m. Género de plantas, que serve de tipo às saurúreas. (Do gr. _saura_ + _oura_)"
+    },
+    {
+      "word": "capanda",
+      "definition": "Capanda f. Pequena árvore angolense, de hastes herbáceas, folhas simples, e flores dispostas em cachos."
+    },
+    {
+      "word": "mateira",
+      "definition": "Mateira f. O mesmo que _matagal_. Cf. Camilo, _Doze Casam._, 225."
+    },
+    {
+      "word": "cambango",
+      "definition": "Cambango m. Ave galinácea de Angola. Cp. Capelo e Ivens, II, 358."
+    },
+    {
+      "word": "tabardão",
+      "definition": "Tabardão m. Homem rude, mal vestido? Camilo, _Noites de Insómn._, VIII, 65. (De _tabardo_)"
+    },
+    {
+      "word": "empurrar",
+      "definition": "Empurrar v. t. Impelir com força. Dar encontrões em. pop. Fig. Impingir."
+    },
+    {
+      "word": "guiante",
+      "definition": "Guiante adj. Des. Que guia."
+    },
+    {
+      "word": "mutrar",
+      "definition": "Mutrar v. t. Ant. Pôr mutra em. Cf. _Peregrinação_, LXXXVII."
+    },
+    {
+      "word": "verorola",
+      "definition": "Verorola f. (V. ucuuba )"
+    },
+    {
+      "word": "drástico",
+      "definition": "Drástico adj. Diz-se de um purgante enérgico. M. Purgante enérgico. (Gr. _drastikos_)"
+    },
+    {
+      "word": "baixella",
+      "definition": "Baixella f. Conjunto dos utensílios para serviço de mesa. (Do lat. _vascella_)"
+    },
+    {
+      "word": "isógyno",
+      "definition": "Isógyno adj. Bot. Que tem carpelas e pétalas em números iguais. (Do gr. _isos_ + _gune_)"
+    },
+    {
+      "word": "matador",
+      "definition": "Matador adj. Que mata. M. Aquele que mata. Prov. Individuo, encarregado de matar porcos. Fig. Pessoa, que importuna ou que enfada. Pl. As três cartas de maior valor e os trunfos imediatos, pela ordem dos seus valores, no voltarete. Pop. Tudo que é preciso para determinados fins."
+    },
+    {
+      "word": "sarmão",
+      "definition": "Sarmão m. pop. Ant. O mesmo que _salmão_. Cf. P. Carvalho, _Corogr. Port._"
+    },
+    {
+      "word": "azulmato",
+      "definition": "Azulmato m. Combinação do ácido azúlmico com uma base. (De _azúlmico_)"
+    },
+    {
+      "word": "xaropada",
+      "definition": "Xaropada f. Porção de xarope. Xarope, que se pode tomar de uma vez. Pop. Qualquer medicamento contra a tosse."
+    },
+    {
+      "word": "tassádia",
+      "definition": "Tassádia f. Género de plantas asclepiádeas."
+    },
+    {
+      "word": "renano",
+      "definition": "Renano adj. Relativo ao rio Reno. (Lat. _rhenanus_)"
+    },
+    {
+      "word": "rubigal",
+      "definition": "Rubigal adj. Relativo às festas, que os Romanos celebravam para evitar a ferrugem dos cereais. Cf. Castilho, _Fastos_, I, 516. (Lat. _rubigalis_)"
+    },
+    {
+      "word": "efémeras",
+      "definition": "Efémeras f. Insectos neurópteros, que nascem e morrem no mesmo dia. (De _efémero_)"
+    },
+    {
+      "word": "verdelho",
+      "definition": "Verdelho dê m. e adj. Variedade de uva branca, o mesmo que _gouveio_. (De _verde_)"
+    },
+    {
+      "word": "revira",
+      "definition": "Revira m. Bras. do N Bailado de negros e de gente plebeia. (De _revirar_)"
+    },
+    {
+      "word": "nógado",
+      "definition": "Nógado m. Doce de nozes ou de amêndoas ou de pinhões, etc, misturados com mel; pinhoada. (Do lat. _nux_)"
+    },
+    {
+      "word": "entrèvar",
+      "definition": "Entrèvar v. t. Entorpecer os membros de; tornar paralítico."
+    },
+    {
+      "word": "biselho",
+      "definition": "Biselho zê m. Prov. O mesmo que _atilho_."
+    },
+    {
+      "word": "fungada",
+      "definition": "Fungada f. Acto de fungar."
+    },
+    {
+      "word": "peguano",
+      "definition": "Peguano m. Indivíduo, natural do Pegu."
+    },
+    {
+      "word": "mosteira",
+      "definition": "Mosteira adj. f. Diz-se vulgarmente da antiga linguagem crioulo-portuguesa de Dio."
+    },
+    {
+      "word": "çapateia",
+      "definition": "Çapateia f. Dança popular dos Açores. (De _çapatear_)"
+    },
+    {
+      "word": "estopar",
+      "definition": "Estopar v. t. Encher de estopa. Calafetar com estopa. Fam. Enfadar, maçar."
+    },
+    {
+      "word": "irrisor",
+      "definition": "Irrisor m. e adj. O que escarnece. (Lat. _irrisor_)"
+    },
+    {
+      "word": "drimónia",
+      "definition": "Drimónia f. Género de plantas gesneráceas. (Do gr. _drumos_, floresta)"
+    },
+    {
+      "word": "pechador",
+      "definition": "Pechador m. Bras. do S Diz-se do cavalo que dá pecadas. Fig. Homem, que tem o hábito de pedir dinheiro emprestado; pedinchão. (De _pechar-se_)"
+    },
+    {
+      "word": "miudar",
+      "definition": "Miudar _v. t._ (e der.) O mesmo que [[amiudar:1]], etc. Cf. Filinto, IX, 207."
+    },
+    {
+      "word": "renhões",
+      "definition": "Renhões m. pl. Prov. trasm. Testículos. (Cp. _rinhão_)"
+    },
+    {
+      "word": "furente",
+      "definition": "Furente adj. Poét. Enfurecido, colérico. Cf. F. Barreto, _Eneida_, I, 13. (Lat. _furens_)"
+    },
+    {
+      "word": "cóccyx",
+      "definition": "Cóccyx m. Anat. Pequeno osso, que termina inferiormente a coluna vertebral do homem. (Gr. _kokkux_)"
+    },
+    {
+      "word": "novato",
+      "definition": "Novato m. Estudante novel; caloiro. Principiante. Aprendiz. Indivíduo ingénuo. Aluno do primeiro ano do qualquer Faculdade da Universidade Adj. Ingénuo, inexperiente. (Lat. _novatus_)"
+    },
+    {
+      "word": "fusoide",
+      "definition": "Fusoide adj. Hist. Nat. Que tem forma de fuso."
+    },
+    {
+      "word": "olhada",
+      "definition": "Olhada f. Lance de olhos; acto de olhar."
+    }
+  ],
+  "dificil": [
+    {
+      "word": "algoritmo",
+      "definition": "Sequência finita de regras lógicas para resolver um problema."
+    },
+    {
+      "word": "expressão",
+      "definition": "Manifestação de pensamentos ou sentimentos por meio de palavras."
+    },
+    {
+      "word": "protocolo",
+      "definition": "Conjunto de regras que controlam a comunicação em rede."
+    },
+    {
+      "word": "elevatório",
+      "definition": "Elevatório adj. Relativo a elevação; que serve para elevar. Cf. _Techn. Rur._, 234."
+    },
+    {
+      "word": "polirrizo",
+      "definition": "Polirrizo adj. Bot. Que tem muitas raízes. (Do gr. _polus_ + _rhiza_)"
+    },
+    {
+      "word": "dimensível",
+      "definition": "Dimensível adj. Que se pode medir. (Do lat. _dimensus_)"
+    },
+    {
+      "word": "tapinócera",
+      "definition": "Tapinócera f. Género de insectos dípteros."
+    },
+    {
+      "word": "despregar",
+      "definition": "Despregar v. t. Descravar. Arrancar ou separar (aquilo que estava pregado). Desviar. Emitir. (De _des..._ + _pregar_)"
+    },
+    {
+      "word": "miroxilina",
+      "definition": "Miroxilina f. Substância insolúvel, contida na essência do bálsamo do Peru. (De _miroxilo_)"
+    },
+    {
+      "word": "cordoaria",
+      "definition": "Cordoaria f. Fábrica de cordas. Lugar, onde se vendem cordas. Comércio de cordas. (De _cordão_)"
+    },
+    {
+      "word": "falsífico",
+      "definition": "Falsífico adj. Des. Que comete falsidades. (Lat. _falsificus_)"
+    },
+    {
+      "word": "vermívoro",
+      "definition": "Vermívoro adj. Que come vermes. (Do lat. _vermis_ + _vorare_)"
+    },
+    {
+      "word": "escaldadiço",
+      "definition": "Escaldadiço adj. Que se escalda facilmente. Fig. Muito impressionável. (De _escaldar_)"
+    },
+    {
+      "word": "estabelecer",
+      "definition": "Estabelecer v. t. Fixar, tornar firme: _estabelecer um contrato_. Instituir; fundar: _estabelecer uma escola_. Fazer residir. Alojar. Vulgarizar. Dar estabilidade, pôr casa, dar meios de vida, a: _estabelecer um afilhado_. Des. Ordenar. V. p. Fixar-se. Colocar-se. Fixar residência. Fundar um estabelecimento próprio: _estabeleceu-se no Chiado_. Pôr casa. (Do lat. _stabilis_)"
+    },
+    {
+      "word": "frustrado",
+      "definition": "Frustrado adj. Malogrado. Baldado. Incompleto, imperfeito, que não chegou a desenvolver-se."
+    },
+    {
+      "word": "amentiforme",
+      "definition": "Amentiforme adj. Bot. Que tem forma de amentilho. (Do lat. _amentum_ + _forma_)"
+    },
+    {
+      "word": "destruição",
+      "definition": "Destruição tru-i f. Acto ou efeito de destruir. (Do lat. _destructio_)"
+    },
+    {
+      "word": "escolástico",
+      "definition": "Escolástico adj. Relativo a escolas: _a vida escolástica_. Relativo a escolástica. Próprio de estudantes: _rapaziadas escolásticas_. M. Estudante. Partidário da escolástica. (Lat. _scholasticus_)"
+    },
+    {
+      "word": "saculiforme",
+      "definition": "Saculiforme adj. Que tem forma de sáculo. (De _sáculo_ + _forma_)"
+    },
+    {
+      "word": "lugareiro",
+      "definition": "Lugareiro adj. Prov. trasm. Relativo a uma terra ou lugar: _expressões lugareiras_. Vulgar, popular, (falando-se de música). (De _lugar_)"
+    },
+    {
+      "word": "serenagem",
+      "definition": "Serenagem f. Acto de pôr sereno. (De _serenar_)"
+    },
+    {
+      "word": "subventâneo",
+      "definition": "Subventâneo adj. Des. Que não teve resultado; que abortou. (Lat. _subventaneus_)"
+    },
+    {
+      "word": "echomatismo",
+      "definition": "Echomatismo co m. Med. Impulsão mórbida, para repetir vozes e movimentos dos circunstantes."
+    },
+    {
+      "word": "amblyúros",
+      "definition": "Amblyúros m. pl. Género de peixes fósseis. (Do gr. _amblus_ + _oura_)"
+    },
+    {
+      "word": "apepinação",
+      "definition": "Apepinação f. Chul. Acto de _apepinar_."
+    },
+    {
+      "word": "pileorrhiza",
+      "definition": "Pileorrhiza m. Bot. Espécie de coifa, que reveste a extremidade da raiz. (Do gr. _pileos_ + _rhiza_)"
+    },
+    {
+      "word": "simulamento",
+      "definition": "Simulamento m. O mesmo que _simulação_."
+    },
+    {
+      "word": "estalicado",
+      "definition": "Estalicado adj. Pop. Definhado; emagrecido. (De [[estalicar:1]])"
+    },
+    {
+      "word": "trambolhão",
+      "definition": "Trambolhão m. Pop. Queda com estrondo. Acto de cair, rebolando. Fam. Decadência. Contratempo inesperado. (De _trambolho_)"
+    },
+    {
+      "word": "instrutivo",
+      "definition": "Instrutivo adj. Próprio para instruir; que contém ensinamento: _passeios instrutivos_. (De _instruto_)"
+    },
+    {
+      "word": "santomense",
+      "definition": "Santomense adj. Relativo à ilha ou à província de San-Tomé. M. Habitante de San-Tomé."
+    },
+    {
+      "word": "enredamento",
+      "definition": "Enredamento m. Acto ou efeito de enredar."
+    },
+    {
+      "word": "hemiteria",
+      "definition": "Hemiteria f. Anat. Anomalia orgânica, de pequena gravidade. (Do gr. _hemi_ + _teras_)"
+    },
+    {
+      "word": "rhinópomo",
+      "definition": "Rhinópomo m. Género de mamíferos chirópteros, com as fossas nasais providas de um lóbulo em forma de opérculo. (Do gr. _rhis_, _rhinos_ + _poma_)"
+    },
+    {
+      "word": "sauroglosso",
+      "definition": "Sauroglosso m. Género de orquídeas. (Do gr. _saura_ + _glossa_)"
+    },
+    {
+      "word": "desmamação",
+      "definition": "Desmamação f. O mesmo que _desmama_."
+    },
+    {
+      "word": "pentastilo",
+      "definition": "Pentastilo m. Pórtico, ou edifício, com cinco colunas no frontispício. Adj. Bot. Diz-se do ovário, que tem cinco estiletes. (Do gr. _pente_ + _stulos_)"
+    },
+    {
+      "word": "propiciar",
+      "definition": "Propiciar v. t. Tornar propício, favorável; proporcionar. (Lat. _propitiare_)"
+    },
+    {
+      "word": "contenença",
+      "definition": "Contenença f. Ant. Aspecto. Semblante. (Fr. _contenance_)"
+    },
+    {
+      "word": "inferneira",
+      "definition": "Inferneira f. Barulho; confusão; tumulto; gente em tumulto. (De _inferno_)"
+    },
+    {
+      "word": "novenlobado",
+      "definition": "Novenlobado adj. Bot. Que tem nove lóbulos."
+    },
+    {
+      "word": "romanceiro",
+      "definition": "Romanceiro m. Colecção de romances. Adj. O mesmo que _romântico_. Cf. Castilho, _Misantropo_, 185."
+    },
+    {
+      "word": "homócrono",
+      "definition": "Homócrono adj. O mesmo que _síncrono_. (Do gr. _homos_ + _khronos_)"
+    },
+    {
+      "word": "afectante",
+      "definition": "Afectante adj. Que afecta ou finge o que não é."
+    },
+    {
+      "word": "desempoçar",
+      "definition": "Desempoçar v. t. Tirar de poço. Tirar água de (um poço). (De _des..._ + _empoçar_)"
+    },
+    {
+      "word": "morissica",
+      "definition": "Morissica f. Prov. Mosquito, melga, trombeteiro."
+    },
+    {
+      "word": "hastiforme",
+      "definition": "Hastiforme adj. Que tem forma de lança. (Do lat. _hasta_ + _forma_)"
+    },
+    {
+      "word": "detergente",
+      "definition": "Detergente adj. Que deterge. M. Medicamento que deterge. (Lat. _detergens_)"
+    },
+    {
+      "word": "malváceas",
+      "definition": "Malváceas f. pl. Família de plantas, que tem por tipo a malva. (De _malváceo_)"
+    },
+    {
+      "word": "conocárpio",
+      "definition": "Conocárpio adj. Bot. Que tem frutos cónicos."
+    },
+    {
+      "word": "subscrever",
+      "definition": "Subscrever v. t. Escrever por baixo de. Assinar. Ext. Aprovar ou aceitar (qualquer conceito, opinião, sistema, etc.). V. i. Conformar-se. Anuir. Aceder. Obrigar-se a contribuir com certa quantia para dado fim; tomar parte numa subscrição. Assinar para um periódico ou para uma obra. V. p. Assinar-se. (Do lat. _subscribere_)"
+    },
+    {
+      "word": "landólphia",
+      "definition": "Landólphia f. Colossal árvore africana, que produz borracha."
+    },
+    {
+      "word": "conformação",
+      "definition": "Conformação f. Configuração. Conformidade, resignação. (Lat. _conformatio_)"
+    },
+    {
+      "word": "redarguidor",
+      "definition": "Redarguidor gu-i m. e adj. O que redargúe."
+    },
+    {
+      "word": "perturbar",
+      "definition": "Perturbar v. t. Alterar; desnortear. Estontear. Desarranjar. Atrapalhar. Comover. Intimidar. Confundir. Agitar; desassossegar. (Lat. _perturbare_)"
+    },
+    {
+      "word": "infortuna",
+      "definition": "Infortuna f. O mesmo que _desfortuna_. Aparição de um astro, a que se atribuía influência funesta. (De _in..._ + _fortuna_)"
+    },
+    {
+      "word": "manquejar",
+      "definition": "Manquejar v. i. Estar manco. Coxear. Fig. Ter defeito. Andar pouco, (falando-se de embarcações, que não acompanham outras)."
+    },
+    {
+      "word": "inquietude",
+      "definition": "Inquietude f. O mesmo que _inquietação_. Cf. Latino, _Elogios_, 280. (De _in..._ + _quietude_)"
+    },
+    {
+      "word": "gyrosella",
+      "definition": "Gyrosella f. Pequena e formosa planta primulácea, de flores rosadas, (_dodecatheon meadia_, Lin.)."
+    },
+    {
+      "word": "riscamento",
+      "definition": "Riscamento m. O mesmo que [[risca:1]]."
+    },
+    {
+      "word": "escosipar",
+      "definition": "Escosipar v. t. Prov. minh. Coser mal. Desmanchar."
+    },
+    {
+      "word": "proloquial",
+      "definition": "Proloquial adj. Relativo a prolóquio; que encerra prolóquio; que se deduz de um prolóquio. Cf. Latino, _Camões_, 55."
+    },
+    {
+      "word": "aleopardado",
+      "definition": "Aleopardado adj. Heráld. Díz-se do leão, quando, no campo do escudo, se representa com as patas firmes, menos uma de diante, que está erguida na direcção do corpo. (De _leopardo_)"
+    },
+    {
+      "word": "hipertonia",
+      "definition": "Hipertonia f. Aumento de tensão no olho ou em qualquer outro órgão. (De _hiper..._ + _tom_)"
+    },
+    {
+      "word": "encalypto",
+      "definition": "Encalypto m. Género de musgos do norte. (Do gr. _enkalupto_)"
+    },
+    {
+      "word": "silvanite",
+      "definition": "Silvanite f. O mesmo que _silvanito_."
+    },
+    {
+      "word": "trintasque",
+      "definition": "Trintasque f. Prov. trasm. Rapariga leviana."
+    },
+    {
+      "word": "teniocarpo",
+      "definition": "Teniocarpo m. Planta trepadeira da América tropical. (Do gr. _tainia_ + _karpos_)"
+    },
+    {
+      "word": "sematologia",
+      "definition": "Sematologia f. Tratado da significação e modificações das palavras. Espir. Linguagem dos sinais, ou comunicação dos espíritos pelo movimento dos corpos inertes. Cf. Lachatre, _Diction. Univ._ (Do gr. _sema_, _sematos_ + _logos_)"
+    },
+    {
+      "word": "acutirostro",
+      "definition": "Acutirostro rós adj. Diz-se dos animais, cuja cabeça se prolonga em bico. (Do lat. _acutus_ + _rostrum_)"
+    },
+    {
+      "word": "alabregado",
+      "definition": "Alabregado adj. Que tem modos de labrego."
+    },
+    {
+      "word": "arrastrar",
+      "definition": "Arrastrar _v. t._ (e der.) O mesmo que _arrastar_. Cf. Cast., _Metam._ 124; _Eufrosina_, 338; _Luz e Calor_, 13."
+    },
+    {
+      "word": "heliânteo",
+      "definition": "Heliânteo adj. Relativo ou semelhante ao helianto."
+    },
+    {
+      "word": "descaridoso",
+      "definition": "Descaridoso adj. Que não tem caridade. Em que não há caridade. (De _des..._ + _caridoso_)"
+    },
+    {
+      "word": "algaravazes",
+      "definition": "Algaravazes m. pl. Ant. Orla ou fímbria de vestido talar."
+    },
+    {
+      "word": "estrincar",
+      "definition": "Estrincar v. t. Estorcer, fazendo estalar. Prov. trasm. Partir com os dentes (qualquer coisa, sacudindo-a com frenesi). (Do lat. _stringere_? Ou relaciona-se com _trincar_?)"
+    },
+    {
+      "word": "ceremonial",
+      "definition": "Ceremonial adj. Relativo a cerimónias. M. Conjunto de formalidades, que se devem observar numa solenidade pública. Regra, que estabelece essas formalidades. Livro, que as contém. Cerimónia. (Lat. _caeremonialis_)"
+    },
+    {
+      "word": "defectível",
+      "definition": "Defectível adj. Que tem defeito. Que pode enganar-se. (Do rad. do lat. _defectus_)"
+    },
+    {
+      "word": "applaudir",
+      "definition": "Applaudir v. t. Dar aplauso a. Louvar; elogiar. V. i. Bater palmas, festejando: _da plateia, ninguém aplaudiu_. (Lat. _applaudere_)"
+    },
+    {
+      "word": "apuramento",
+      "definition": "Apuramento m. Acto e efeito de _apurar_. Contagem, liquidação: _apuramento de uma votação_."
+    },
+    {
+      "word": "terceneiro",
+      "definition": "Terceneiro m. Aquele que trabalha ou é empregado em tercenas."
+    },
+    {
+      "word": "pachymerina",
+      "definition": "Pachymerina qui f. Género de insectos dípteros."
+    },
+    {
+      "word": "hesperidina",
+      "definition": "Hesperidina f. Bot. Princípio, descoberto na parte branca que envolve o fruto esperídeo. (De _hesperídeo_)"
+    },
+    {
+      "word": "pleuropyose",
+      "definition": "Pleuropyose f. Med. Produção de pus na pleura. (Do gr. _pleura_ + _puon_)"
+    },
+    {
+      "word": "flammejado",
+      "definition": "Flammejado adj. Bot. Variegado, em forma de chama. (De _flamejar_)"
+    },
+    {
+      "word": "trichinoso",
+      "definition": "Trichinoso qui adj. O mesmo que _triquinado_."
+    },
+    {
+      "word": "amethysta",
+      "definition": "Amethysta f. Pedra preciosa, roxa, variedade de quartzo. (Do gr. _amethustos_)"
+    },
+    {
+      "word": "hipnótico",
+      "definition": "Hipnótico adj. Relativo à hipnose; que produz sono. M. Aquilo que produz sono; narcótico. (Lat. _hypnoticus_)"
+    },
+    {
+      "word": "limpadura",
+      "definition": "Limpadura f. O mesmo que _limpadela_. Alimpadura. Pl. O que sobeja da comida nos pratos. Prov. beir. O mesmo que [[rabeiras|rabeira]]."
+    },
+    {
+      "word": "profligador",
+      "definition": "Profligador m. e adj. O que profliga. (Lat. _profligator_)"
+    },
+    {
+      "word": "calceteiro",
+      "definition": "Calceteiro m. Aquele que trabalha no empedramento de estradas, ruas, pátios, etc. (De _calcetar_)"
+    },
+    {
+      "word": "latinizar",
+      "definition": "Latinizar v. t. Dar forma latina a. Alatinar. V. i. Usar de expressões latinas; falar latim. (Lat. _latinizare_)"
+    },
+    {
+      "word": "espheroidal",
+      "definition": "Espheroidal adj. Relativo a esferoide. Que tem forma de esferoide. Semelhante a uma esfera. (De _esferoide_)"
+    },
+    {
+      "word": "persuasível",
+      "definition": "Persuasível adj. Que persuade."
+    },
+    {
+      "word": "transmeável",
+      "definition": "Transmeável adj. Que se pode atravessar; permeável. Que pode transpirar. (Lat. _transmeabílis_)"
+    },
+    {
+      "word": "falqueador",
+      "definition": "Falqueador m. Aquele que falqueia."
+    },
+    {
+      "word": "bradipepsia",
+      "definition": "Bradipepsia f. Digestão difficil, demorada. (Do gr. _bradus_ + _pepsia_)"
+    },
+    {
+      "word": "monogenia",
+      "definition": "Monogenia f. Modo de geração, que consiste em produzir, por meio de um corpo organizado, uma parte que se separa logo, constituindo novo indivíduo. (Do gr. _monos_ + _genea_)"
+    },
+    {
+      "word": "poliscópio",
+      "definition": "Poliscópio m. Óculo ou lente, que apresenta um objecto multiplicado. (Do gr. _polus_ + _skopein_)"
+    },
+    {
+      "word": "embrincar",
+      "definition": "Embrincar v. t. Pôr enfeites a; ataviar. Adornar, engalanar. Cf. Camilo, _Noites de Insómn._, IX, 68; _Estrêl. Prop._, 5. (De _brinco_)"
+    },
+    {
+      "word": "encrencar",
+      "definition": "Encrencar v. t. Bras. do N Pôr alguém em embaraços. Intrigar. (Cp. _encrenque_)"
+    },
+    {
+      "word": "despreçar",
+      "definition": "Despreçar v. t. Ant. O mesmo que _desprezar_."
+    },
+    {
+      "word": "argirântemo",
+      "definition": "Argirântemo adj. Que tem flores brancas como a prata. (Do gr. _arguros_ + _anthema_)"
+    },
+    {
+      "word": "sangrinho",
+      "definition": "Sangrinho m. Prov. trasm. Árvore, o mesmo que _sanguinho_. Cf. Dom. Vieira, _Diccion._, vb. [[sanguinho:3]]."
+    },
+    {
+      "word": "parvoalho",
+      "definition": "Parvoalho m. Bras Grande parvo; parvalhão. Cf. Pacheco, _Prontuário_."
+    },
+    {
+      "word": "esmiunçar",
+      "definition": "Esmiunçar v. t. (V. esmiuçar )"
+    },
+    {
+      "word": "assiriólogo",
+      "definition": "Assiriólogo m. Aquele que se dedica à assiriologia. (De _Assýria_, n. p. + gr. _logos_)"
+    },
+    {
+      "word": "lâmbdático",
+      "definition": "Lâmbdático adj. Neol. O mesmo que _lâmbdico_."
+    },
+    {
+      "word": "marinhada",
+      "definition": "Marinhada f. T. de Aveiro Ração de um quartilho de vinho a cada pescador das redes do cerco, por cada vez que vai ao mar. (De _marinha_)"
+    },
+    {
+      "word": "landaineiro",
+      "definition": "Landaineiro m. Prov. trasm. Aquele que anda sempre com landainas."
+    },
+    {
+      "word": "proscripção",
+      "definition": "Proscripção f. Acto ou efeito de proscrever. Desterro. (Lat. _proscriptio_)"
+    },
+    {
+      "word": "aculeiforme",
+      "definition": "Aculeiforme adj. Que tem forma de acúleo. (Do lat. _aculeus_ + _forma_)"
+    },
+    {
+      "word": "tapotopatia",
+      "definition": "Tapotopatia f. Med. Designação, hoje desusada, da maçagem. (Do fr. _tapoter_ + gr. _pathos_)"
+    },
+    {
+      "word": "aguerrido",
+      "definition": "Aguerrido adj. Inclinado à guerra. Que tem modos belicosos. Valente. (De _aguerrir_)"
+    },
+    {
+      "word": "treitoira",
+      "definition": "Treitoira f. Prov. trasm. O mesmo que _treitoeira_."
+    },
+    {
+      "word": "harmótoma",
+      "definition": "Harmótoma f. O mesmo ou melhor que _harmótomo_."
+    },
+    {
+      "word": "obscurecido",
+      "definition": "Obscurecido adj. Em que há pouca luz ou nenhuma. Fig. Deslumbrado. Esquecido; despercebido."
+    },
+    {
+      "word": "coitadice",
+      "definition": "Coitadice f. Ant. Fraqueza; cobardia. Cf. Frei M. da Esperança, _Hist. Seráf._, II, 350. (De _coitado_?)"
+    },
+    {
+      "word": "quinchoso",
+      "definition": "Quinchoso m. Prov. Pequeno quintal; cortelho. Cf. Camilo, _Brasileira_, 129. (Por _conchouso_, do lat. _conclausus_?)"
+    },
+    {
+      "word": "barbilouro",
+      "definition": "Barbilouro adj. Que tem barba loira."
+    },
+    {
+      "word": "embellezar",
+      "definition": "Embellezar v. t. Encantar. Arrebatar os sentidos de. Cativar. Gal Tornar belo, aformosear. (De _beleza_)"
+    },
+    {
+      "word": "prelibação",
+      "definition": "Prelibação f. Acto ou efeito de prelibar. (Lat. _praelibatio_)"
+    },
+    {
+      "word": "mijanágua",
+      "definition": "Mijanágua m. Ant. Chul. Homem embarcadiço; marinheiro. (De _mijar_ + _na_ + _água_)"
+    },
+    {
+      "word": "atoleimado",
+      "definition": "Atoleimado adj. O mesmo que [[atolado:2]]."
+    },
+    {
+      "word": "vitalização",
+      "definition": "Vitalização f. Acto ou efeito de vitalizar."
+    },
+    {
+      "word": "combustível",
+      "definition": "Combustível adj. Que tem a propriedade de se consumir pelo fogo. M. Lenha ou qualquer substancia, com que se faz lume. (De _combusto_)"
+    },
+    {
+      "word": "rachialgia",
+      "definition": "Rachialgia qui f. Dor aguda em qualquer ponto da espinha dorsal. (Do gr. _rakhis_ + _algos_)"
+    },
+    {
+      "word": "fallência",
+      "definition": "Fallência f. Acto ou efeito de falir; quebra. Falha. Omissão; carência. (Do lat. _fallere_)"
+    },
+    {
+      "word": "algóphilo",
+      "definition": "Algóphilo m. e adj. Neol. Aquele que tem prazer na dor física, como os mártires e os penitentes. (Do gr. _algos_ + _philos_)"
+    },
+    {
+      "word": "cocamilas",
+      "definition": "Cocamilas m. pl. Tribo de indígenas do Peru."
+    },
+    {
+      "word": "abacellar",
+      "definition": "Abacellar v. t. Converter em bacelo. Plantar de bacelo."
+    },
+    {
+      "word": "porcentual",
+      "definition": "Porcentual adj. bras Neol. Relativo a porcentagem."
+    },
+    {
+      "word": "descompor",
+      "definition": "Descompor v. t. Tirar do lugar próprio. Tirar a feição regular de; alterar: _o medo descompôs-lhe as feições_. Desordenar. Desadornar; despir. Fig. Injuriar. Censurar acremente. (De _des..._ + _compor_)"
+    },
+    {
+      "word": "gymnóptero",
+      "definition": "Gymnóptero adj. Zool. Que tem as asas nuas, sem escamas. M. pl. Secção da classe dos insectos, que compreende os que têm asas lisas, sem elytros nem escamas farináceas. (Do gr. _gumnos_ + _pteron_)"
+    },
+    {
+      "word": "resquício",
+      "definition": "Resquício m. Vestígio; resíduo; fragmentos muito miúdos. Pequena abertura."
+    },
+    {
+      "word": "antropófugo",
+      "definition": "Antropófugo m. e adj. O mesmo que _antropófobo_. (Do gr. _anthropos_ + lat. _fugere_)"
+    },
+    {
+      "word": "majestade",
+      "definition": "Majestade f. Aparência de grandeza. Aspecto solene. Sublimidade. Grandeza que incute respeito. Poder real. Título honorifico dos soberanos e suas esposas. (Lat. _majestas_, _majestatis_)"
+    },
+    {
+      "word": "neurótico",
+      "definition": "Neurótico adj. Relativo ao sistema nervoso. M. Aquele que sofre neurose."
+    },
+    {
+      "word": "acaudelar",
+      "definition": "Acaudelar v. t. Ant. O mesmo que _acaudilhar_."
+    },
+    {
+      "word": "turoniano",
+      "definition": "Turoniano adj. Geol. Diz-se de uma das espécies do terreno cretáceo. (Cp. _turonense_)"
+    },
+    {
+      "word": "biscoitar",
+      "definition": "Biscoitar v. t. (V. abiscoitar )"
+    },
+    {
+      "word": "intuitivo",
+      "definition": "Intuitivo tu-i adj. Relativo a intuição. Que se percebe facilmente. Percebido clara e directamente. Evidente, incontestável. (De _intuito_)"
+    },
+    {
+      "word": "esmerilhar",
+      "definition": "Esmerilhar v. t. O mesmo que _esmerilar_. Fig. O mesmo que _esmerar_. Esquadrinhar; procurar minuciosamente. (De _esmeril_)"
+    },
+    {
+      "word": "zamburrada",
+      "definition": "Zamburrada f. Prov. trasm. Grande quantidade."
+    },
+    {
+      "word": "xantorrizo",
+      "definition": "Xantorrizo adj. Bot. Que tem raízes amarelas. (Do gr. _xanthos_ + _rhiza_)"
+    },
+    {
+      "word": "malfurada",
+      "definition": "Malfurada f. Arbusto madeirense, (_globularia salicina_, Lam.)."
+    },
+    {
+      "word": "embalsamar",
+      "definition": "Embalsamar v. t. Dar perfume a. Aromatizar. Preparar (cadáveres), para resistirem à corrupção. (De _bálsamo_)"
+    },
+    {
+      "word": "aerohydro",
+      "definition": "Aerohydro adj. Diz-se de um corpo, que em cavidade tubulada contém um líquido e uma bolha de ar. (Do gr. _aer_ + _hudros_)"
+    },
+    {
+      "word": "gramática",
+      "definition": "Gramática f. Estudo ou tratado dos factos da linguagem falada e escrita, e das leis naturais que a regulam. Livro, em que se expõem e se explicam as regras da linguagem. (Lat. _grammatica_)"
+    },
+    {
+      "word": "descabeçar",
+      "definition": "Descabeçar v. t. Des. Cortar a cabeça de. Cortar a ponta de. (De _des..._ + _cabeça_)"
+    },
+    {
+      "word": "coceguento",
+      "definition": "Coceguento adj. Que facilmente sente cócegas. Prov. Rabugento, impertinente. Fig. Muito desejoso."
+    },
+    {
+      "word": "desjejuar",
+      "definition": "Desjejuar v. i. (V. dejejuar )"
+    },
+    {
+      "word": "indiscreto",
+      "definition": "Indiscreto adj. Que não é discreto. Leviano. Tagarela. Inconfidente. M. Aquele que não tem discrição. (Lat. _indiscretus_)"
+    },
+    {
+      "word": "parallelo",
+      "definition": "Parallelo adj. Diz-se de duas linhas ou superfícies equidistantes uma da outra, em toda a sua extensão. Fig. Que marcha a par de outro ou progride na mesma proporção. Análogo. M. Astron. Cada um dos círculos menores, perpendiculares ao meridiano. Fig. Confronto. (Lat. _parallelus_)"
+    },
+    {
+      "word": "epistýlio",
+      "definition": "Epistýlio m. O mesmo que _architrave_. (Lat. _epistylium_)"
+    },
+    {
+      "word": "conceptível",
+      "definition": "Conceptível adj. O mesmo que _concebível_."
+    },
+    {
+      "word": "embolísmico",
+      "definition": "Embolísmico adj. (V. embolismal )"
+    },
+    {
+      "word": "embriaguez",
+      "definition": "Embriaguez f. Estado de quem se acha embriagado. (De _embriagar_)"
+    },
+    {
+      "word": "afidalgar",
+      "definition": "Afidalgar v. t. Tornar fidalgo. Dar semelhança de fidalgo a."
+    },
+    {
+      "word": "achatadura",
+      "definition": "Achatadura f. O mesmo que _achatadela_."
+    },
+    {
+      "word": "cambiante",
+      "definition": "Cambiante adj. Que cambia; que passa de uma cor para outra. Irisado. Que é de furta-cores. Que é de cor indecisa. M. Gradação de cores. Cor indecisa. (De _cambiar_)"
+    },
+    {
+      "word": "cremnofobia",
+      "definition": "Cremnofobia f. Med. Medo mórbido dos precipícios. (Do gr. _kremnos_ + _phobos_)"
+    },
+    {
+      "word": "descamisada",
+      "definition": "Descamisada f. Acto de descamisar (o milho)."
+    },
+    {
+      "word": "egypcíaco",
+      "definition": "Egypcíaco adj. Relativo ao Egipto ou aos egípcios. (De _egípcio_)"
+    },
+    {
+      "word": "crisofânico",
+      "definition": "Crisofânico adj. Diz-se de um ácido, extraído do ruibarbo."
+    },
+    {
+      "word": "dynamitizar",
+      "definition": "Dynamitizar v. t. Compor com dinamite, juntar dinamite a."
+    },
+    {
+      "word": "sorindeia",
+      "definition": "Sorindeia f. Género de plantas anacardiáceas."
+    },
+    {
+      "word": "libertino",
+      "definition": "Libertino m. e adj. Devasso; dissoluto. Ímpio. (Lat. _libertinus_)"
+    },
+    {
+      "word": "poeirinha",
+      "definition": "Poeirinha f. Casta de uva tinta da Bairrada e do Dão."
+    },
+    {
+      "word": "acotovelar",
+      "definition": "Acotovelar v. t. Tocar com o cotovelo. Provocar."
+    },
+    {
+      "word": "metafonia",
+      "definition": "Metafonia f. Gram. Influência de uma vogal final átona sobre a vogal radical tónica, como em _devo_, comparado com _deves_."
+    },
+    {
+      "word": "peristómico",
+      "definition": "Peristómico adj. Bot. Que está em relação com o orifício do calix. (De _perístoma_)"
+    },
+    {
+      "word": "contrâmero",
+      "definition": "Contrâmero m. Cada uma das metades do corpo, considerando-se este dividido por um plano vertical transversal. (De _contra..._ + gr. _meros_)"
+    },
+    {
+      "word": "espiritual",
+      "definition": "Espiritual adj. Relativo ao espírito. Que é incorpóreo: _amor espiritual_. Místico, devoto: _vida espiritual_. Alegórico. Relativo à religião ou ao foro eclesiástico. Relativo ao regime da Igreja. Relativo à consciência. (Lat. _spiritualis_)"
+    },
+    {
+      "word": "transigente",
+      "definition": "Transigente zi adj. Que transige. Condescendente. M. e f. Pessoa que transige. (Lat. _transigens_)"
+    },
+    {
+      "word": "elefantário",
+      "definition": "Elefantário m. Des. O mesmo que _cornaca_. (Lat. _elephantarius_)"
+    },
+    {
+      "word": "tetecuêra",
+      "definition": "Tetecuêra f. Bras Depressão de terreno, que serviu de leito ao rio Paraíba do Sul e que se acha hoje coberto de vegetação."
+    },
+    {
+      "word": "cambiroto",
+      "definition": "Cambiroto birô m. Bras Cabeço de terra firme, na região do Acre."
+    },
+    {
+      "word": "alvenaria",
+      "definition": "Alvenaria f. Profissão, arte de pedreiro. O conjunto das pedras que, ligadas, constituem construção. (Cast. ant. _albañeria_)"
+    },
+    {
+      "word": "alitronco",
+      "definition": "Alitronco áli m. Parte posterior do tronco dos insectos, onde estão as asas. (De _ala_ + _tronco_)"
+    },
+    {
+      "word": "calicândria",
+      "definition": "Calicândria f. Género de plantas, que tem mais de dez estames insertos no cálice. (Do gr. _kalux_ + _aner_, _andros_)"
+    },
+    {
+      "word": "manutenção",
+      "definition": "Manutenção f. Acto ou efeito de manter. Gerência, administração: _a manutenção de uma fábrica_. Neol. Estabelecimento, onde se fabrica pão para as tropas. (Do lat. _manus_ + _tenere_)"
+    },
+    {
+      "word": "herniotomia",
+      "definition": "Herniotomia f. Estrangulação cirúrgiga da hérnia. (Do lat. _hernia_ + gr. _tome_)"
+    },
+    {
+      "word": "inexaurível",
+      "definition": "Inexaurível adj. Que não é exaurível; inesgotável; copiosíssimo. (De _in..._ + _exhaurível_)"
+    },
+    {
+      "word": "empuxador",
+      "definition": "Empuxador m. Aquele que empuxa."
+    },
+    {
+      "word": "mostruário",
+      "definition": "Mostruário m. Neol. Lugar ou móvel, em que se expõem mercadorias ao público. Mostrador. Vitrina. (Cp. _mostrar_)"
+    },
+    {
+      "word": "dissuasão",
+      "definition": "Dissuasão f. Acto ou efeito de dissuadir. (Lat. _dissuasio_)"
+    },
+    {
+      "word": "moderador",
+      "definition": "Moderador adj. Que modera; que atenua. Que modifica; que abranda. Que reduz ou restringe. M. Aquele que modera. (Lat. _moderator_)"
+    },
+    {
+      "word": "chimbombo",
+      "definition": "Chimbombo m. O mesmo que _quimbombo_."
+    },
+    {
+      "word": "milefólio",
+      "definition": "Milefólio m. Planta da fam. das compostas, (_achillea millefolium_), o mesmo que _mil-em-rama_, ou _mil-folhas_, ou _milfolhada_. (Lat. _millefollium_)"
+    },
+    {
+      "word": "enfroixecer",
+      "definition": "Enfroixecer v. t. Tornar froixo."
+    },
+    {
+      "word": "mordomice",
+      "definition": "Mordomice f. Deprec. O mesmo que _mordomia_."
+    },
+    {
+      "word": "vidracento",
+      "definition": "Vidracento adj. Que tem aspecto de vidraça: «_gêlo vidracento_» . Camilo, _Myst. de Lisb._, I, 137."
+    },
+    {
+      "word": "trigramma",
+      "definition": "Trigramma m. Palavra de três letras. Sinal, composto de três caracteres reunidos. (Do gr. _tri_ + _gramma_)"
+    },
+    {
+      "word": "bidenteado",
+      "definition": "Bidenteado adj. (V. bidentado )"
+    },
+    {
+      "word": "defedação",
+      "definition": "Defedação f. Mancha da pele. Cf. _Âncora Med._, 58. (Do lat. _de_ + _foedatio_)"
+    },
+    {
+      "word": "pistacheiro",
+      "definition": "Pistacheiro m. Gal O mesmo que _pistácia_. Cf. Dom. Vieira. _Tes. da Ling. Port._, vb. _lentisco_. (Fr. _pistachier_)"
+    },
+    {
+      "word": "galeriano",
+      "definition": "Galeriano m. e adj. Ant. Remador de galés, como condenado ou como cativo. (De _galera_)"
+    },
+    {
+      "word": "sublevação",
+      "definition": "Sublevação f. Acto ou efeito de sublevar. Revolta; rebelião. (Lat. _sublevatio_)"
+    },
+    {
+      "word": "nefelitito",
+      "definition": "Nefelitito m. Geol. Espécie de tephrito, em que predomina a nefelite."
+    },
+    {
+      "word": "agricultar",
+      "definition": "Agricultar v. t. Cultivar (o campo). V. i. Dedicar-se a trabalhos de agricultura. (Do lat. _ager_ + _cultus_)"
+    },
+    {
+      "word": "etnométrico",
+      "definition": "Etnométrico adj. Relativo a etnometria."
+    },
+    {
+      "word": "geohistória",
+      "definition": "Geohistória f. História da Terra ou da sua evolução, desde a sua origem até ao seu estado actual. (De _geo..._ + _história_)"
+    },
+    {
+      "word": "pescadeiro",
+      "definition": "Pescadeiro m. Ant. Vendedor de pescado; peixeiro."
+    },
+    {
+      "word": "comprável",
+      "definition": "Comprável adj. Que se pode comprar."
+    },
+    {
+      "word": "toscamente",
+      "definition": "Toscamente adv. De modo tosco."
+    },
+    {
+      "word": "amphistauro",
+      "definition": "Amphistauro m. Género de coleópteros."
+    },
+    {
+      "word": "camumbembe",
+      "definition": "Camumbembe m. Bras Vadio. Homem de baixa condição."
+    },
+    {
+      "word": "originador",
+      "definition": "Originador m. e adj. O que origina."
+    },
+    {
+      "word": "enverdecer",
+      "definition": "Enverdecer v. t. Tornar verde. Cobrir de verdura. Fig. Tornar moço, remoçar. V. i. Tornar-se verde. Reverdecer. Verdejar. Fig. Remoçar."
+    },
+    {
+      "word": "felocarpo",
+      "definition": "Felocarpo m. Género de plantas leguminosas da América tropical. (Do gr. _phellos_ + _karpos_)"
+    },
+    {
+      "word": "anaclástica",
+      "definition": "Anaclástica f. O mesmo que _dióptrica_."
+    },
+    {
+      "word": "leitazona",
+      "definition": "Leitazona f. Prov. trasm. O mesmo que _lebre_. (De _leitão_?)"
+    },
+    {
+      "word": "pennujoso",
+      "definition": "Pennujoso adj. O mesmo que _pennujento_."
+    },
+    {
+      "word": "trilhamento",
+      "definition": "Trilhamento f. Acto ou efeito de trilhar. Trilha, caminho seguido. Cf. Usque, 22, v.^o."
+    },
+    {
+      "word": "mapieninga",
+      "definition": "Mapieninga f. Árvore silvestre do Brasil."
+    },
+    {
+      "word": "hemialgia",
+      "definition": "Hemialgia f. O mesmo que _hemicrânia_. (Do gr. _hemi_ + _algos_)"
+    },
+    {
+      "word": "quilómetro",
+      "definition": "Quilómetro m. Medida itinerária de mil metros. (De _quilo..._ + _metro_)"
+    },
+    {
+      "word": "cefaloleia",
+      "definition": "Cefaloleia f. Insecto coleóptero tetrâmero. (Do gr. _kephale_ + _leia_)"
+    },
+    {
+      "word": "zoophágico",
+      "definition": "Zoophágico adj. Relativo à zoofagia."
+    },
+    {
+      "word": "enlabruscar",
+      "definition": "Enlabruscar v. i. Prov. trasm. O mesmo que _enlambuzar_."
+    },
+    {
+      "word": "ministrador",
+      "definition": "Ministrador m. e adj. O que ministra. Ant. Administrador. (Lat. _ministrator_)"
+    },
+    {
+      "word": "desempenhar",
+      "definition": "Desempenhar v. t. Resgatar (aquilo que estava penhorado): _desempenhar um relógio_. Cumprir (aquilo a que se estava obrigado): _desempenhar uma comissão_. Desobrigar: _desempenhar alguém de uma obrigação_. Livrar de dividas. Representar em cena: _desempenhar um auto de Gil Vicente_. (De _des..._ + _empenhar_)"
+    },
+    {
+      "word": "cortesanice",
+      "definition": "Cortesanice f. Simulação de cortesia; urbanidade aparente. (De _cortesão_)"
+    },
+    {
+      "word": "brafoneira",
+      "definition": "Brafoneira f. Parte das armaduras antigas, para proteger a parte superior do braço e os ombros. Cf. _Port. Mon. Hist._, _Script._, 270. (Ant. cast. _brahonera_)"
+    },
+    {
+      "word": "florentino",
+      "definition": "Florentino m. Aquele que é natural de Florença. Adj. Relativo a esta cidade. (Lat. _florentinus_)"
+    },
+    {
+      "word": "salamântiga",
+      "definition": "Salamântiga f. Pop. O mesmo que _salamandra_.--Na Extremadura, dizem _salamantiga_, contra o uso geral do país, e contra a analogia fonética de _salamandra_."
+    },
+    {
+      "word": "sacarolado",
+      "definition": "Sacarolado adj. Pharm. Que tem o açúcar ou o mel como excipiente. (De _sacarol_)"
+    },
+    {
+      "word": "plumbagina",
+      "definition": "Plumbagina f. Substância mineral, escura, de que se fazem lápis. (Do fr. _plombagine_)"
+    },
+    {
+      "word": "pectorais",
+      "definition": "Pectorais m. Pl. Divisão ou classe de peixes, também chamados torácicos. (Lat. _pectoralis_)"
+    },
+    {
+      "word": "catrozada",
+      "definition": "Catrozada f. Pop. Grande porção. (Por _catorzada_, de _catorze_)"
+    },
+    {
+      "word": "hematógrafo",
+      "definition": "Hematógrafo m. Aquele que é versado em hematografia ou trata dela."
+    },
+    {
+      "word": "celaphobia",
+      "definition": "Celaphobia f. Med. O mesmo que _hyperacusia_, considerada como fobia mental. Cf. Sousa Martins, _Nosographia_."
+    },
+    {
+      "word": "compradia",
+      "definition": "Compradia f. Ant. O mesmo que _compra_."
+    },
+    {
+      "word": "antênnula",
+      "definition": "Antênnula f. Apêndice articulado na mandíbula de vários insectos. (Dem. de _antena_)"
+    },
+    {
+      "word": "etnarquia",
+      "definition": "Etnarquia f. Dignidade do etnarca. Território governado por ele. (De _etnarca_)"
+    },
+    {
+      "word": "equipamento",
+      "definition": "Equipamento m. Equipagem. Acto de _equipar_."
+    },
+    {
+      "word": "periciclo",
+      "definition": "Periciclo m. Bot. Capa celular, que constitue a parte mais externa do cilindro central da raiz, caule e ramos das plantas vasculares. (Gr. _perikuklos_)"
+    },
+    {
+      "word": "parietina",
+      "definition": "Parietina f. Substância extraída de um líquen, (_parmelia parietina_)."
+    },
+    {
+      "word": "electrólito",
+      "definition": "Electrólito m. Corpo decomposto pela acção eléctrica. (Do gr. _elektron_ + _lutos_)"
+    },
+    {
+      "word": "forrageiro",
+      "definition": "Forrageiro m. O mesmo que _forrageador_. Adj. Relativo a forragem: «_plantas forrageiras_» . _Jornal do Com._, do Rio, de 16-XI-900."
+    },
+    {
+      "word": "austrífero",
+      "definition": "Austrífero adj. Des. Que traz chuva ou vento do Sul. (Lat. _austrifer_)"
+    },
+    {
+      "word": "airitucum",
+      "definition": "Airitucum m. Linha, que se faz de filamentos de airi, para fabricação de redes."
+    },
+    {
+      "word": "illacerado",
+      "definition": "Illacerado adj. Que não é lacerado. (De _in..._ + _lacerado_)"
+    },
+    {
+      "word": "crystallino",
+      "definition": "Crystallino adj. Relativo a cristal. Límpido como cristal: _água cristalina_. Fig. Puro, sem mancha. Cf. _Lusíadas_, V, 47. M. Anat. Corpo lenticular e transparente, na parte anterior do humor vítreo do olho. (Lat. _crystallinus_, de _crystallum_)"
+    },
+    {
+      "word": "tricópode",
+      "definition": "Tricópode m. Género de peixes. (Do gr. _trix_, _trikhos_ + _pous_, _podos_)"
+    },
+    {
+      "word": "tràvacontas",
+      "definition": "Tràvacontas m. Disputa. Altercação, principalmente em ajustes de contas. (De _travar_ + _conta_)"
+    },
+    {
+      "word": "desencravar",
+      "definition": "Desencravar v. t. Despregar. Tirar da ferradura cravo, pedra, etc., que embaraça os movimentos a (um cavalo). Separar da carne (as unhas nelas cravadas). (De _des..._ + _encravar_)"
+    },
+    {
+      "word": "peremitrite",
+      "definition": "Peremitrite f. Med. Inflamação do tecido laminoso, que cerca o útero. (Do gr. _peri_ + _metra_)"
+    },
+    {
+      "word": "macromelia",
+      "definition": "Macromelia f. Desenvolvimento excessivo de qualquer membro. (Do gr. _makros_ + _melos_)"
+    },
+    {
+      "word": "ciclóstomas",
+      "definition": "Ciclóstomas m. pl. O mesmo que _ciclóstomos_."
+    },
+    {
+      "word": "biologista",
+      "definition": "Biologista m. O mesmo que _biólogo_."
+    },
+    {
+      "word": "sinapizar",
+      "definition": "Sinapizar v. t. Temperar ou polvilhar com mostarda em pó. (Lat. _sinapizare_)"
+    },
+    {
+      "word": "fornecedor",
+      "definition": "Fornecedor m. e adj. O que fornece, ou se obriga a fornecer, certas provisões. (De _fornecer_)"
+    },
+    {
+      "word": "semelhança",
+      "definition": "Semelhança f. Qualidade do que é semelhante. Identidade. Analogia. Aspecto. Conformidade entre uma cópia e seu modelo. Imitação. Confronto."
+    },
+    {
+      "word": "alcorcovar",
+      "definition": "Alcorcovar _v. t. Ant._ (e der.) (V. _corcovar_, etc.)"
+    },
+    {
+      "word": "zooematina",
+      "definition": "Zooematina o-e f. Quím. Princípio corante do sangue. (Do gr. _zoon_ + _haima_)"
+    },
+    {
+      "word": "crinolinada",
+      "definition": "Crinolinada adj. f. Diz-se da mulher com vestuário retesado por crinolina. Cf. Cortesão, _Subs._"
+    },
+    {
+      "word": "miraculoso",
+      "definition": "Miraculoso adj. O mesmo que _milagroso_. (Do lat. _miraculum_)"
+    },
+    {
+      "word": "brutamente",
+      "definition": "Brutamente adv. (V. brutalmente )"
+    },
+    {
+      "word": "lancaster",
+      "definition": "Lancaster (v. _Alencastro_)"
+    },
+    {
+      "word": "proditório",
+      "definition": "Proditório adj. Que revela traição. Em que há traição. (Do lat. _proditus_)"
+    },
+    {
+      "word": "paracismice",
+      "definition": "Paracismice f. Prov. trasm. Dito ou acto de parocismeiro; pantomimice."
+    },
+    {
+      "word": "rurógrapho",
+      "definition": "Rurógrapho _m._(e des.) O mesmo ou melhor que _rusógrapho_."
+    },
+    {
+      "word": "cricóstomo",
+      "definition": "Cricóstomo adj. Que tem boca ou abertura redonda. (Do gr. _krikos_ + _stoma_)"
+    },
+    {
+      "word": "oxibásico",
+      "definition": "Oxibásico csi adj. Quím. Diz-se do sal, que tem por base um óxido. (De _oxíbase_)"
+    },
+    {
+      "word": "clepsidro",
+      "definition": "Clepsidro m. O mesmo que _clepsidra_."
+    },
+    {
+      "word": "mesothenar",
+      "definition": "Mesothenar m. Anat. Músculo, que aproxima da palma da mão o dedo polegar. (De _mesò..._ + _thenar_)"
+    },
+    {
+      "word": "funciologia",
+      "definition": "Funciologia f. Neol. Tratado da função gramatical das palavras. Cf. Júl. Ribeiro, _Estudos Philol._ (T. hybr., do lat. _functio_ + gr. _logos_)"
+    },
+    {
+      "word": "enfumaçado",
+      "definition": "Enfumaçado adj. Envolto em fumo; toldado pelo fumo. Cf. Castilho, _Fausto_, 66; Camilo, _Narcót._, I, 133."
+    },
+    {
+      "word": "patranhada",
+      "definition": "Patranhada f. Série de patranhas; narração mentirosa. Cf. Castilho, _D. Quixote_, I, 243. (De _patranha_)"
+    },
+    {
+      "word": "trichantho",
+      "definition": "Trichantho can m. Género de plantas gesneriáceas. (Do gr. _trix_, _trikhos_ + _anthos_)"
+    },
+    {
+      "word": "vitalista",
+      "definition": "Vitalista adj. Relativo ao vitalismo. M. Médico, que explica os fenómenos fisiológicos e patológicos pela influência do princípio vital. (De _vital_)"
+    },
+    {
+      "word": "lustriverde",
+      "definition": "Lustriverde adj. Que tem lustro ou brilho, verdejando. Cf. Filinto, IV, 15. (De [[lustro:2]] + _verde_)"
+    },
+    {
+      "word": "desfalcoar",
+      "definition": "Desfalcoar v. i. Prov. alg. O mesmo que _desfalcar_. (De _desfalco_)"
+    },
+    {
+      "word": "nyctalopia",
+      "definition": "Nyctalopia f. Estado do que é nyctalope."
+    },
+    {
+      "word": "pedimento",
+      "definition": "Pedimento m. Acto de pedir. Petição; pedido; rogo: «_...feito a pedimento dos cónegos de S. Vicente..._» _Auto de Santo-António_. Cf. A. Pimentel, _Chiado_, XIV."
+    },
+    {
+      "word": "pendoença",
+      "definition": "Pendoença f. Ant. Sinal de verdadeiro arrependimento. O mesmo que [[pendença:1]]."
+    },
+    {
+      "word": "espreiteiro",
+      "definition": "Espreiteiro m. e adj. O que espreita. Cf. Filinto, IV, 114."
+    },
+    {
+      "word": "heliofobia",
+      "definition": "Heliofobia f. Med. Medo mórbido da luz. (Do gr. _helios_ + _phobos_)"
+    },
+    {
+      "word": "canalhice",
+      "definition": "Canalhice f. Acção própria de canalha."
+    },
+    {
+      "word": "palestina",
+      "definition": "Palestina f. Typ. Carácter tipográfico de 22 pontos."
+    },
+    {
+      "word": "beneficente",
+      "definition": "Beneficente adj. Que beneficia. (Cp. _beneficência_)"
+    },
+    {
+      "word": "opobálsamo",
+      "definition": "Opobálsamo m. Bálsamo, extraído da opobalsameira. (Do gr. _opos_ + _balsamon_)"
+    },
+    {
+      "word": "toiceiral",
+      "definition": "Toiceiral m. O mesmo que _moitedo_. Cf. Neto, _Baladilhas_, 271."
+    },
+    {
+      "word": "criterioso",
+      "definition": "Criterioso adj. Neol. Que tem bom critério. Ajuizado. Em que há bom critério; que revela juízo claro e seguro. (De _critério_)"
+    },
+    {
+      "word": "topofobia",
+      "definition": "Topofobia f. Medo mórbido a lugares. (Do gr. _topos_ + _phobein_)"
+    },
+    {
+      "word": "magdaleão",
+      "definition": "Magdaleão m. Medicamento, enrolado cilindricamente. (Do gr. _magdalia_)"
+    },
+    {
+      "word": "intencional",
+      "definition": "Intencional adj. Relativo a intenção. Propositado: _ofensa intencional_. (Do lat. _intentio_)"
+    },
+    {
+      "word": "acriminar",
+      "definition": "Acriminar v. t. O mesmo que _criminar_."
+    },
+    {
+      "word": "entomóphago",
+      "definition": "Entomóphago adj. Que se alimenta de insectos. M. pl. Secção dos insectos hymenópteros. (Do gr. _entomon_ + _phagein_)"
+    },
+    {
+      "word": "fariscador",
+      "definition": "Fariscador m. e adj. O que farisca."
+    },
+    {
+      "word": "regimento",
+      "definition": "Regimento m. Acto ou efeito de reger. Regime. Regulamento, estatuto: _o regimento da Câmara dos Deputados_. Disciplina. Corpo de tropas, dirigido normalmente por um coronel. Fig. Grande quantidade de pessoas. (Lat. _regimentum_)"
+    },
+    {
+      "word": "sepulcrário",
+      "definition": "Sepulcrário m. Terreno, próprio para enterramentos. (De _sepulcro_)"
+    },
+    {
+      "word": "agmatologia",
+      "definition": "Agmatologia f. Med. Tratado das fracturas. (Do gr. _agma_ + _logos_)"
+    },
+    {
+      "word": "esparrimar",
+      "definition": "Esparrimar _v. i._ (e der.) O mesmo que _esparramar_ e _esparrinhar_."
+    },
+    {
+      "word": "esfervilhar",
+      "definition": "Esfervilhar v. i. Mexer-se muito; revolver-se. (De _ferver_)"
+    },
+    {
+      "word": "rincantera",
+      "definition": "Rincantera f. Género de plantas melastomáceas."
+    },
+    {
+      "word": "homocrónico",
+      "definition": "Homocrónico adj. O mesmo que _homócrono_."
+    },
+    {
+      "word": "tipuliforme",
+      "definition": "Tipuliforme adj. Que tem forma de típula. (De _típula_ + _forma_)"
+    }
+  ],
+  "extremo": [
+    {
+      "word": "desenvolvimento",
+      "definition": "Ação ou efeito de progredir, crescer ou evoluir."
+    },
+    {
+      "word": "infraestrutura",
+      "definition": "Conjunto de elementos necessários para o funcionamento de um sistema."
+    },
+    {
+      "word": "criptografia",
+      "definition": "Arte ou ciência de escrever em cifra ou em código secreto."
+    },
+    {
+      "word": "restabelecer",
+      "definition": "Restabelecer v. t. Estabelecer de novo. Colocar no estado antigo. Restaurar. Recuperar. V. p. Readquirir as forças ou a saúde. Voltar ao antigo estado. (Do _re..._ + _estabelecer_)"
+    },
+    {
+      "word": "thysanópteros",
+      "definition": "Thysanópteros m. pl. Ordem de insectos, que vivem nos vegetais, danificando-os. (Do gr. _thusanos_ + _pteron_)"
+    },
+    {
+      "word": "calembureiro",
+      "definition": "Calembureiro m. O mesmo que _calemburista_. Cf. Júl. Castilho, _Lisb. Ant._"
+    },
+    {
+      "word": "magnanimamente",
+      "definition": "Magnanimamente adv. De modo magnânimo."
+    },
+    {
+      "word": "predicatório",
+      "definition": "Predicatório adj. Encomiástico; lisonjeiro. Cf. Júl. Dinis, _Morgadinha_, 267. (Lat. _praedicatorius_)"
+    },
+    {
+      "word": "desobediente",
+      "definition": "Desobediente adj. Que desobedece. (De _des..._ + _obediente_)"
+    },
+    {
+      "word": "resplandente",
+      "definition": "Resplandente adj. O mesmo que _resplendente_. Cf. B. Pato, _Cant. e Sát._, 72."
+    },
+    {
+      "word": "parthenogênese",
+      "definition": "Parthenogênese f. Geração, proveniente de fêmeas virgens. Bot. Suposta reprodução sem fecundação. Cf. G. Guimarães, _Vocab. Etym._; Caminhoa, _Bot. Ger._ e _Méd._ (Do gr. _parthenos_, virgem, e _génesis_, geração)"
+    },
+    {
+      "word": "impretendente",
+      "definition": "Impretendente adj. Que não é pretendente. (De _im..._ + _pretendente_)"
+    },
+    {
+      "word": "acistinervia",
+      "definition": "Acistinervia f. Paralisia da bexiga. (Do gr. _a_ + _kustis_ + _neuron_)"
+    },
+    {
+      "word": "cisdanubiano",
+      "definition": "Cisdanubiano adj. De aquém do Danúbio. Cf. C. Lobo, _Sát. de Jur._, I, 20."
+    },
+    {
+      "word": "criminalogista",
+      "definition": "Criminalogista m. Aquele, que é versado em criminalogia."
+    },
+    {
+      "word": "aventurosamente",
+      "definition": "Aventurosamente adv. De modo _aventuroso_."
+    },
+    {
+      "word": "escarafunchos",
+      "definition": "Escarafunchos m. pl. O mesmo que _escarafunhas_."
+    },
+    {
+      "word": "incircunciso",
+      "definition": "Incircunciso adj. O mesmo que _incircuncidado_. (Do lat. _incircumcisus_)"
+    },
+    {
+      "word": "diversificante",
+      "definition": "Diversificante adj. Que diversifica. (Lat. _diversificans_)"
+    },
+    {
+      "word": "astuciosamente",
+      "definition": "Astuciosamente adv. De modo _astucioso_. Com astúcia."
+    },
+    {
+      "word": "desaprovativo",
+      "definition": "Desaprovativo adj. Em que há desaprovação. (De _des..._ + _aprovativo_)"
+    },
+    {
+      "word": "acocoramento",
+      "definition": "Acocoramento m. Acto do pôr-se de cócoras."
+    },
+    {
+      "word": "cavallariano",
+      "definition": "Cavallariano m. Bras. do N Mercador de cavalos. Bras. do S Soldado de cavalaria. (De _cavalaria_)"
+    },
+    {
+      "word": "compactamente",
+      "definition": "Compactamente adv. De modo compacto; de modo denso."
+    },
+    {
+      "word": "podobrânquio",
+      "definition": "Podobrânquio adj. Zool. Que tem as brânquias nos pés. (Do gr. _pous_, _podos_ + _brankhia_)"
+    },
+    {
+      "word": "descarinhoso",
+      "definition": "Descarinhoso adj. Que não tem carinho. Em que não há carinho. (De _des..._ + _carinhoso_)"
+    },
+    {
+      "word": "dramaticamente",
+      "definition": "Dramaticamente adv. De modo dramático."
+    },
+    {
+      "word": "circumvizinhança",
+      "definition": "Circumvizinhança f. Subúrbio. População vizinha; arredores. (De _circum..._ + _vizinhança_)"
+    },
+    {
+      "word": "potamophobia",
+      "definition": "Potamophobia f. Medo mórbido dos rios. (Do gr. _potamos_ + _phobein_)"
+    },
+    {
+      "word": "esteganográfico",
+      "definition": "Esteganográfico adj. Relativo a esteganografia."
+    },
+    {
+      "word": "hipoglobolia",
+      "definition": "Hipoglobolia f. Diminuição da quantidade dos glóbulos vermelhos do sangue. (De _hipo..._ + _glóbulo_)"
+    },
+    {
+      "word": "insulanamente",
+      "definition": "Insulanamente adv. À maneira dos ilhéus. (De _insulano_)"
+    },
+    {
+      "word": "aformoseamento",
+      "definition": "Aformoseamento m. Acto ou efeito de _aformosear_."
+    },
+    {
+      "word": "lactofosfato",
+      "definition": "Lactofosfato m. Sal duplo, formado pelo ácido láctico e pelo ácido fosfórico com uma base. (De _láctico_ + _fosfórico_)"
+    },
+    {
+      "word": "hysteróphysa",
+      "definition": "Hysteróphysa f. Med. Distensão do útero, produzida por gases. (Do gr. _hustera_ + _phusa_)"
+    },
+    {
+      "word": "mesquinhamente",
+      "definition": "Mesquinhamente adv. De modo mesquinho."
+    },
+    {
+      "word": "aduncirrostro",
+      "definition": "Aduncirrostro adj. Que tem bico adunco. (Do lat. _aduncus_ + _rostrum_)"
+    },
+    {
+      "word": "encistamento",
+      "definition": "Encistamento m. Acto ou efeito de encistar."
+    },
+    {
+      "word": "dactylographia",
+      "definition": "Dactylographia f. Arte de escrever com o dactilógrafo."
+    },
+    {
+      "word": "identificação",
+      "definition": "Identificação f. Acto ou efeito de identificar."
+    },
+    {
+      "word": "relampejante",
+      "definition": "Relampejante adj. Que relampeja. Cf. Camilo, _Vinho do Porto_, 67."
+    },
+    {
+      "word": "intervenideira",
+      "definition": "Intervenideira f. Des. O mesmo que _alcoviteira_. (Do lat. _intervenire_)"
+    },
+    {
+      "word": "arrebentamento",
+      "definition": "Arrebentamento m. Estrondo daquilo que arrebenta. Acto de _arrebentar_."
+    },
+    {
+      "word": "indelevelmente",
+      "definition": "Indelevelmente adv. De modo indelével."
+    },
+    {
+      "word": "colpoisterectomia",
+      "definition": "Colpoisterectomia po-is f. Med. Histerectomia da vagina. (Do gr. _kolpos_ + _hustera_ + _ektome_)"
+    },
+    {
+      "word": "difficultosamente",
+      "definition": "Difficultosamente adv. De modo dificultoso."
+    },
+    {
+      "word": "farandulagem",
+      "definition": "Farandulagem f. Pop. Súcia de maltrapilhos. Farraparia. (De _farândula_)"
+    },
+    {
+      "word": "inadvertência",
+      "definition": "Inadvertência f. Falta de advertência; descuido; irreflexão; distracção. (De _in..._ + _advertência_)"
+    },
+    {
+      "word": "inseparabilidade",
+      "definition": "Inseparabilidade f. Qualidade daquele ou daquilo que é inseparável. (Lat. _inseparabilitas_)"
+    },
+    {
+      "word": "adolescêntulo",
+      "definition": "Adolescêntulo m. Des. Rapazinho. (Lat. _adolescentulus_)"
+    },
+    {
+      "word": "melissográphico",
+      "definition": "Melissográphico adj. Relativo à melissographia."
+    },
+    {
+      "word": "pittospóreas",
+      "definition": "Pittospóreas f. pl. O mesmo que _pittosporáceas_."
+    },
+    {
+      "word": "mesopotâmico",
+      "definition": "Mesopotâmico adj. Relativo à Mesopotâmia: _civilisação mesopotâmica_."
+    },
+    {
+      "word": "libanomancia",
+      "definition": "Libanomancia f. Adivinhação, que os Pagãos tiravam do incenso. (Do gr. _libanos_ + _manteia_)"
+    },
+    {
+      "word": "aportuguesável",
+      "definition": "Aportuguesável adj. Que se pode aportuguesar."
+    },
+    {
+      "word": "hendecaphyllo",
+      "definition": "Hendecaphyllo adj. Bot. Cujas folhas são compostas de onze folíolos. (Do gr. _hendeka_ + _phullon_)"
+    },
+    {
+      "word": "antemeridiano",
+      "definition": "Antemeridiano adj. Anterior ao meio-dia."
+    },
+    {
+      "word": "dardejamento",
+      "definition": "Dardejamento m. Acto de dardejar."
+    },
+    {
+      "word": "eufemicamente",
+      "definition": "Eufemicamente adv. Com eufemismo. (De _eufémico_)"
+    },
+    {
+      "word": "empeçonhentar",
+      "definition": "Empeçonhentar v. t. O mesmo que _empeçonhar_. (De _peçonhento_)"
+    },
+    {
+      "word": "orçamentário",
+      "definition": "Orçamentário adj. O mesmo que _orçamental_."
+    },
+    {
+      "word": "mensurabilidade",
+      "definition": "Mensurabilidade f. Qualidade do que é mensurável. (Do lat. _mensurabilis_)"
+    },
+    {
+      "word": "estaphyleáceas",
+      "definition": "Estaphyleáceas f. Família de plantas, formada à custa das ramnáceas. (Do gr. _staphule_)"
+    },
+    {
+      "word": "repreensível",
+      "definition": "Repreensível adj. Que merece repreensão censurável. (Do lat. _reprehensibilis_)"
+    },
+    {
+      "word": "phalansterianismo",
+      "definition": "Phalansterianismo m. O mesmo que _phalansterismo_."
+    },
+    {
+      "word": "trigonóphoro",
+      "definition": "Trigonóphoro m. Género de insectos coleópteros pentâmeros. (Do gr. _trigonos_ + _phoros_)"
+    },
+    {
+      "word": "aperalvilhado",
+      "definition": "Aperalvilhado adj. O mesmo que _aperaltado_."
+    },
+    {
+      "word": "antinacional",
+      "definition": "Antinacional adj. Contrário aos interesses ou ao carácter de uma nação."
+    },
+    {
+      "word": "desenvasilhar",
+      "definition": "Desenvasilhar v. t. Tirar da vasilha: _desenvasilhar azeite_. (De _des..._ + _envasilhar_)"
+    },
+    {
+      "word": "apergaminhado",
+      "definition": "Apergaminhado adj. Que tem a aparência de pergaminho."
+    },
+    {
+      "word": "incontentável",
+      "definition": "Incontentável adj. Que se não pode contentar. (De _in..._ + _contentável_)"
+    },
+    {
+      "word": "oficialmente",
+      "definition": "Oficialmente adv. De modo oficial; em nome da autoridade ou do Governo."
+    },
+    {
+      "word": "neuropathológico",
+      "definition": "Neuropathológico adj. Relativo à neuropatologia."
+    },
+    {
+      "word": "jauaratacéuua",
+      "definition": "Jauaratacéuua f. Bras Planta medicinal do Amazonas."
+    },
+    {
+      "word": "tacamagueiro",
+      "definition": "Tacamagueiro m. (V. tacamaca )"
+    },
+    {
+      "word": "anacardeáceas",
+      "definition": "Anacardeáceas f. Família de plantas, que tem por tipo o anacardo. (De _anacardeáceo_)"
+    },
+    {
+      "word": "tètrasyllábico",
+      "definition": "Tètrasyllábico si adj. O mesmo que _quadrisílabo_. (De _tetra..._ + _sílaba_)"
+    },
+    {
+      "word": "oligocythemia",
+      "definition": "Oligocythemia f. Med. Diminuição do número dos glóbulos do sangue. (Do gr. _oligos_ + _kutos_ + _haima_)"
+    },
+    {
+      "word": "alcalescente",
+      "definition": "Alcalescente adj. Que tem propriedades alcalinas. Que passa ao estado alcalino. (De _álcali_)"
+    },
+    {
+      "word": "siderográphico",
+      "definition": "Siderográphico adj. Relativo à siderographia."
+    },
+    {
+      "word": "phosphorescente",
+      "definition": "Phosphorescente adj. Que brilha na obscuridade, sem calor nem combustão. Que, sendo friccionado, se torna luminoso ou se sujeita a uma descarga electrica. (De _fósforo_)"
+    },
+    {
+      "word": "clarinetista",
+      "definition": "Clarinetista m. Tocador de clarinete."
+    },
+    {
+      "word": "sarabulhento",
+      "definition": "Sarabulhento m. Que tem sarabulhos. Pop. Que tem bostelas; ulceroso."
+    },
+    {
+      "word": "maliciosamente",
+      "definition": "Maliciosamente adv. De modo malicioso; arteiramente."
+    },
+    {
+      "word": "crematística",
+      "definition": "Crematística f. Arte de produzir riqueza. Tratado das riquezas. (Gr. _krematistike_)"
+    },
+    {
+      "word": "collectivista",
+      "definition": "Collectivista m. Partidário do coletivismo."
+    },
+    {
+      "word": "miralmuminim",
+      "definition": "Miralmuminim m. O mesmo ou melhor que _miramolim_. Cf. _Lusíadas_; Vieira, II, 49."
+    },
+    {
+      "word": "crystallotechnia",
+      "definition": "Crystallotechnia f. Arte de obter cristais completos, com as modificações de que são susceptiveis. (Do gr. _krustallos_ + _tekhne_)"
+    },
+    {
+      "word": "tolerantismo",
+      "definition": "Tolerantismo m. Opinião dos que defendem a tolerância religiosa. Sistema dos que entendem que se devem tolerar num Estado todas as espécies de religiões. (De _tolerante_)"
+    },
+    {
+      "word": "hipotraquélio",
+      "definition": "Hipotraquélio m. Parte superior do fuste da coluna, onde começa o capitel. (Lat. _hypotrachelium_)"
+    },
+    {
+      "word": "redentorista",
+      "definition": "Redentorista m. Freire de uma Ordem religiosa alemã, que entrou em Portugal em 1828 e saiu em 1833. (De _redentor_)"
+    },
+    {
+      "word": "essencialidade",
+      "definition": "Essencialidade f. Qualidade ou estado daquilo que é essencial."
+    },
+    {
+      "word": "bacharelesco",
+      "definition": "Bacharelesco lês adj. Deprec. Relativo a bacharel; próprio de bacharel."
+    },
+    {
+      "word": "corolliforme",
+      "definition": "Corolliforme adj. Que tem forma de corola. (Do lat. _corola_ + _forma_)"
+    },
+    {
+      "word": "antimelancólico",
+      "definition": "Antimelancólico adj. Eficaz contra a melancolia."
+    },
+    {
+      "word": "estratographia",
+      "definition": "Estratographia f. Des. Descrição de um exército e do que lhe pertence. (Do gr. _stratos_ + _graphein_)"
+    },
+    {
+      "word": "trepidamente",
+      "definition": "Trepidamente adv. De modo trépido; com susto."
+    },
+    {
+      "word": "urosemiológico",
+      "definition": "Urosemiológico se adj. Relativo à urosemeiologia."
+    },
+    {
+      "word": "rheumatismal",
+      "definition": "Rheumatismal adj. Relativo ao reumatismo."
+    },
+    {
+      "word": "cimbocefalia",
+      "definition": "Cimbocefalia f. Qualidade de cimbocéfalo."
+    },
+    {
+      "word": "pyroheliómetro",
+      "definition": "Pyroheliómetro m. (V. pyrheliómetro )"
+    },
+    {
+      "word": "hidrotimétrico",
+      "definition": "Hidrotimétrico adj. Relativo à hidrotimetria."
+    },
+    {
+      "word": "incognitamente",
+      "definition": "Incognitamente adv. De modo incógnito; às ocultas. Dissimuladamente."
+    },
+    {
+      "word": "metalologista",
+      "definition": "Metalologista m. Aquele que trata cientificamente da Metalologia."
+    },
+    {
+      "word": "carrapateiro",
+      "definition": "Carrapateiro m. O mesmo que _rícino_. m. Prov. Espécie de pereira brava, o mesmo que _carapeteiro_."
+    },
+    {
+      "word": "caracterizar",
+      "definition": "Caracterizar v. t. Tornar saliente, pôr em evidência, o carácter de; assignalar: _aquela patifaria caracteriza o biltre_. Pintar e entrajar (o actor) para representar a personagem, a que corresponde em cena. (De _carácter_)"
+    },
+    {
+      "word": "colpoperineorhaphia",
+      "definition": "Colpoperineorhaphia ra f. Med. Operação, com que se restaura o perineu, suturando parte da parede vaginal. (Do gr. _kolpos_ + _perinaion_ + _rafe_)"
+    },
+    {
+      "word": "eschatológico",
+      "definition": "Eschatológico ca adj. Relativo a escatologia."
+    },
+    {
+      "word": "retrocedente",
+      "definition": "Retrocedente m. e adj. O que retrocede; o que faz retrocessão."
+    },
+    {
+      "word": "obtemperação",
+      "definition": "Obtemperação f. Acto ou efeito de obtemperar. (Lat. _obtemperatio_)"
+    },
+    {
+      "word": "innegavelmente",
+      "definition": "Innegavelmente adv. De modo innegável."
+    },
+    {
+      "word": "verbosamente",
+      "definition": "Verbosamente adv. De modo verboso. Com muitas palavras."
+    },
+    {
+      "word": "desmanchadiço",
+      "definition": "Desmanchadiço adj. Que se desmancha facilmente."
+    },
+    {
+      "word": "chorográphico",
+      "definition": "Chorográphico co adj. Relativo à chorographia."
+    },
+    {
+      "word": "extramarital",
+      "definition": "Extramarital adj. Estranho ao matrimónio. Cf. Val. Magalhães, _Contos_. (De _extra..._ + _marital_)"
+    },
+    {
+      "word": "nephrelmíntico",
+      "definition": "Nephrelmíntico adj. Med. Que tem vermes nos rins. (Do gr. _nephros_ + _helminthos_)"
+    },
+    {
+      "word": "narcotização",
+      "definition": "Narcotização f. Acto ou efeito de narcotizar."
+    },
+    {
+      "word": "periodicista",
+      "definition": "Periodicista m. P. us. Aquele que escreve ou redige periódicos ou um periódico. Cf. Sousa Monteiro, _Elog. de Lat._"
+    },
+    {
+      "word": "atarrachador",
+      "definition": "Atarrachador m. Instrumento, para _atarracar_."
+    },
+    {
+      "word": "imparisyllabismo",
+      "definition": "Imparisyllabismo si m. Gram. Diferença entre o número de sílabas do nominativo e as do acusativo, deslocando-se o acento tónico: _látro_, _latrónem_; ou não se deslocando: _corpus_, _côrporis_. (De _imparisýllabo_)"
+    },
+    {
+      "word": "rhododáctylo",
+      "definition": "Rhododáctylo adj. Zool. Diz-se do insecto que tem asas digitais e da cor da rosa. (Do gr. _rhodon_ + _daktulos_)"
+    },
+    {
+      "word": "estoiradinho",
+      "definition": "Estoiradinho m. Fam. Petimetre; janota. Paparrotão. Cf. Camilo, _Cancion. Al._, 342. (De _estoirar_)"
+    },
+    {
+      "word": "desdenhativo",
+      "definition": "Desdenhativo adj. Que envolve desdém; depreciativo: _expressões desdenhativas_. (De _desdenhar_)"
+    },
+    {
+      "word": "fluidificável",
+      "definition": "Fluidificável adj. Que se pode fluidificar."
+    },
+    {
+      "word": "fluotitanato",
+      "definition": "Fluotitanato m. Sal, resultante da combinação do ácido fluotitânico com uma base. (De _flúor_ + _titanato_)"
+    },
+    {
+      "word": "transpiração",
+      "definition": "Transpiração f. Acto ou efeito de transpirar. Formoso arbusto africano, de frutos em corimbos com pedúnculo carmesim."
+    },
+    {
+      "word": "gastrozoário",
+      "definition": "Gastrozoário m. Hidra que, no pólipo hydráceo, desempenha as funções da digestão. (Do gr. _gaster_ + _zoon_)"
+    },
+    {
+      "word": "hepatogastrite",
+      "definition": "Hepatogastrite f. Inflamação do fígado e do estômago."
+    },
+    {
+      "word": "immaterialidade",
+      "definition": "Immaterialidade f. Qualidade daquilo que é imaterial."
+    },
+    {
+      "word": "cephalodiano",
+      "definition": "Cephalodiano adj. Bot. Que tem cephalódios. M. pl. Ordem de líquens, que compreende os que têm os conceptáculos quase globulosos."
+    },
+    {
+      "word": "fulminatório",
+      "definition": "Fulminatório adj. Que fulmina."
+    },
+    {
+      "word": "phatniorrhagia",
+      "definition": "Phatniorrhagia f. Hemorragia pelo alvéolo de um dente. (Do gr. _phatnia_ + _rhagein_)"
+    },
+    {
+      "word": "encerramento",
+      "definition": "Encerramento m. Acto ou efeito de encerrar."
+    },
+    {
+      "word": "decennovenal",
+      "definition": "Decennovenal adj. Relativo ao espaço de dezanove. (Lat. _decennovenalis_)"
+    },
+    {
+      "word": "faramalheiro",
+      "definition": "Faramalheiro m. e adj. Aquele ou aquilo que tem faramalha."
+    },
+    {
+      "word": "consuntibilidade",
+      "definition": "Consuntibilidade f. Qualidade daquilo que é consuntível."
+    },
+    {
+      "word": "acetabulífero",
+      "definition": "Acetabulífero adj. Que tem ventosa nos tentáculos, (falando-se de certos moluscos). M. pl. Ordem de moluscos, que tem sugadoiro ou ventosa na extremidade dos tentáculos. (Do lat. _acetabulum_ + _ferre_)"
+    },
+    {
+      "word": "parlamentarista",
+      "definition": "Parlamentarista m. Sectário do parlamentarismo."
+    },
+    {
+      "word": "imprudentemente",
+      "definition": "Imprudentemente adv. De modo imprudente."
+    },
+    {
+      "word": "desnaturação",
+      "definition": "Desnaturação f. Acto ou efeito de desnaturar."
+    },
+    {
+      "word": "tacticographia",
+      "definition": "Tacticographia f. Delineamento de manobras militares. Representação gráfica de evoluções guerreiras. (Do gr. _taktike_ + _graphein_)"
+    },
+    {
+      "word": "imortalizador",
+      "definition": "Imortalizador adj. Que imortaliza. M. Aquele que imortaliza."
+    },
+    {
+      "word": "trigonocefalia",
+      "definition": "Trigonocefalia f. Estado ou qualidade de trigonocéfalo."
+    },
+    {
+      "word": "chromaticamente",
+      "definition": "Chromaticamente adv. Por semi-tons; de modo cromático."
+    },
+    {
+      "word": "enfunilamento",
+      "definition": "Enfunilamento m. Acto ou efeito de enfunilar."
+    },
+    {
+      "word": "ressentimento",
+      "definition": "Ressentimento m. Acto ou efeito de ressentir."
+    },
+    {
+      "word": "cismaticamente",
+      "definition": "Cismaticamente adv. De modo cismático. Com cisma^2; como quem devaneia. À maneira de quem é apreensivo. (De [[cismático:2]])"
+    },
+    {
+      "word": "convocatório",
+      "definition": "Convocatório adj. Que serve para convocar."
+    },
+    {
+      "word": "oftalmometria",
+      "definition": "Oftalmometria f. Conhecimento e uso do oftalmómetro."
+    },
+    {
+      "word": "reverberante",
+      "definition": "Reverberante adj. Que reverbera. (Lat. _reverberans_)"
+    },
+    {
+      "word": "collateralidade",
+      "definition": "Collateralidade f. Qualidade do que é colateral."
+    },
+    {
+      "word": "complicadamente",
+      "definition": "Complicadamente adv. De modo complicado."
+    },
+    {
+      "word": "alqueiramento",
+      "definition": "Alqueiramento m. Acto de _alqueirar_."
+    },
+    {
+      "word": "desembaraçar",
+      "definition": "Desembaraçar v. t. Desimpedir. Remover o embaraço de: _desembaraçar uma pretensão_. Desenredar: _desembaraçar meadas_. (De _des..._ + _embaraçar_)"
+    },
+    {
+      "word": "tempestuosidade",
+      "definition": "Tempestuosidade f. Qualidade do que é tempestuoso."
+    },
+    {
+      "word": "incriminação",
+      "definition": "Incriminação f. Acto ou efeito de incriminar. (Lat. _incriminatio_)"
+    },
+    {
+      "word": "austeramente",
+      "definition": "Austeramente adv. De modo _austero_."
+    },
+    {
+      "word": "supersticiosamente",
+      "definition": "Supersticiosamente adv. De modo supersticioso."
+    },
+    {
+      "word": "quiromântico",
+      "definition": "Quiromântico adj. Relativo à quiromancia."
+    },
+    {
+      "word": "craniometria",
+      "definition": "Craniometria f. Medição do crânio. (Cp. _craniómetro_)"
+    },
+    {
+      "word": "arrancadamente",
+      "definition": "Arrancadamente adv. De arrancada; impetuosamente."
+    },
+    {
+      "word": "sindesmotómico",
+      "definition": "Sindesmotómico adj. Relativo à sindesmotomia."
+    },
+    {
+      "word": "lepidopterológico",
+      "definition": "Lepidopterológico adj. Relativo à lepidopterologia."
+    },
+    {
+      "word": "noningentésimo",
+      "definition": "Noningentésimo adj. Que numa série de 900 ocupa o último lugar. (Lat. _noningentesimus_)"
+    },
+    {
+      "word": "astrostática",
+      "definition": "Astrostática f. Parte da Astronomia, que trata do volume e da respectiva distância dos astros. (De _astro_ + _estática_)"
+    },
+    {
+      "word": "subentendido",
+      "definition": "Subentendido m. Aquilo que está no pensamento, mas que se não exprime. (De _subentender_)"
+    },
+    {
+      "word": "malebranchismo",
+      "definition": "Malebranchismo m. Doutrina idealista de Malebranche."
+    },
+    {
+      "word": "semisselvagem",
+      "definition": "Semisselvagem adj. Quase selvagem; brutal; muito rude."
+    },
+    {
+      "word": "quilométrico",
+      "definition": "Quilométrico adj. Relativo a quilómetros."
+    },
+    {
+      "word": "fortuitamente",
+      "definition": "Fortuitamente adv. De modo fortuito."
+    },
+    {
+      "word": "esplenopático",
+      "definition": "Esplenopático adj. Relativo a esplenopatia."
+    },
+    {
+      "word": "metapsýchica",
+      "definition": "Metapsýchica qui f. Estudo dos fenómenos psýchicos anormais, como a clarividência, a telepatia, a visão dupla. (De _meta..._ + _psýchico_)"
+    },
+    {
+      "word": "isogeothérmico",
+      "definition": "Isogeothérmico adj. Diz-se, em meteorologia, da linha que passa por todos os pontos, em que a temperatura média do sol é a mesma. (Do gr. _isos_ + _gaia_ + _termos_)"
+    },
+    {
+      "word": "pauciradiado",
+      "definition": "Pauciradiado ra adj. Bot. Diz-se das flores compostas, quando têm pequenos números de raios. (Do lat. _paucus_ + _radius_)"
+    },
+    {
+      "word": "bissegmentação",
+      "definition": "Bissegmentação f. Acção de dividir em dois segmentos. (De _bi..._ + _segmentação_)"
+    },
+    {
+      "word": "compossessor",
+      "definition": "Compossessor m. Jur. Aquele que, com outrem, possui alguma coisa ou direito. (De _com..._ + _possessor_)"
+    },
+    {
+      "word": "sobrecelente",
+      "definition": "Sobrecelente adj. O mesmo que _excedente_. M. e adj. Tudo que sobeja e é próprio para suprir faltas. (De _sobre_ + _excelente_, se não é corr. de _sobresalente_)"
+    },
+    {
+      "word": "desqualificação",
+      "definition": "Desqualificação f. Acto ou efeito de desqualificar."
+    },
+    {
+      "word": "màsaldemenos",
+      "definition": "Màsaldemenos adv. Ant. Mais ou menos. (De _mais_ + _aldemenos_)"
+    },
+    {
+      "word": "primeiríssimo",
+      "definition": "Primeiríssimo adj. Fam. Evidentemente primeiro. Cf. Rui Barb., _Réplica_, 158."
+    },
+    {
+      "word": "inalteradamente",
+      "definition": "Inalteradamente adv. De modo inalterado. Da mesma forma. Constantemente."
+    },
+    {
+      "word": "calorificação",
+      "definition": "Calorificação f. Desenvolvimento de calor nos corpos vivos. (De _calorificar_)"
+    },
+    {
+      "word": "desimpedidamente",
+      "definition": "Desimpedidamente adv. Sem impedimento. (De _desimpedir_)"
+    },
+    {
+      "word": "pertencimento",
+      "definition": "Pertencimento m. Ant. O mesmo que _pertença_."
+    },
+    {
+      "word": "orchidifloro",
+      "definition": "Orchidifloro qui adj. Bot. Que dá flores semelhantes às das orquídeas."
+    },
+    {
+      "word": "christianização",
+      "definition": "Christianização f. Acto de cristianizar."
+    },
+    {
+      "word": "chamborreirão",
+      "definition": "Chamborreirão m. e adj. Prov. alent. Diz-se do artífice ou oficial, que só produz obras grosseiras ou mal acabadas. (Cp. _chambão_)"
+    },
+    {
+      "word": "hydrophýlleas",
+      "definition": "Hydrophýlleas f. pl. Tribo de plantas borragíneas. (Do gr. _hudor_ + _phullon_)"
+    },
+    {
+      "word": "emendadamente",
+      "definition": "Emendadamente adv. Correctamente, com emendas: _esta obra republicou-se emendadamente_. (De _emendar_)"
+    },
+    {
+      "word": "sobreexcedente",
+      "definition": "Sobreexcedente adj. Que sobreexcede. (De _sobre_ + _excedente_)"
+    },
+    {
+      "word": "mercantilismo",
+      "definition": "Mercantilismo m. Propensão para subordinar tudo ao comércio, ao interesse, ao ganho. Predomínio do interesse ou do espírito mercantil. (De _mercantil_)"
+    },
+    {
+      "word": "neurostênico",
+      "definition": "Neurostênico adj. Relativo à neurostenia. M. Aquele que padece neurostenia."
+    },
+    {
+      "word": "scalabicastro",
+      "definition": "Scalabicastro Nome antigo de Santarém. Cf. _Lusíadas_, III, 55."
+    },
+    {
+      "word": "abrachiocephalia",
+      "definition": "Abrachiocephalia qui f. Terat. Estado de abrachiocéphalo."
+    },
+    {
+      "word": "competentemente",
+      "definition": "Competentemente adv. De modo competente."
+    },
+    {
+      "word": "sarapintadela",
+      "definition": "Sarapintadela f. Prov. Acto ou efeito de sarapintar."
+    },
+    {
+      "word": "bibliomaníaco",
+      "definition": "Bibliomaníaco adj. Que tem bibliomania."
+    },
+    {
+      "word": "osteoplástico",
+      "definition": "Osteoplástico adj. Relativo à osteoplastia."
+    },
+    {
+      "word": "desenvergonhado",
+      "definition": "Desenvergonhado adj. O mesmo que _desavergonhado_. Cf. Pant. do Aveiro, _Itiner._, 36 v.^o, (2.^a ed.)"
+    },
+    {
+      "word": "urethrostenia",
+      "definition": "Urethrostenia f. Aperto de uretra. (Do gr. _ourethra_ + _stenos_)"
+    },
+    {
+      "word": "hodiernamente",
+      "definition": "Hodiernamente adv. No tempo de agora, actualmente. Recentemente. (De _hodierno_)"
+    },
+    {
+      "word": "provincialato",
+      "definition": "Provincialato m. O mesmo que _provincialado_. Cf. Camilo, _M. de Pombal_, 306."
+    },
+    {
+      "word": "redarguitivamente",
+      "definition": "Redarguitivamente gu-i adv. De modo redarguitivo."
+    },
+    {
+      "word": "encordoamento",
+      "definition": "Encordoamento m. Acto de encordoar."
+    },
+    {
+      "word": "cilindriforme",
+      "definition": "Cilindriforme adj. Que tem forma de cilindro. (De _cilindro_ + _forma_)"
+    },
+    {
+      "word": "transfiguração",
+      "definition": "Transfiguração f. Acto ou efeito de transfigurar. Estado glorioso, em que Jesus apareceu sobre o Thabor. (Do lat. _transfiguratio_)"
+    },
+    {
+      "word": "antonomástico",
+      "definition": "Antonomástico adj. Que tem _antonomásia_."
+    },
+    {
+      "word": "explicativamente",
+      "definition": "Explicativamente adv. De modo explicativo."
+    },
+    {
+      "word": "damnificador",
+      "definition": "Damnificador m. e adj. O que danifica."
+    },
+    {
+      "word": "pornográfico",
+      "definition": "Pornográfico adj. Relativo a pornografia; obsceno; libidinoso."
+    },
+    {
+      "word": "estadisticamente",
+      "definition": "Estadisticamente adv. Segundo os preceitos da estadística. (De _estadístico_)"
+    },
+    {
+      "word": "philodérmico",
+      "definition": "Philodérmico adj. Diz-se dos preparados, que conservam a maciez e frescura da pele. (Do gr. _philos_ + _derma_)"
+    },
+    {
+      "word": "valerobromina",
+      "definition": "Valerobromina f. Medicamento sedativo."
+    },
+    {
+      "word": "desencabeçar",
+      "definition": "Desencabeçar v. t. Tirar da cabeça, da ideia. (De _des..._ + _encabeçar_)"
+    },
+    {
+      "word": "hipersarcose",
+      "definition": "Hipersarcose f. Anat. Excrescência de carne. (Lat. _hypersarcosis_)"
+    },
+    {
+      "word": "pneumorrhagia",
+      "definition": "Pneumorrhagia f. Hemorragia pulmonar. (Do gr. _pneumon_ + _rhagein_)"
+    },
+    {
+      "word": "phraseologicamente",
+      "definition": "Phraseologicamente adv. Segundo as regras da phraseologia. (De _phraseológico_)"
+    },
+    {
+      "word": "epissintético",
+      "definition": "Epissintético adj. Relativo ao epissintétismo. M. pl. Seita medicinal dos que procuravam conciliar o metodismo com o empirismo e o dogmatismo. (Gr. _episunthetikos_)"
+    },
+    {
+      "word": "laringografia",
+      "definition": "Laringografia f. Descrição da laringe. (Do gr. _larunx_ + _graphein_)"
+    },
+    {
+      "word": "rodomeláceas",
+      "definition": "Rodomeláceas f. pl. Bot. Famílias do algas. (De _rodómela_)"
+    },
+    {
+      "word": "siringomielia",
+      "definition": "Siringomielia f. Med. Molestia, caracterizada pela existência de lacunas na substância cinzenta da medula. (Do gr. _surinx_, _suringos_ + _muelos_)"
+    },
+    {
+      "word": "indestronável",
+      "definition": "Indestronável adj. Que se não pode destronar. (De _in..._ + _destronar_)"
+    },
+    {
+      "word": "atabalhoadamente",
+      "definition": "Atabalhoadamente adv. De modo _atabalhoado_."
+    },
+    {
+      "word": "convencionado",
+      "definition": "Convencionado m. Nome, que se dá especialmente ao militar, que foi amnistiado pela Convenção política de Évora-Monte, em 1834."
+    },
+    {
+      "word": "interrogação",
+      "definition": "Interrogação f. Acto ou efeito de interrogar. Pergunta. Ponto ou sinal gráfico, que indica a interrogação. (Lat. _interrogatio_)"
+    },
+    {
+      "word": "depauperamento",
+      "definition": "Depauperamento adj. Acto de depauperar."
+    },
+    {
+      "word": "geocentrismo",
+      "definition": "Geocentrismo m. Sistema geocêntrico."
+    },
+    {
+      "word": "amiudadamente",
+      "definition": "Amiudadamente mi-u adv. Amiúde; com frequência."
+    },
+    {
+      "word": "engarrafagem",
+      "definition": "Engarrafagem f. Acto de engarrafar."
+    },
+    {
+      "word": "contribuitivo",
+      "definition": "Contribuitivo bu-i adj. Neol. Relativo a contribuição. (De _contribuir_)"
+    },
+    {
+      "word": "theatralizar",
+      "definition": "Theatralizar v. t. Adaptar às exigências do teatro; tornar representável em teatro. (De _teatral_)"
+    },
+    {
+      "word": "blepharoplegia",
+      "definition": "Blepharoplegia f. Paralisia das pálpebras. (Do gr. _blepharon_ + _plessein_)"
+    },
+    {
+      "word": "imisericordiosamente",
+      "definition": "Imisericordiosamente adv. De modo imisericordioso. Inexoravelmente; sem compaixão."
+    },
+    {
+      "word": "amarilidáceas",
+      "definition": "Amarilidáceas f. pl. O mesmo ou melhor que amarilídeas."
+    },
+    {
+      "word": "encorporativo",
+      "definition": "Encorporativo adj. O mesmo que _holophrástico_."
+    },
+    {
+      "word": "helleborizar",
+      "definition": "Helleborizar v. t. Des. Purgar com helléboro."
+    },
+    {
+      "word": "selenografia",
+      "definition": "Selenografia f. Descrição da Lua. (Cp. _selenógrafo_)"
+    },
+    {
+      "word": "deploravelmente",
+      "definition": "Deploravelmente adv. De modo deplorável."
+    },
+    {
+      "word": "entusiasticamente",
+      "definition": "Entusiasticamente adv. De modo entusiástico."
+    },
+    {
+      "word": "arborescência",
+      "definition": "Arborescência f. Qualidade do que é arborescente."
+    },
+    {
+      "word": "grammaticista",
+      "definition": "Grammaticista m. Aquele que é versado em gramática."
+    },
+    {
+      "word": "sufficiência",
+      "definition": "Sufficiência f. Qualidade do que é suficiente. Aptidão; habilidade. (Lat. _sufficientia_)"
+    },
+    {
+      "word": "interstellar",
+      "definition": "Interstellar adj. Que está entre estrelas. (Do lat. _inter_ + _stella_)"
+    },
+    {
+      "word": "deschancelar",
+      "definition": "Deschancelar v. t. Tirar a chancela a."
+    },
+    {
+      "word": "inclassificado",
+      "definition": "Inclassificado adj. Não classificado. Cf. Th. Ribeiro, _Jornadas_, I, 285."
+    },
+    {
+      "word": "attrahimento",
+      "definition": "Attrahimento m. (V. atracção )"
+    },
+    {
+      "word": "desconcordância",
+      "definition": "Desconcordância f. Falta de concordância."
+    },
+    {
+      "word": "transmissibilidade",
+      "definition": "Transmissibilidade f. Qualidade do que é transmissível. (Do lat. _transmissibilis_)"
+    },
+    {
+      "word": "transmontano",
+      "definition": "Transmontano m. e adj. (V. trasmontano )"
+    },
+    {
+      "word": "encephalopathia",
+      "definition": "Encephalopathia f. Designação genérica das doenças e acidentes graves do sistema nervoso. (Do gr. _enkephalon_ + _pathos_)"
+    },
+    {
+      "word": "possibilidade",
+      "definition": "Possibilidade f. Qualidade do que é possível. Pl. Posses, haveres. Capacidade. (Lat. _possibilitas_)"
+    },
+    {
+      "word": "inceremonioso",
+      "definition": "Inceremonioso adj. Que não é cerimonioso; que não usa ou não gosta de cerimónias. (De _in..._ + _cerimonioso_)"
+    },
+    {
+      "word": "lophobrânchios",
+      "definition": "Lophobrânchios qui m. pl. Zool. Ordem de peixes, que têm por tipo o hippocampo. (Po gr. _lophos_ + _brankhia_)"
+    },
+    {
+      "word": "mineralização",
+      "definition": "Mineralização f. Transformação dos metais em minerais. Combinação de substâncias metálicas com águas de nascentes. (De _mineralizar_)"
+    },
+    {
+      "word": "readquisição",
+      "definition": "Readquisição f. O mesmo que _reaquisição_."
+    },
+    {
+      "word": "abobadilheiro",
+      "definition": "Abobadilheiro m. Prov. alent. Aquele que faz abobadilhas de tijolo."
+    },
+    {
+      "word": "derretimento",
+      "definition": "Derretimento m. O mesmo que _derretedura_."
+    },
+    {
+      "word": "farmacográfico",
+      "definition": "Farmacográfico adj. Relativo à farmacografia."
+    },
+    {
+      "word": "atheromatoso",
+      "definition": "Atheromatoso adj. Que sofre atheroma."
+    },
+    {
+      "word": "escrevinhadeiro",
+      "definition": "Escrevinhadeiro m. e adj. O mesmo que _escrevinhador_."
+    },
+    {
+      "word": "compensatório",
+      "definition": "Compensatório adj. Que envolve compensação. (Do lat. _compensatus_)"
+    },
+    {
+      "word": "arrecadamento",
+      "definition": "Arrecadamento m. Acto de _arrecadar_."
+    },
+    {
+      "word": "proteccional",
+      "definition": "Proteccional adj. Relativo ao proteccionismo. (Do lat. _protectio_)"
+    },
+    {
+      "word": "ardilosamente",
+      "definition": "Ardilosamente adv. De modo _ardiloso_. Com ardil; astuciosamente."
+    },
+    {
+      "word": "irreverência",
+      "definition": "Irreverência f. Falta de reverência. Acto irreverente. Qualidade de irreverente. (Lat. _irreverentia_)"
+    },
+    {
+      "word": "antipestilencial",
+      "definition": "Antipestilencial adj. Que se recomenda contra a peste."
+    },
+    {
+      "word": "dermatogastro",
+      "definition": "Dermatogastro m. Bot. Tribo de cogumelos. (Do gr. _derma_ + _gaster_)"
+    },
+    {
+      "word": "anthropocêntrico",
+      "definition": "Anthropocêntrico adj. Diz-se do sistema filosófico, segundo o qual o homem é o centro de todo o universo, sendo-lhe por isso subordinadas todas as coisas e para ele criadas. Cf. Latino. _Or. da Coroa_, CXXXV."
+    },
+    {
+      "word": "crystallographia",
+      "definition": "Crystallographia f. Ciência, que descreve os cristais e expõe as leis da sua formação. (Do gr. _krustallos_ + _graphein_)"
+    },
+    {
+      "word": "monossulfureto",
+      "definition": "Monossulfureto furê m. Quím. Composto binário, que contém um equivalente de enxofre. (De _mono..._ + _sulfureto_)"
+    },
+    {
+      "word": "clavisignato",
+      "definition": "Clavisignato si m. Antigo soldado pontifício, que tinha por insígnia as chaves da bandeira papal. (Do lat. _clavis_ + _signatus_)"
+    },
+    {
+      "word": "conquiliologista",
+      "definition": "Conquiliologista m. Aquele que é versado em conquiliologia."
+    },
+    {
+      "word": "esclerênquima",
+      "definition": "Esclerênquima m. Bot. Tecido, cujas células endureceram com a liquidificação das suas paredes. (Do gr. _skleros_ + _enkhuma_)"
+    },
+    {
+      "word": "esplanchnotomia",
+      "definition": "Esplanchnotomia f. Dissecção das vísceras. (Do gr. _spalankhnon_ + _tome_)"
+    },
+    {
+      "word": "convenientemente",
+      "definition": "Convenientemente adv. De modo conveniente."
+    },
+    {
+      "word": "petrificação",
+      "definition": "Petrificação f. Acto ou efeito de petrificar."
+    },
+    {
+      "word": "interfalangeano",
+      "definition": "Interfalangeano adj. Anat. Situado entre as falanges. Diz-se especialmente da última articulação dos membros do cavalo. Cf. Leon, _Arte de Ferrar_, 31. (De _inter..._ + _falangeano_)"
+    },
+    {
+      "word": "obcordiforme",
+      "definition": "Obcordiforme adj. Que tem a forma de um coração invertido. (De _Ob..._ + _cordiforme_)"
+    },
+    {
+      "word": "verossemelhante",
+      "definition": "Verossemelhante adj. O mesmo que _verossímil_."
+    },
+    {
+      "word": "mellificador",
+      "definition": "Mellificador m. Vaso, em que se aquecem os favos, para que estes larguem o mel. (De _melificar_)"
+    },
+    {
+      "word": "anisocromático",
+      "definition": "Anisocromático adj. Med. Em que há anisocromia."
+    },
+    {
+      "word": "contrapontista",
+      "definition": "Contrapontista m. e f. Pessoa, versada em regras de contraponto."
+    },
+    {
+      "word": "esgalgueirado",
+      "definition": "Esgalgueirado adj. Prov. trasm. O mesmo que _esgalgado_."
+    },
+    {
+      "word": "deslodamento",
+      "definition": "Deslodamento m. Acto ou efeito de deslodar."
+    },
+    {
+      "word": "crystallologia",
+      "definition": "Crystallologia f. Tratado dos cristais. (Do gr. _krustallos_ + _logos_)"
+    },
+    {
+      "word": "conspirativo",
+      "definition": "Conspirativo adj. Que conspira ou concorre para certo efeito: «_o bello, o bom, o verdadeiro e o útil eram simultaneamente conspirativos para a felicitação da humanidade_» . Castilho."
+    },
+    {
+      "word": "languenhento",
+      "definition": "Languenhento adj. O mesmo que _languinhento_."
+    },
+    {
+      "word": "eschizocéphalo",
+      "definition": "Eschizocéphalo qui adj. Que tem a cabeça dividida longitudinalmente, (falando-se de certos monstros). (Do gr. _skhizein_ + _kephale_)"
+    },
+    {
+      "word": "enteradenografia",
+      "definition": "Enteradenografia f. Anat. Descrição dos gânglios linfáticos intestinais."
+    },
+    {
+      "word": "lichenographia",
+      "definition": "Lichenographia que f. Parte da Botânica, que trata especialmente dos líquenes."
+    },
+    {
+      "word": "osteográfico",
+      "definition": "Osteográfico adj. Relativo à osteografia."
+    },
+    {
+      "word": "apostolicidade",
+      "definition": "Apostolicidade f. Conformidade de doutrina com a dos apóstolos. (De _apostólico_)"
+    },
+    {
+      "word": "interpelação",
+      "definition": "Interpelação f. Acto ou efeito de interpelar. Intimação judicial, para responder acerca de um facto. (Lat. _interpellatio_)"
+    },
+    {
+      "word": "gramatiquice",
+      "definition": "Gramatiquice f. Rigorismo pedantesco em linguagem. (De _gramático_)"
+    },
+    {
+      "word": "anthologista",
+      "definition": "Anthologista m. Aquele que é versado em antologia. Colecionador de poesias."
+    },
+    {
+      "word": "suggestibilidade",
+      "definition": "Suggestibilidade f. Qualidade de sugestível. Med. Disposição ou aptidão, que alguém tem, para ser influenciado, por uma ideia recebida pelo cérebro, e para a realizar."
+    },
+    {
+      "word": "impossibilidade",
+      "definition": "Impossibilidade f. Qualidade de impossível. (Lat. _impossibilitas_)"
+    },
+    {
+      "word": "desenfueirar",
+      "definition": "Desenfueirar v. t. Tirar os fueiros a. (De _des..._ + _enfueirar_)"
+    },
+    {
+      "word": "desobrigatório",
+      "definition": "Desobrigatório adj. Que desobriga. (De _des..._ + _obrigatório_)"
+    },
+    {
+      "word": "estetoscopia",
+      "definition": "Estetoscopia f. Emprego do estetoscópio."
+    }
+  ]
 }
