@@ -4,121 +4,90 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jogo da Forca - Web</title>
-    <style>
-        :root {
-            color-scheme: dark;
-        }
-
-        body {
-            margin: 0;
-            font-family: Inter, Arial, sans-serif;
-            background: linear-gradient(135deg, #0f172a, #312e81);
-            color: #f8fafc;
-            min-height: 100vh;
-            display: grid;
-            place-items: center;
-            padding: 24px;
-        }
-
-        .card {
-            width: min(680px, 100%);
-            padding: 24px;
-            border-radius: 24px;
-            background: rgba(15, 23, 42, 0.82);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.28);
-            backdrop-filter: blur(14px);
-        }
-
-        h1 {
-            margin-top: 0;
-        }
-
-        .word {
-            font-size: 2rem;
-            letter-spacing: 0.4rem;
-            margin: 20px 0;
-        }
-
-        .controls {
-            display: flex;
-            gap: 12px;
-            flex-wrap: wrap;
-            margin-bottom: 16px;
-        }
-
-        button,
-        select {
-            border: 0;
-            border-radius: 999px;
-            padding: 10px 16px;
-            font-size: 1rem;
-            cursor: pointer;
-        }
-
-        button {
-            background: #38bdf8;
-            color: #082f49;
-            font-weight: 700;
-        }
-
-        .letters {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-top: 16px;
-        }
-
-        .letters button {
-            min-width: 44px;
-        }
-
-        .status {
-            margin-top: 16px;
-            color: #cbd5e1;
-        }
-    </style>
+    <title>Jogo da Forca | Web</title>
+    <link rel="stylesheet" href="/styles.css" />
 </head>
 
 <body>
-    <div class="card">
-        <h1>Jogo da Forca</h1>
-        <p>Versão web inicial com a mesma lógica do jogo em Java.</p>
-        <div class="controls">
-            <select id="difficulty">
-                <option value="FACIL">Fácil</option>
-                <option value="MEDIO">Médio</option>
-                <option value="DIFICIL">Difícil</option>
-                <option value="EXTREMO">Extremo</option>
-            </select>
-            <button id="startBtn">Iniciar partida</button>
-        </div>
-        <div id="word" class="word">_ _ _ _</div>
-        <div id="status" class="status">Escolha a dificuldade e comece a jogar.</div>
-        <div id="letters" class="letters"></div>
-    </div>
+    <main>
+        <section class="card hero">
+            <div>
+                <span class="badge">🎮 Projeto portfolio</span>
+                <h1>Jogo da Forca</h1>
+                <p>Uma versão web moderna do clássico jogo, com a mesma lógica em Java e um visual mais próximo de uma
+                    aplicação real.</p>
+            </div>
+            <div class="badge">⚡ Java + Web</div>
+        </section>
 
+        <section class="card">
+            <div class="controls">
+                <select id="difficulty">
+                    <option value="FACIL">Fácil</option>
+                    <option value="MEDIO">Médio</option>
+                    <option value="DIFICIL">Difícil</option>
+                    <option value="EXTREMO">Extremo</option>
+                </select>
+                <button id="startBtn" class="primary">Iniciar partida</button>
+                <button id="resetBtn" class="secondary">Reiniciar</button>
+            </div>
+
+            <div class="status-grid">
+                <div class="status-box"><strong>Dificuldade:</strong> <span id="difficultyLabel">Fácil</span></div>
+                <div class="status-box"><strong>Erros:</strong> <span id="errorsLabel">0 / 0</span></div>
+                <div class="status-box"><strong>Status:</strong> <span id="statusLabel">Pronto para jogar</span></div>
+            </div>
+
+            <div id="word" class="word">_ _ _ _</div>
+            <div id="letters" class="letters"></div>
+            <p id="hint" class="footer-note">Escolha a dificuldade e comece a jogar.</p>
+        </section>
+    </main>
+
+    <script src="/config.js"></script>
     <script>
+        const apiBaseUrl = window.APP_CONFIG?.apiBaseUrl || '';
         const wordEl = document.getElementById('word');
-        const statusEl = document.getElementById('status');
+        const difficultyLabelEl = document.getElementById('difficultyLabel');
+        const errorsLabelEl = document.getElementById('errorsLabel');
+        const statusLabelEl = document.getElementById('statusLabel');
         const lettersEl = document.getElementById('letters');
+        const hintEl = document.getElementById('hint');
         const difficultyEl = document.getElementById('difficulty');
         const startBtn = document.getElementById('startBtn');
+        const resetBtn = document.getElementById('resetBtn');
+
+        let currentState = null;
+        let usedLetters = new Set();
 
         function renderState(state) {
+            currentState = state;
             wordEl.textContent = state.hiddenWord.split('').join(' ');
-            statusEl.textContent = `Dificuldade: ${state.difficulty} | Erros: ${state.currentErrors}/${state.maxErrors}`;
+            difficultyLabelEl.textContent = state.difficulty;
+            errorsLabelEl.textContent = `${state.currentErrors} / ${state.maxErrors}`;
+            statusLabelEl.textContent = state.gameOver ? (state.won ? 'Vitória!' : 'Fim de jogo') : 'Em andamento';
+            hintEl.textContent = state.gameOver ? `Resposta: ${state.word} — ${state.definition}` : 'Escolha uma letra e tente descobrir a palavra.';
+
             lettersEl.innerHTML = '';
             for (const letter of 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') {
                 const button = document.createElement('button');
                 button.textContent = letter;
+                button.className = 'letter-btn';
+                if (usedLetters.has(letter)) {
+                    button.classList.add('used');
+                }
+                if (state.hiddenWord.includes(letter)) {
+                    button.classList.add('correct');
+                }
+                button.disabled = state.gameOver || usedLetters.has(letter);
                 button.onclick = () => guess(letter);
                 lettersEl.appendChild(button);
             }
         }
 
         async function startGame() {
-            const response = await fetch('/api/start', {
+            usedLetters.clear();
+            const response = await fetch(`${apiBaseUrl}/api/start`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ difficulty: difficultyEl.value })
@@ -128,7 +97,8 @@
         }
 
         async function guess(letter) {
-            const response = await fetch('/api/guess', {
+            usedLetters.add(letter);
+            const response = await fetch(`${apiBaseUrl}/api/guess`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ letter })
@@ -138,6 +108,7 @@
         }
 
         startBtn.onclick = startGame;
+        resetBtn.onclick = startGame;
         startGame();
     </script>
 </body>

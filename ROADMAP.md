@@ -16,8 +16,10 @@ Este projeto foi estruturado para evoluir em sprints claras, mantendo a versão 
 ## Sprint 3 — Experiência de jogo aprimorada
 - Adicionar animações, feedback visual e estados de vitória/derrota mais ricos.
 - Melhorar acesso por teclado e responsividade em telas menores.
+- Refinar a linguagem visual para chamar atenção de perfis técnicos e entusiastas de jogos indie.
 
 ## Sprint 4 — Polish e portfólio
 - Melhorar documentação técnica e visual.
 - Adicionar screenshots e instruções de execução para cada interface.
 - Preparar o repositório para apresentação profissional no GitHub.
+- Definir o fluxo de deploy da camada web e da camada Java para ambientes gratuitos.

@@ -25,6 +25,8 @@ public class GameWebServer {
     public GameWebServer(int port) throws IOException {
         this.server = HttpServer.create(new InetSocketAddress(port), 0);
         this.server.createContext("/", this::handleRoot);
+        this.server.createContext("/styles.css", this::handleStyles);
+        this.server.createContext("/config.js", this::handleConfig);
         this.server.createContext("/api/start", this::handleStart);
         this.server.createContext("/api/guess", this::handleGuess);
     }
@@ -49,6 +51,28 @@ public class GameWebServer {
 
         byte[] response = loadResource("web/index.html");
         exchange.getResponseHeaders().add("Content-Type", "text/html; charset=UTF-8");
+        sendBytes(exchange, 200, response);
+    }
+
+    private void handleStyles(HttpExchange exchange) throws IOException {
+        if (!"GET".equalsIgnoreCase(exchange.getRequestMethod())) {
+            sendText(exchange, 405, "Método não permitido");
+            return;
+        }
+
+        byte[] response = loadResource("web/styles.css");
+        exchange.getResponseHeaders().add("Content-Type", "text/css; charset=UTF-8");
+        sendBytes(exchange, 200, response);
+    }
+
+    private void handleConfig(HttpExchange exchange) throws IOException {
+        if (!"GET".equalsIgnoreCase(exchange.getRequestMethod())) {
+            sendText(exchange, 405, "Método não permitido");
+            return;
+        }
+
+        byte[] response = loadResource("web/config.js");
+        exchange.getResponseHeaders().add("Content-Type", "application/javascript; charset=UTF-8");
         sendBytes(exchange, 200, response);
     }
 

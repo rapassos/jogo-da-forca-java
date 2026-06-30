@@ -29,7 +29,7 @@ O projeto segue um modelo de desenvolvimento por sprints:
 - Sprint 1: base de execução multi-interface e organização documental.
 - Sprint 2: interface web inicial.
 - Sprint 3: experiência de jogo aprimorada.
-- Sprint 4: polish, documentação de portfólio e apresentação.
+- Sprint 4: polish visual, identidade indie e publicação para portfólio.
 
 Mais detalhes em [ROADMAP.md](ROADMAP.md).
 
