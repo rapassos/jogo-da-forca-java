@@ -1,9 +1,9 @@
 package com.rapassos.forca.app;
 
+import java.io.IOException;
 import javax.swing.SwingUtilities;
-import com.rapassos.forca.service.LocalFallbackService;
 import com.rapassos.forca.view.MenuView;
-import com.rapassos.forca.web.GameWebService;
+import com.rapassos.forca.web.GameWebServer;
 
 public class AppBootstrap {
 
@@ -29,12 +29,17 @@ public class AppBootstrap {
         AppMode mode = resolveMode(args);
 
         if (mode == AppMode.WEB) {
-            GameWebService webService = new GameWebService(new LocalFallbackService());
-            System.out.println(
-                    "Modo web inicial pronto. Serviço de jogo disponível para a próxima etapa da interface.");
-            System.out.println("Estado inicial: "
-                    + webService.startGame(com.rapassos.forca.model.Difficulty.FACIL)
-                            .getCurrentState().getDifficulty().getDescription());
+            try {
+                GameWebServer server = new GameWebServer(8080);
+                server.start();
+                System.out.println("Servidor web iniciado em http://localhost:8080/");
+                System.out.println("Pressione Ctrl+C para encerrar.");
+                Thread.currentThread().join();
+            } catch (IOException e) {
+                throw new RuntimeException("Falha ao iniciar o servidor web", e);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
             return;
         }
 

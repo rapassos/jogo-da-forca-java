@@ -31,11 +31,14 @@ public class GameWebServer {
 
     public void start() {
         server.start();
-        System.out.println("Interface web disponível em http://localhost:8080/");
     }
 
     public void stop() {
         server.stop(0);
+    }
+
+    public int getPort() {
+        return server.getAddress().getPort();
     }
 
     private void handleRoot(HttpExchange exchange) throws IOException {
