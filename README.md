@@ -1,89 +1,102 @@
 # Jogo da Forca (Java SE)
 
-Uma implementação moderna, robusta e resiliente do clássico Jogo da Forca desenvolvida em Java 17. O projeto utiliza arquitetura desacoplada baseada em serviços para consumir palavras e definições diretamente de uma API externa, contando com um mecanismo inteligente de contingência local estruturado em JSON.
+Este projeto é uma implementação moderna do clássico Jogo da Forca, desenvolvida em Java 17 com foco em arquitetura limpa, evolução incremental e apresentação profissional no GitHub. A intenção é manter a versão desktop atual e, em paralelo, evoluir para uma interface web moderna sem perder a base funcional já consolidada.
 
 ---
 
-## 🚀 Funcionalidades Chave
+## 🎯 Objetivo do projeto
 
-* **Consumo de API Externa:** Integração assíncrona com a API do *Dicionário Aberto* para obter termos e significados dinamicamente.
-* **Mecanismo de Fallback Autônomo:** Se a API externa estiver instável ou apresentar latência, o sistema chaveia automaticamente para um banco de dados local com mais de 1.200 palavras.
-* **Filtros e Validações Estritas:** O motor do jogo descarta automaticamente termos compostos, espaços e palavras com hífens, garantindo a integridade das partidas.
-* **Níveis de Dificuldade Dinâmicos:** Controle rigoroso do tamanho das palavras e do limite de erros permitidos com base em quatro categorias:
-  * **Fácil:** 3 a 5 letras (até 6 erros).
-  * **Médio:** 6 a 8 letras (até 5 erros).
-  * **Difícil:** 9 a 11 letras (até 4 erros).
-  * **Extremo:** 12 ou mais letras (até 3 erros).
-* **Normalização Inteligente de Caracteres:** Suporte nativo a acentuação da língua portuguesa. Se a palavra contiver "Á", o palpite "A" revelará a letra mantendo o caractere acentuado original visualmente.
-* **Arquitetura Testável:** Lógica de negócio desacoplada da interface gráfica e dos provedores de dados, coberta por testes unitários automatizados.
+Construir uma experiência de jogo envolvente e bem estruturada, com:
+- uma versão desktop clássica em Swing;
+- uma versão web futura, criada em paralelo como feature moderna;
+- documentação e histórico de desenvolvimento pensados para portfólio.
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## 🚀 Funcionalidades atuais
 
-* **Java 17 (LTS):** Utilização de recursos modernos da linguagem e HttpClient nativo.
-* **Apache Maven:** Gerenciamento de ciclo de vida de build e dependências de terceiros.
-* **Jackson Databind:** Manipulação e parsing eficiente de payloads JSON da API e arquivos locais.
-* **JUnit 5:** Framework para criação e execução de testes unitários.
-* **Python 3:** Script de automação e engenharia de dados integrado para mineração incremental da base de fallback.
+* **Consumo de API Externa:** integração com a API do Dicionário Aberto para buscar palavras e definições.
+* **Fallback Local:** quando a API não está disponível, o jogo utiliza um banco local com palavras estruturadas em JSON.
+* **Níveis de Dificuldade:** fácil, médio, difícil e extremo.
+* **Normalização de Caracteres:** suporte a palavras com acentuação.
+* **Arquitetura Testável:** regras de negócio desacopladas da interface e de serviços externos.
 
 ---
 
-## 📂 Arquitetura do Projeto
+## 🧱 Estratégia de evolução
 
-O projeto utiliza o padrão **Service/Controller** com Injeção de Dependência, isolando regras de negócio, contratos de serviço e interface gráfica:
+O projeto segue um modelo de desenvolvimento por sprints:
+- Sprint 1: base de execução multi-interface e organização documental.
+- Sprint 2: interface web inicial.
+- Sprint 3: experiência de jogo aprimorada.
+- Sprint 4: polish, documentação de portfólio e apresentação.
+
+Mais detalhes em [ROADMAP.md](ROADMAP.md).
+
+---
+
+## 🛠️ Tecnologias e ferramentas
+
+* **Java 17 (LTS)**
+* **Apache Maven**
+* **Jackson Databind**
+* **JUnit 5**
+* **Python 3** para geração/atualização de dados de fallback
+
+---
+
+## 📂 Estrutura do projeto
 
 ```yaml
 src/
 ├── main/
 │   ├── java/com/rapassos/forca/
-│   │   ├── main/Main.java             # Ponto de entrada da aplicação
-│   │   ├── controller/GameController.java  # Orquestração de estados e lógica de palpites
-│   │   ├── model/                     # Enums e objetos de valor (Difficulty, GameState)
-│   │   ├── service/                   # Interfaces e implementações (API, Fallback Local)
-│   │   └── view/                      # Interface gráfica Swing (MenuView, GameView)
+│   │   ├── app/                 # Bootstrap para múltiplas interfaces
+│   │   ├── controller/          # Lógica do jogo
+│   │   ├── model/               # Regras e estado do jogo
+│   │   ├── service/             # Serviços de palavra e fallback
+│   │   └── view/                # Interface Swing atual
 │   └── resources/
-│       └── palavras.json              # Banco de dados local para fallback
+│       └── palavras.json
 └── test/
     └── java/com/rapassos/forca/
-        └── controller/GameControllerTest.java # Testes de lógica e normalização
 ```
 
 ---
 
-## 🏃 Como Executar a Aplicação
+## ▶️ Como executar
 
 ### Pré-requisitos
-* Java JDK 17 ou superior configurado.
-* Apache Maven instalado.
+* Java JDK 17 ou superior
+* Apache Maven
 
-### Compilação e Execução
-Na raiz do projeto, execute os comandos abaixo no terminal:
-
+### Compilar e testar
 ```bash
-# Limpar builds antigos e compilar o projeto
-mvn clean compile
+mvn clean test
+```
 
-# Executar a suíte de testes unitários (JUnit 5)
-mvn test
-
-# Iniciar a aplicação
+### Executar a versão desktop
+```bash
 mvn exec:java -Dexec.mainClass="com.rapassos.forca.main.Main"
 ```
 
 ---
 
-## 🐍 Utilitários: Script Gerador de Massa de Dados
+## 📝 Documentação complementar
 
-O repositório inclui um script em Python focado em engenharia de dados para atualizar de forma incremental o arquivo `palavras.json` consumindo o endpoint randômico da API oficial.
+* [ROADMAP.md](ROADMAP.md) — plano de desenvolvimento por sprints
+* [CHANGELOG.md](CHANGELOG.md) — histórico de mudanças
+* [CONTRIBUTING.md](CONTRIBUTING.md) — fluxo de contribuição e padrões de commit
 
-### Como rodar o gerador:
+---
+
+## 🐍 Utilitários
+
+O repositório também inclui um script em Python para atualização incremental do banco de fallback.
+
 ```bash
-# Criar e ativar o ambiente virtual isolado
 python3 -m venv .venv
 source .venv/bin/activate
-
-# Instalar as dependências e executar
 pip install requests
 python scripts/generate_fallback.py
 ```
