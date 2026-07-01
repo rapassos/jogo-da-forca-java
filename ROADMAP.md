@@ -23,3 +23,8 @@ Este projeto foi estruturado para evoluir em sprints claras, mantendo a versão 
 - Adicionar screenshots e instruções de execução para cada interface.
 - Preparar o repositório para apresentação profissional no GitHub.
 - Definir o fluxo de deploy da camada web e da camada Java para ambientes gratuitos.
+
+## Sprint 5 — Interações avançadas
+- Expandir a entrada por teclado para oferecer uma experiência mais tradicional de jogo.
+- Adicionar atalhos e reforços de usabilidade para partidas mais rápidas.
+- Avaliar suporte a modos de jogo adicionais e feedback sonoro.

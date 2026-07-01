@@ -14,33 +14,78 @@
             <div>
                 <span class="badge">🎮 Projeto portfolio</span>
                 <h1>Jogo da Forca</h1>
-                <p>Uma versão web moderna do clássico jogo, com a mesma lógica em Java e um visual mais próximo de uma
-                    aplicação real.</p>
+                <p>Uma partida no caderno, como se você estivesse escrevendo letra por letra com um lápis velho e
+                    um pouco de coragem.</p>
             </div>
             <div class="badge">⚡ Java + Web</div>
         </section>
 
-        <section class="card">
-            <div class="controls">
-                <select id="difficulty">
-                    <option value="FACIL">Fácil</option>
-                    <option value="MEDIO">Médio</option>
-                    <option value="DIFICIL">Difícil</option>
-                    <option value="EXTREMO">Extremo</option>
-                </select>
-                <button id="startBtn" class="primary">Iniciar partida</button>
-                <button id="resetBtn" class="secondary">Reiniciar</button>
-            </div>
+        <section class="card game-panel">
+            <div class="game-layout">
+                <div class="scene-card">
+                    <div class="scene-header">
+                        <span class="mini-badge">Cena do jogo</span>
+                        <span id="sceneLabel" class="scene-caption">Aguardando a primeira tentativa</span>
+                    </div>
 
-            <div class="status-grid">
-                <div class="status-box"><strong>Dificuldade:</strong> <span id="difficultyLabel">Fácil</span></div>
-                <div class="status-box"><strong>Erros:</strong> <span id="errorsLabel">0 / 0</span></div>
-                <div class="status-box"><strong>Status:</strong> <span id="statusLabel">Pronto para jogar</span></div>
-            </div>
+                    <div id="gameScene" class="scene stage-0">
+                        <div class="scene-illustration" aria-hidden="true">
+                            <svg viewBox="0 0 360 280" role="img">
+                                <rect x="46" y="36" width="268" height="208" rx="24" class="scene-bg" />
+                                <circle cx="276" cy="92" r="30" class="scene-sun" />
+                                <path d="M74 228C112 192 160 176 220 180C250 182 284 194 312 220" class="scene-ground" />
+                                <path d="M88 220H188" class="scene-gallows-base" />
+                                <path d="M132 220V54H214V74" class="scene-gallows" />
+                                <path d="M214 54H258" class="scene-gallows" />
+                                <path d="M258 54V84" class="scene-gallows" />
+                                <path d="M112 220H92" class="scene-gallows" />
+                            </svg>
+                        </div>
 
-            <div id="word" class="word">_ _ _ _</div>
-            <div id="letters" class="letters"></div>
-            <p id="hint" class="footer-note">Escolha a dificuldade e comece a jogar.</p>
+                        <div class="sprite" aria-hidden="true">
+                            <div class="sprite-part head">
+                                <span class="eye eye-left"></span>
+                                <span class="eye eye-right"></span>
+                                <span class="smile"></span>
+                            </div>
+                            <div class="sprite-part torso"></div>
+                            <div class="sprite-part arm arm-left"></div>
+                            <div class="sprite-part arm arm-right"></div>
+                            <div class="sprite-part leg leg-left"></div>
+                            <div class="sprite-part leg leg-right"></div>
+                        </div>
+
+                        <div class="sparkles" aria-hidden="true">
+                            <span class="spark spark-1"></span>
+                            <span class="spark spark-2"></span>
+                            <span class="spark spark-3"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="board">
+                    <div class="controls">
+                        <select id="difficulty">
+                            <option value="FACIL">Fácil</option>
+                            <option value="MEDIO">Médio</option>
+                            <option value="DIFICIL">Difícil</option>
+                            <option value="EXTREMO">Extremo</option>
+                        </select>
+                        <button id="startBtn" class="primary">Iniciar partida</button>
+                        <button id="resetBtn" class="secondary">Reiniciar</button>
+                    </div>
+
+                    <div class="status-grid">
+                        <div class="status-box"><strong>Dificuldade:</strong> <span id="difficultyLabel">Fácil</span></div>
+                        <div class="status-box"><strong>Erros:</strong> <span id="errorsLabel">0 / 0</span></div>
+                        <div class="status-box"><strong>Status:</strong> <span id="statusLabel">Pronto para jogar</span></div>
+                    </div>
+
+                    <div id="word" class="word">_ _ _ _</div>
+                    <div id="letters" class="letters"></div>
+                    <p id="hint" class="footer-note">Escolha a dificuldade e comece a jogar.</p>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -51,11 +96,13 @@
         const difficultyLabelEl = document.getElementById('difficultyLabel');
         const errorsLabelEl = document.getElementById('errorsLabel');
         const statusLabelEl = document.getElementById('statusLabel');
+        const sceneLabelEl = document.getElementById('sceneLabel');
         const lettersEl = document.getElementById('letters');
         const hintEl = document.getElementById('hint');
         const difficultyEl = document.getElementById('difficulty');
         const startBtn = document.getElementById('startBtn');
         const resetBtn = document.getElementById('resetBtn');
+        const gameSceneEl = document.getElementById('gameScene');
 
         let currentState = null;
         let usedLetters = new Set();
@@ -67,6 +114,19 @@
             errorsLabelEl.textContent = `${state.currentErrors} / ${state.maxErrors}`;
             statusLabelEl.textContent = state.gameOver ? (state.won ? 'Vitória!' : 'Fim de jogo') : 'Em andamento';
             hintEl.textContent = state.gameOver ? `Resposta: ${state.word} — ${state.definition}` : 'Escolha uma letra e tente descobrir a palavra.';
+
+            gameSceneEl.className = `scene stage-${Math.min(state.currentErrors, 6)}`;
+            if (state.gameOver && state.won) {
+                gameSceneEl.classList.add('state-win');
+                sceneLabelEl.textContent = `Você salvou o personagem! A palavra era ${state.word}.`;
+            } else if (state.gameOver) {
+                gameSceneEl.classList.add('state-loss');
+                sceneLabelEl.textContent = `A palavra era ${state.word}. O personagem foi derrotado.`;
+            } else if (state.currentErrors === 0) {
+                sceneLabelEl.textContent = 'Aguardando a primeira tentativa';
+            } else {
+                sceneLabelEl.textContent = `Erro ${state.currentErrors}: o personagem precisa de ajuda!`;
+            }
 
             lettersEl.innerHTML = '';
             for (const letter of 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') {
@@ -97,6 +157,10 @@
         }
 
         async function guess(letter) {
+            if (!currentState || currentState.gameOver || usedLetters.has(letter)) {
+                return;
+            }
+
             usedLetters.add(letter);
             const response = await fetch(`${apiBaseUrl}/api/guess`, {
                 method: 'POST',
@@ -107,8 +171,28 @@
             renderState(state);
         }
 
+        function handleKeyboardInput(event) {
+            const targetTag = event.target?.tagName;
+            if (targetTag && ['INPUT', 'TEXTAREA', 'SELECT'].includes(targetTag)) {
+                return;
+            }
+
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                startGame();
+                return;
+            }
+
+            const key = event.key?.toUpperCase();
+            if (/^[A-Z]$/.test(key)) {
+                event.preventDefault();
+                guess(key);
+            }
+        }
+
         startBtn.onclick = startGame;
         resetBtn.onclick = startGame;
+        document.addEventListener('keydown', handleKeyboardInput);
         startGame();
     </script>
 </body>

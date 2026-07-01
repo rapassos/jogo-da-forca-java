@@ -20,6 +20,7 @@ Construir uma experiência de jogo envolvente e bem estruturada, com:
 * **Níveis de Dificuldade:** fácil, médio, difícil e extremo.
 * **Normalização de Caracteres:** suporte a palavras com acentuação.
 * **Arquitetura Testável:** regras de negócio desacopladas da interface e de serviços externos.
+* **Entrada por teclado:** a interface web pode receber letras diretamente pelo teclado do computador como alternativa de interação.
 
 ---
 
