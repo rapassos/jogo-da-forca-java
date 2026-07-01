@@ -1,6 +1,6 @@
 # Jogo da Forca (Java SE)
 
-Este projeto é uma implementação moderna do clássico Jogo da Forca, desenvolvida em Java 17 com foco em arquitetura limpa, evolução incremental e apresentação profissional no GitHub. A intenção é manter a versão desktop atual e, em paralelo, evoluir para uma interface web moderna sem perder a base funcional já consolidada.
+Este projeto é uma implementação moderna do clássico Jogo da Forca, desenvolvida em Java 25 com foco em arquitetura limpa, evolução incremental e apresentação profissional no GitHub. A intenção é manter a versão desktop atual e, em paralelo, evoluir para uma interface web moderna sem perder a base funcional já consolidada.
 
 **🎮 Jogue agora:** https://jogo-da-forca-java.onrender.com
 
@@ -40,7 +40,7 @@ Mais detalhes em [ROADMAP.md](ROADMAP.md).
 
 ## 🛠️ Tecnologias e ferramentas
 
-* **Java 17 (LTS)**
+* **Java 25 (LTS)**
 * **Apache Maven**
 * **Jackson Databind**
 * **JUnit 5**
@@ -70,7 +70,7 @@ src/
 ## ▶️ Como executar
 
 ### Pré-requisitos
-* Java JDK 17 ou superior
+* Java JDK 25 ou superior
 * Apache Maven
 
 ### Compilar e testar
@@ -128,7 +128,7 @@ Veja [ROADMAP.md](ROADMAP.md) para detalhes completos do plano de desenvolviment
 
 - **Dicionário Aberto:** O projeto utiliza dados do [Dicionário Aberto](https://www.dicionario-aberto.net/) para o consumo dinâmico de palavras via API, bem como para a geração do dicionário local em formato JSON. Acesse o site para mais informações e contribuições.
 - **Font:** Segoe Print, Bradley Hand (para a estética vintage do caderno)
-- **Tecnologias:** Java 17, Maven, Jackson, JUnit 5
+- **Tecnologias:** Java 25, Maven, Jackson, JUnit 5
 
 ---
 
