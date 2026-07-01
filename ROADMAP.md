@@ -26,5 +26,16 @@ Este projeto foi estruturado para evoluir em sprints claras, mantendo a versão 
 
 ## Sprint 5 — Interações avançadas
 - Expandir a entrada por teclado para oferecer uma experiência mais tradicional de jogo.
+- Adicionar **indicador visual online/offline**: mostrar se a palavra veio do dicionário online ou local.
 - Adicionar atalhos e reforços de usabilidade para partidas mais rápidas.
 - Avaliar suporte a modos de jogo adicionais e feedback sonoro.
+
+## Sprint 6 — Separação frontend/backend
+- Mover a interface web para um projeto separado (Vercel).
+- Manter apenas a API Java no backend (Render).
+- Integração via CORS e configuração de endpoints remotos.
+
+## Sprint 7 — Polimento final
+- Adicionar sons e feedbacks hapticos (em dispositivos que suportam).
+- Melhorar acessibilidade e suporte a temas escuro/claro.
+- Preparar para publicação em app stores ou como PWA.

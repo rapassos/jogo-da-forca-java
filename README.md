@@ -2,6 +2,8 @@
 
 Este projeto é uma implementação moderna do clássico Jogo da Forca, desenvolvida em Java 17 com foco em arquitetura limpa, evolução incremental e apresentação profissional no GitHub. A intenção é manter a versão desktop atual e, em paralelo, evoluir para uma interface web moderna sem perder a base funcional já consolidada.
 
+**🎮 Jogue agora:** https://jogo-da-forca-java.onrender.com
+
 ---
 
 ## 🎯 Objetivo do projeto
@@ -15,8 +17,8 @@ Construir uma experiência de jogo envolvente e bem estruturada, com:
 
 ## 🚀 Funcionalidades atuais
 
-* **Consumo de API Externa:** integração com a API do Dicionário Aberto para buscar palavras e definições.
-* **Fallback Local:** quando a API não está disponível, o jogo utiliza um banco local com palavras estruturadas em JSON.
+* **Consumo de API Externa:** integração com o [Dicionário Aberto](https://www.dicionario-aberto.net/) para buscar palavras e definições.
+* **Fallback Local:** quando a API não está disponível, o jogo utiliza um banco local com palavras estruturadas em JSON, gerado a partir de dados do Dicionário Aberto.
 * **Níveis de Dificuldade:** fácil, médio, difícil e extremo.
 * **Normalização de Caracteres:** suporte a palavras com acentuação.
 * **Arquitetura Testável:** regras de negócio desacopladas da interface e de serviços externos.
@@ -115,9 +117,13 @@ docker run -p 8080:8080 -e PORT=8080 jogo-da-forca-java
 - O frontend pode ser separado em um projeto estático depois.
 - A API continua hospedada no backend Java e a URL base é trocada na configuração do frontend.
 
----
+## 🔗 Referências e créditos
 
-## 📝 Documentação complementar
+- **Dicionário Aberto:** O projeto utiliza dados do [Dicionário Aberto](https://www.dicionario-aberto.net/) para o consumo dinâmico de palavras via API, bem como para a geração do dicionário local em formato JSON. Acesse o site para mais informações e contribuições.
+- **Font:** Segoe Print, Bradley Hand (para a estética vintage do caderno)
+- **Tecnologias:** Java 17, Maven, Jackson, JUnit 5
+
+---
 
 * [ROADMAP.md](ROADMAP.md) — plano de desenvolvimento por sprints
 * [CHANGELOG.md](CHANGELOG.md) — histórico de mudanças
