@@ -81,6 +81,40 @@ mvn clean test
 mvn exec:java -Dexec.mainClass="com.rapassos.forca.main.Main"
 ```
 
+### Executar a versão web localmente
+```bash
+mvn exec:java -Dexec.mainClass="com.rapassos.forca.main.Main" -Dexec.args="--mode=web --port=8080"
+```
+
+### Build para deploy
+```bash
+mvn clean package
+```
+
+---
+
+## 🚀 Passo a passo de deploy
+
+### Opção 1 — Deploy simples da web no Render
+1. Crie uma conta no Render.
+2. Conecte este repositório ao Render.
+3. Escolha a opção Web Service.
+4. Defina o comando de start como:
+   ```bash
+   java -jar target/*-jar-with-dependencies.jar --mode=web --port=$PORT
+   ```
+5. Faça o deploy e copie a URL pública.
+
+### Opção 2 — Deploy com Docker
+```bash
+docker build -t jogo-da-forca-java .
+docker run -p 8080:8080 -e PORT=8080 jogo-da-forca-java
+```
+
+### Opção 3 — Deploy futuro no Vercel
+- O frontend pode ser separado em um projeto estático depois.
+- A API continua hospedada no backend Java e a URL base é trocada na configuração do frontend.
+
 ---
 
 ## 📝 Documentação complementar
