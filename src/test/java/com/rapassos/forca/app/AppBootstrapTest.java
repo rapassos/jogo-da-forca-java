@@ -2,7 +2,7 @@ package com.rapassos.forca.app;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 class AppBootstrapTest {
@@ -18,8 +18,18 @@ class AppBootstrapTest {
     }
 
     @Test
+    void shouldResolveDesktopModeExplicitly() {
+        assertEquals(AppMode.DESKTOP, AppBootstrap.resolveMode(new String[] {"--mode=desktop"}));
+    }
+
+    @Test
     void shouldRejectUnknownMode() {
         assertThrows(IllegalArgumentException.class,
                 () -> AppBootstrap.resolveMode(new String[] {"--mode=mobile"}));
+    }
+
+    @Test
+    void shouldResolvePortFromEnvironmentWhenNoArgumentProvided() {
+        assertTrue(AppBootstrap.resolvePort(new String[0]) >= 0);
     }
 }

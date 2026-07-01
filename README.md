@@ -1,8 +1,22 @@
 # Jogo da Forca (Java SE)
 
-Este projeto é uma implementação moderna do clássico Jogo da Forca, desenvolvida em Java 17 com foco em arquitetura limpa, evolução incremental e apresentação profissional no GitHub. A intenção é manter a versão desktop atual e, em paralelo, evoluir para uma interface web moderna sem perder a base funcional já consolidada.
+Este projeto é uma implementação moderna do clássico Jogo da Forca, desenvolvida em Java 21 LTS com foco em arquitetura limpa, evolução incremental e apresentação profissional no GitHub. A intenção é manter a versão desktop atual e, em paralelo, evoluir para uma interface web moderna sem perder a base funcional já consolidada.
 
 **🎮 Jogue agora:** https://jogo-da-forca-java.onrender.com
+
+---
+
+## 🧭 Evolução e modernização do software
+
+Este repositório registra a evolução do projeto em etapas claras de modernização:
+
+- **Versão inicial:** implementação em Java 17 com foco em Swing desktop e dados locais para fallback.
+- **Refatoração de arquitetura:** separação de responsabilidades entre aplicação, controle de jogo, serviços e camada web, com foco em testabilidade.
+- **Modernização do runtime:** migração do stack para Java 21 LTS, com build Maven atualizado e suporte a compilação com release explícito.
+- **Modernização do ecossistema:** atualização do container para execução web em ambientes modernos, além da melhoria do gerador de fallback em Python para compatibilidade com runtimes atuais.
+- **Registro de evolução:** o projeto passou a manter testes automatizados, documentação de execução e um fluxo de deploy mais preparado para ambientes reais.
+
+Essa evolução mantém o projeto alinhado com versões Long Term Support (LTS) e com boas práticas de manutenção e operação.
 
 ---
 
@@ -40,7 +54,7 @@ Mais detalhes em [ROADMAP.md](ROADMAP.md).
 
 ## 🛠️ Tecnologias e ferramentas
 
-* **Java 17 (LTS)**
+* **Java 21 (LTS)**
 * **Apache Maven**
 * **Jackson Databind**
 * **JUnit 5**
@@ -70,7 +84,7 @@ src/
 ## ▶️ Como executar
 
 ### Pré-requisitos
-* Java JDK 17 ou superior
+* Java JDK 21 ou superior
 * Apache Maven
 
 ### Compilar e testar
@@ -128,7 +142,7 @@ Veja [ROADMAP.md](ROADMAP.md) para detalhes completos do plano de desenvolviment
 
 - **Dicionário Aberto:** O projeto utiliza dados do [Dicionário Aberto](https://www.dicionario-aberto.net/) para o consumo dinâmico de palavras via API, bem como para a geração do dicionário local em formato JSON. Acesse o site para mais informações e contribuições.
 - **Font:** Segoe Print, Bradley Hand (para a estética vintage do caderno)
-- **Tecnologias:** Java 17, Maven, Jackson, JUnit 5
+- **Tecnologias:** Java 21, Maven, Jackson, JUnit 5
 
 ---
 
