@@ -1,8 +1,22 @@
 # Jogo da Forca (Java SE)
 
-Este projeto é uma implementação moderna do clássico Jogo da Forca, desenvolvida em Java 25 com foco em arquitetura limpa, evolução incremental e apresentação profissional no GitHub. A intenção é manter a versão desktop atual e, em paralelo, evoluir para uma interface web moderna sem perder a base funcional já consolidada.
+Este projeto é uma implementação moderna do clássico Jogo da Forca, desenvolvida em Java 21 LTS com foco em arquitetura limpa, evolução incremental e apresentação profissional no GitHub. A intenção é manter a versão desktop atual e, em paralelo, evoluir para uma interface web moderna sem perder a base funcional já consolidada.
 
 **🎮 Jogue agora:** https://jogo-da-forca-java.onrender.com
+
+---
+
+## 🧭 Evolução e modernização do software
+
+Este repositório registra a evolução do projeto em etapas claras de modernização:
+
+- **Versão inicial:** implementação em Java 17 com foco em Swing desktop e dados locais para fallback.
+- **Refatoração de arquitetura:** separação de responsabilidades entre aplicação, controle de jogo, serviços e camada web, com foco em testabilidade.
+- **Modernização do runtime:** migração do stack para Java 21 LTS, com build Maven atualizado e suporte a compilação com release explícito.
+- **Modernização do ecossistema:** atualização do container para execução web em ambientes modernos, além da melhoria do gerador de fallback em Python para compatibilidade com runtimes atuais.
+- **Registro de evolução:** o projeto passou a manter testes automatizados, documentação de execução e um fluxo de deploy mais preparado para ambientes reais.
+
+Essa evolução mantém o projeto alinhado com versões Long Term Support (LTS) e com boas práticas de manutenção e operação.
 
 ---
 
