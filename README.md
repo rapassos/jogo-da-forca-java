@@ -40,7 +40,7 @@ Mais detalhes em [ROADMAP.md](ROADMAP.md).
 
 ## 🛠️ Tecnologias e ferramentas
 
-* **Java 25 (LTS)**
+* **Java 21 (LTS)**
 * **Apache Maven**
 * **Jackson Databind**
 * **JUnit 5**
@@ -70,7 +70,7 @@ src/
 ## ▶️ Como executar
 
 ### Pré-requisitos
-* Java JDK 25 ou superior
+* Java JDK 21 ou superior
 * Apache Maven
 
 ### Compilar e testar
@@ -128,7 +128,7 @@ Veja [ROADMAP.md](ROADMAP.md) para detalhes completos do plano de desenvolviment
 
 - **Dicionário Aberto:** O projeto utiliza dados do [Dicionário Aberto](https://www.dicionario-aberto.net/) para o consumo dinâmico de palavras via API, bem como para a geração do dicionário local em formato JSON. Acesse o site para mais informações e contribuições.
 - **Font:** Segoe Print, Bradley Hand (para a estética vintage do caderno)
-- **Tecnologias:** Java 25, Maven, Jackson, JUnit 5
+- **Tecnologias:** Java 21, Maven, Jackson, JUnit 5
 
 ---
 
