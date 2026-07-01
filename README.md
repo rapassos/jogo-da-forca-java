@@ -113,9 +113,16 @@ docker build -t jogo-da-forca-java .
 docker run -p 8080:8080 -e PORT=8080 jogo-da-forca-java
 ```
 
-### Opção 3 — Deploy futuro no Vercel
-- O frontend pode ser separado em um projeto estático depois.
-- A API continua hospedada no backend Java e a URL base é trocada na configuração do frontend.
+---
+
+## 🎨 Implementações futuras
+
+- **Sprint 5 — Interações avançadas:** indicador online/offline, expansão de teclado, feedback sonoro e tátil.
+- **Sprint 6 — Separação frontend/backend:** frontend estático no Vercel, API backend no Render com suporte CORS.
+
+Veja [ROADMAP.md](ROADMAP.md) para detalhes completos do plano de desenvolvimento.
+
+---
 
 ## 🔗 Referências e créditos
 
